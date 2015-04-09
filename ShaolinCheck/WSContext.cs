@@ -74,3 +74,57 @@ namespace ShaolinCheck
 
     }
 }
+                                                                                        
+                                                                                        
+    //                                  ICKBUTTDI                                         
+    //                              CKBUTTDICKBUTTDIC                                     
+    //                          KBUTTDICKBUTTDICKBUTTDIC                                  
+    //                  KBUTTDICKBUTTDI           CKBUTTDI                                
+    //               CKBUTTDICKBUT                  TDICKBU                               
+    //             TTDICKBUTTDICKB                   UTTDIC                               
+    //             KBUTTDICKBUTTDIC                   KBUTT                               
+    //             DICKBUTTDIC KBUTTD    ICKBUTTDICK  BUTTD                               
+    //             ICKBUTTDICKBUTTDICK BUTTDICKBUTTDIC KBUT                               
+    //             TDICKBUTTDICKBUTT  DICKBUTTDICKBUTTDICKB                               
+    //            UTTDI  CKBUTTDICKB  UTTDICKBUTTDICKBUTTDI                               
+    //           CKBUTTDICKBUTTDICKBU TTDICKBUTTD ICKBUTTDI                               
+    //          CKBUTTDICKBUTTDICKB   UTTDICKBUTTDICKBUTTDI                               
+    //         CKBUTTDICKBUTTDICKBUTTDICKBUTTDICKBU  TTDIC                                
+    //        KBUTT          DICKBUTTDICKBUTTDI     CKBUTT                                
+    //       DICKB                      UTTDICK     BUTTDI                                
+    //      CKBUTT                                 DICKBU                                 
+    //     TTDICK                                 BUTTDI                                  
+    //    CKBUTT                                  DICKBU                                  
+    //    TTDIC                      KBUT        TDICKB                                   
+    //    UTTD                      ICKBU TTD   ICKBUT                                    
+    //    TDIC                      KBUTTDICKB  UTTDI                         CKBUTTDIC   
+    //   KBUTT                      DICKBUTTD  ICKBU                        TTDICKBUTTDI  
+    //   CKBUT                     TDICKBUTTD ICKBU                       TTDICK    BUTT  
+    //   DICKB                     UTTDICKBU  TTDIC                     KBUTTDI    CKBUT  
+    //   TDICK                    BUTTDICKB  UTTDIC                   KBUTTDI     CKBUT   
+    //   TDICK                    BUTTDICK   BUTTDICKBUTTDICKBUTT   DICKBUT     TDICK     
+    //    BUTT                   DICKBUTT    DICKBUTTDICKBUTTDICKBUTTDICK      BUTTD      
+    //    ICKB                   UTTDICK     BUTTD   ICKBU   TTDICKBUTT      DICKBU       
+    //    TTDI                  CKBUTTDI      CKB   UTTDICKBUTTDICKBU      TTDICK         
+    //    BUTTD               ICKBU TTDIC         KBUTTDICKBUTTDICKB     UTTDICK          
+    //     BUTT             DICKB  UTTDICK         BUTTDICKBUTTDICKBUT   TDICKBUT         
+    //     TDICK            BUTTDICKBUTTDI                     CKBUTTDI    CKBUTTDIC      
+    //      KBUTT            DICKBUTTDICK              BUTT       DICKBU  TTDI CKBUT      
+    //      TDICKB              UTTD                   ICKB        UTTDIC  KBUTTDIC       
+    //       KBUTTD                                ICK              BUTTD    ICKB         
+    //        UTTDICKB                            UTTD              ICKBU     TTDI        
+    //           CKBUTTD                          ICKB              UTTDICKBUTTDIC        
+    // KBU        TTDICKBUTT                       DICK           BUTTDICKBUTTDIC         
+    //KBUTTDI    CKBUTTDICKBUTTDIC                  KBU         TTDICKB    U              
+    //TTDICKBUTTDICK BUTTDICKBUTTDICKBUTTD           ICKB    UTTDICK                      
+    //BUTT DICKBUTTDICKBU    TTDICKBUTTDICKB UTTDICKBUTTDICKBUTTDI                        
+    // CKBU  TTDICKBUTT         DICKBUTTDIC KBUTTDICKBUTTDICKBU                           
+    //  TTDI   CKBUTT         DICKBUTTDICK BUTTD ICKBUTTDICK                              
+    //   BUTTDICKBU           TTDICKBUTTD  ICKB                                           
+    //    UTTDICK              BUTTDICK   BUTT                                            
+    //      DIC                KBUTTD    ICKB                                             
+    //                          UTTDIC  KBUT                                              
+    //                           TDICKBUTTD                                               
+    //                             ICKBUTT                                                
+    //                               DIC                                                  
+                                                                                        
