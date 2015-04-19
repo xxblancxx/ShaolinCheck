@@ -108,14 +108,6 @@ C:\Users\martin\Documents\Visual Studio 2013\Projects\ShaolinCheck\ShaolinCheck\
 C:\Users\martin\Documents\Visual Studio 2013\Projects\ShaolinCheck\ShaolinCheck\ShaolinCheck\obj\Debug\System.Net.Http.Formatting\en-US\System.Net.Http.Properties.CommonWebApiResources.resw
 C:\Users\martin\Documents\Visual Studio 2013\Projects\ShaolinCheck\ShaolinCheck\ShaolinCheck\obj\Debug\System.Net.Http.Formatting\en-US\System.Net.Http.Properties.Resources.resw
 C:\Users\martin\Documents\Visual Studio 2013\Projects\ShaolinCheck\ShaolinCheck\ShaolinCheck\obj\Debug\ShaolinCheck.csproj.GenerateResource.Cache
-C:\Users\martin\Documents\Visual Studio 2013\Projects\ShaolinCheck\ShaolinCheck\ShaolinCheck\obj\Debug\System.Net.Http.Formatting\layout.resfiles
-C:\Users\martin\Documents\Visual Studio 2013\Projects\ShaolinCheck\ShaolinCheck\ShaolinCheck\obj\Debug\System.Net.Http.Formatting\layout.resfiles.intermediate
-C:\Users\martin\Documents\Visual Studio 2013\Projects\ShaolinCheck\ShaolinCheck\ShaolinCheck\obj\Debug\System.Net.Http.Formatting\Resources.resfiles
-C:\Users\martin\Documents\Visual Studio 2013\Projects\ShaolinCheck\ShaolinCheck\ShaolinCheck\obj\Debug\System.Net.Http.Formatting\Resources.resfiles.intermediate
-C:\Users\martin\Documents\Visual Studio 2013\Projects\ShaolinCheck\ShaolinCheck\ShaolinCheck\obj\Debug\System.Net.Http.Formatting\pri.resfiles
-C:\Users\martin\Documents\Visual Studio 2013\Projects\ShaolinCheck\ShaolinCheck\ShaolinCheck\obj\Debug\System.Net.Http.Formatting\pri.resfiles.intermediate
-C:\Users\martin\Documents\Visual Studio 2013\Projects\ShaolinCheck\ShaolinCheck\ShaolinCheck\obj\Debug\System.Net.Http.Formatting\priconfig.xml
-C:\Users\martin\Documents\Visual Studio 2013\Projects\ShaolinCheck\ShaolinCheck\ShaolinCheck\obj\Debug\System.Net.Http.Formatting\priconfig.xml.intermediate
 C:\Users\martin\Documents\Visual Studio 2013\Projects\ShaolinCheck\ShaolinCheck\ShaolinCheck\obj\Debug\System.Net.Http.Formatting.pri
 C:\Users\martin\Documents\Visual Studio 2013\Projects\ShaolinCheck\ShaolinCheck\ShaolinCheck\obj\Debug\System.Net.Http.Formatting\qualifiers.txt
 C:\Users\martin\Documents\Visual Studio 2013\Projects\ShaolinCheck\ShaolinCheck\ShaolinCheck\obj\Debug\priconfig.xml

@@ -3,8 +3,10 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
 using System.Net.Http;
+using System.Net.Http.Headers;
 using System.Text;
 using System.Threading.Tasks;
+using Windows.UI.Popups;
 
 namespace ShaolinCheck
 {
@@ -69,6 +71,50 @@ namespace ShaolinCheck
                 var studentlist = await response.Content.ReadAsAsync<ObservableCollection<Student>>();
                 // var will give you a variable of type IEnumerable.
                 return studentlist;
+            }
+        }
+
+        public async Task<ObservableCollection<Registration>> GetAllRegistrations()
+        {
+            handler = new HttpClientHandler();
+            //Creates a new HttpClientHandler.
+            handler.UseDefaultCredentials = true;
+            
+            //true if the default credentials are used; otherwise false. will use authentication credentials from the logged on user on your pc.
+            using (HttpClient client = new HttpClient(handler))
+            {
+                client.Timeout = TimeSpan.FromSeconds(4);
+                client.BaseAddress = new Uri(ServerUrl);
+                var task = client.GetAsync("Registrations");
+                // var means the compiler will determine the explicit type of the variable, based on usage. this would give you a variable of type Client.
+                HttpResponseMessage response = await task;
+                response.EnsureSuccessStatusCode();
+                // check for response code (if response is not 200 throw exception)
+                var registrationlist = await response.Content.ReadAsAsync<ObservableCollection<Registration>>();
+                // var will give you a variable of type IEnumerable.
+                return registrationlist;
+            }
+        }
+
+        public async Task CreateRegistration(Registration registration)
+        {
+            handler = new HttpClientHandler();
+            handler.UseDefaultCredentials = true;
+
+            using (var client = new HttpClient(handler))
+            {
+                client.BaseAddress = new Uri(ServerUrl);
+                client.DefaultRequestHeaders.Clear();
+                client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+                try
+                {
+                    var response = await client.PostAsJsonAsync("Registrations", registration);
+                }
+                catch (Exception ex)
+                {
+                    new MessageDialog(ex.Message).ShowAsync();
+                }
+
             }
         }
 

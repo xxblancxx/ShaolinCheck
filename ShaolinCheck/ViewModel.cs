@@ -22,7 +22,7 @@ namespace ShaolinCheck
         private SingletonCommon _sCommon;
         private RelayArgCommand<Team> _selectTeamCommand;
         private RelayArgCommand<Student> _selectStudentCommand;
-        public RegistrationCatalog RegCatalog { get; set; }
+
         public MessageDialog msgDialog { get; set; }
         public WSContext WsContext { get; set; }
 
@@ -65,39 +65,60 @@ namespace ShaolinCheck
 
         }
 
+        public Task<ObservableCollection<Registration>> GetRegistrations()
+        {
+               var regList = WsContext.GetAllRegistrations();
+                return regList;
+           
+        }
         public async void SetSelectedStudent(Student s)
         {
             _sCommon.SelectedStudent = s;
-            List<Registration> alreadyRegisteredList = new List<Registration>();
-            foreach (var reg in RegCatalog.RegList)
+            var alreadyRegisteredList = new List<Registration>();
+            try
             {
-                if (reg.Student.Id.Equals(_sCommon.SelectedStudent.Id))
+                var RegList = await GetRegistrations();
+                foreach (var reg in RegList)
                 {
-                    alreadyRegisteredList.Add(reg);
+                    if (reg.Student.Equals(_sCommon.SelectedStudent.Id) && reg.TimeStamp.Date.Equals(DateTime.Today))
+                    {
+                        alreadyRegisteredList.Add(reg);
+                    }
                 }
+                if (alreadyRegisteredList.Count.Equals(0))
+                {
+                    msgDialog = new MessageDialog("Vælg handling nedenunder", "Hej " + _sCommon.SelectedStudent.Name);
+
+                    //Register button
+                    UICommand rgButton = new UICommand("Mød Ind");
+                    rgButton.Invoked = ClickrgButton;
+                    msgDialog.Commands.Add(rgButton);
+
+                    //Cancel button
+                    UICommand cancelButton = new UICommand("Annuller");
+                    cancelButton.Invoked = ClickcancelButton;
+                    msgDialog.Commands.Add(cancelButton);
+
+                    await msgDialog.ShowAsync();
+                }
+                else
+                {
+                    msgDialog = new MessageDialog("Du er allerede registreret, god træning!",
+                        "Hej " + _sCommon.SelectedStudent.Name);
+                    await msgDialog.ShowAsync();
+                }
+
             }
-            if (alreadyRegisteredList.Count.Equals(0))
+            catch (TaskCanceledException)
             {
-                msgDialog = new MessageDialog("Vælg handling nedenunder", "Hej " + _sCommon.SelectedStudent.Name);
-
-                //Register button
-                UICommand rgButton = new UICommand("Mød Ind");
-                rgButton.Invoked = ClickrgButton;
-                msgDialog.Commands.Add(rgButton);
-
-                //Cancel button
-                UICommand cancelButton = new UICommand("Annuller");
-                cancelButton.Invoked = ClickcancelButton;
-                msgDialog.Commands.Add(cancelButton);
-
-                await msgDialog.ShowAsync();
+                new MessageDialog("Der mangler desværre internetforbindelse").ShowAsync();
+                
             }
-            else
+            catch (HttpRequestException)
             {
-                msgDialog = new MessageDialog("Du er allerede registreret, god træning!", "Hej " + _sCommon.SelectedStudent.Name);
-                await msgDialog.ShowAsync();
+                new MessageDialog("Der mangler desværre internetforbindelse").ShowAsync();
             }
-
+          
         }
 
         private void ClickcancelButton(IUICommand command)
@@ -110,11 +131,11 @@ namespace ShaolinCheck
 
             if (_sCommon.SelectedStudent != null)
             {
-                // add registration to db
+                WsContext.CreateRegistration(new Registration(_sCommon.SelectedStudent.Id));
             }
         }
 
-        public  void SetSelectedTeam(Team t)
+        public void SetSelectedTeam(Team t)
         {
             _sCommon.TeamList = new List<Team>();
             _sCommon.SelectedTeam = t;
@@ -151,7 +172,6 @@ namespace ShaolinCheck
         {
             WsContext = new WSContext();
             _sCommon = SingletonCommon.Instance;
-            RegCatalog = new RegistrationCatalog();
             LoadClubs();
 
         }

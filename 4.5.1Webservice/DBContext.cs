@@ -1,17 +1,14 @@
-using MySql.Data.Entity;
-
 namespace _4._5._1Webservice
 {
     using System;
     using System.Data.Entity;
     using System.ComponentModel.DataAnnotations.Schema;
     using System.Linq;
-   // [DbConfigurationType(typeof(MySqlEFConfiguration))]
-    // DBConfiguration needs to be commented out when adding controllers.
+
     public partial class DBContext : DbContext
     {
         public DBContext()
-            : base("name=DBContext")
+            : base("name=DBContext1")
         {
             base.Configuration.ProxyCreationEnabled = false;
         }

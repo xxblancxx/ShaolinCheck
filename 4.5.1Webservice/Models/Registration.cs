@@ -13,6 +13,9 @@ namespace _4._5._1Webservice
 
         public int Student { get; set; }
 
+        [Column(TypeName = "date")]
+        public DateTime TimeStamp { get; set; }
+
         public virtual Student Student1 { get; set; }
     }
 }
