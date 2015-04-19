@@ -13,7 +13,7 @@ namespace ShaolinCheck
     class WSContext
     {
         private HttpClientHandler handler;
-        public const string ServerUrl = "http://localhost:17819/api/";
+        public const string ServerUrl = "http://localhost:65505/api/";
         public async Task<List<Club>> GetAllClubs()
         {
             handler = new HttpClientHandler();

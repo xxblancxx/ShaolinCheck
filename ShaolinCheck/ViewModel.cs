@@ -22,6 +22,15 @@ namespace ShaolinCheck
         private SingletonCommon _sCommon;
         private RelayArgCommand<Team> _selectTeamCommand;
         private RelayArgCommand<Student> _selectStudentCommand;
+        private RelayCommand _getRegistrationsCommand;
+
+        public RelayCommand GetRegistrationsCommand
+        {
+            get
+            {
+                _getRegistrationsCommand = new RelayCommand(SetRegistrationList); return _getRegistrationsCommand; }
+            set { _getRegistrationsCommand = value; }
+        }
 
         public MessageDialog msgDialog { get; set; }
         public WSContext WsContext { get; set; }
@@ -36,6 +45,13 @@ namespace ShaolinCheck
             set { _selectStudentCommand = value; }
         }
 
+        public async void SetRegistrationList()
+        {
+            var templist = await GetRegistrations();
+            var list = templist.ToList();
+            _sCommon.RegistrationList = list;
+
+        }
         public RelayArgCommand<Team> SelectTeamCommand
         {
             get

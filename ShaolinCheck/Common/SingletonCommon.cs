@@ -15,8 +15,15 @@ namespace ShaolinCheck
         private Club _selectedClub;
         private List<Team> _teamList;
         private List<Student> _studentList;
+        private List<Registration> _registrationList;
         public bool ClubListLoaded { get; set; }
         public Team SelectedTeam { get; set; }
+
+        public List<Registration> RegistrationList
+        {
+            get { return _registrationList; }
+            set { _registrationList = value; OnPropertyChanged(); }
+        }
 
         public List<Team> TeamList
         {

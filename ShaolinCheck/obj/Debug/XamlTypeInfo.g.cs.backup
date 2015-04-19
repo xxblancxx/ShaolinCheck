@@ -124,7 +124,7 @@ namespace ShaolinCheck.ShaolinCheck_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[34];
+            _typeNameTable = new string[35];
             _typeNameTable[0] = "ShaolinCheck.ViewModel";
             _typeNameTable[1] = "Object";
             _typeNameTable[2] = "Windows.UI.Popups.MessageDialog";
@@ -157,10 +157,11 @@ namespace ShaolinCheck.ShaolinCheck_XamlTypeInfo
             _typeNameTable[29] = "ShaolinCheck.Common.ObservableDictionary";
             _typeNameTable[30] = "ShaolinCheck.Common.NavigationHelper";
             _typeNameTable[31] = "ShaolinCheck.MainPage";
-            _typeNameTable[32] = "Microsoft.Xaml.Interactions.Core.ChangePropertyAction";
-            _typeNameTable[33] = "ShaolinCheck.StudentPage";
+            _typeNameTable[32] = "ShaolinCheck.View.RegistrationsPage";
+            _typeNameTable[33] = "Microsoft.Xaml.Interactions.Core.ChangePropertyAction";
+            _typeNameTable[34] = "ShaolinCheck.StudentPage";
 
-            _typeTable = new global::System.Type[34];
+            _typeTable = new global::System.Type[35];
             _typeTable[0] = typeof(global::ShaolinCheck.ViewModel);
             _typeTable[1] = typeof(global::System.Object);
             _typeTable[2] = typeof(global::Windows.UI.Popups.MessageDialog);
@@ -193,8 +194,9 @@ namespace ShaolinCheck.ShaolinCheck_XamlTypeInfo
             _typeTable[29] = typeof(global::ShaolinCheck.Common.ObservableDictionary);
             _typeTable[30] = typeof(global::ShaolinCheck.Common.NavigationHelper);
             _typeTable[31] = typeof(global::ShaolinCheck.MainPage);
-            _typeTable[32] = typeof(global::Microsoft.Xaml.Interactions.Core.ChangePropertyAction);
-            _typeTable[33] = typeof(global::ShaolinCheck.StudentPage);
+            _typeTable[32] = typeof(global::ShaolinCheck.View.RegistrationsPage);
+            _typeTable[33] = typeof(global::Microsoft.Xaml.Interactions.Core.ChangePropertyAction);
+            _typeTable[34] = typeof(global::ShaolinCheck.StudentPage);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -243,8 +245,9 @@ namespace ShaolinCheck.ShaolinCheck_XamlTypeInfo
         private object Activate_26_ClubPage() { return new global::ShaolinCheck.ClubPage(); }
         private object Activate_29_ObservableDictionary() { return new global::ShaolinCheck.Common.ObservableDictionary(); }
         private object Activate_31_MainPage() { return new global::ShaolinCheck.MainPage(); }
-        private object Activate_32_ChangePropertyAction() { return new global::Microsoft.Xaml.Interactions.Core.ChangePropertyAction(); }
-        private object Activate_33_StudentPage() { return new global::ShaolinCheck.StudentPage(); }
+        private object Activate_32_RegistrationsPage() { return new global::ShaolinCheck.View.RegistrationsPage(); }
+        private object Activate_33_ChangePropertyAction() { return new global::Microsoft.Xaml.Interactions.Core.ChangePropertyAction(); }
+        private object Activate_34_StudentPage() { return new global::ShaolinCheck.StudentPage(); }
         private void VectorAdd_7_List(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::ShaolinCheck.Club>)instance;
@@ -520,18 +523,27 @@ namespace ShaolinCheck.ShaolinCheck_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 32:   //  Microsoft.Xaml.Interactions.Core.ChangePropertyAction
+            case 32:   //  ShaolinCheck.View.RegistrationsPage
+                userType = new global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_32_RegistrationsPage;
+                userType.AddMemberName("DefaultViewModel");
+                userType.AddMemberName("NavigationHelper");
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 33:   //  Microsoft.Xaml.Interactions.Core.ChangePropertyAction
                 userType = new global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
-                userType.Activator = Activate_32_ChangePropertyAction;
+                userType.Activator = Activate_33_ChangePropertyAction;
                 userType.AddMemberName("PropertyName");
                 userType.AddMemberName("Value");
                 userType.AddMemberName("TargetObject");
                 xamlType = userType;
                 break;
 
-            case 33:   //  ShaolinCheck.StudentPage
+            case 34:   //  ShaolinCheck.StudentPage
                 userType = new global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_33_StudentPage;
+                userType.Activator = Activate_34_StudentPage;
                 userType.AddMemberName("DefaultViewModel");
                 userType.AddMemberName("NavigationHelper");
                 userType.SetIsLocalType();
@@ -855,42 +867,52 @@ namespace ShaolinCheck.ShaolinCheck_XamlTypeInfo
             var that = (global::ShaolinCheck.MainPage)instance;
             return that.NavigationHelper;
         }
-        private object get_35_ChangePropertyAction_PropertyName(object instance)
+        private object get_35_RegistrationsPage_DefaultViewModel(object instance)
+        {
+            var that = (global::ShaolinCheck.View.RegistrationsPage)instance;
+            return that.DefaultViewModel;
+        }
+        private object get_36_RegistrationsPage_NavigationHelper(object instance)
+        {
+            var that = (global::ShaolinCheck.View.RegistrationsPage)instance;
+            return that.NavigationHelper;
+        }
+        private object get_37_ChangePropertyAction_PropertyName(object instance)
         {
             var that = (global::Microsoft.Xaml.Interactions.Core.ChangePropertyAction)instance;
             return that.PropertyName;
         }
-        private void set_35_ChangePropertyAction_PropertyName(object instance, object Value)
+        private void set_37_ChangePropertyAction_PropertyName(object instance, object Value)
         {
             var that = (global::Microsoft.Xaml.Interactions.Core.ChangePropertyAction)instance;
             that.PropertyName = (global::System.String)Value;
         }
-        private object get_36_ChangePropertyAction_Value(object instance)
+        private object get_38_ChangePropertyAction_Value(object instance)
         {
             var that = (global::Microsoft.Xaml.Interactions.Core.ChangePropertyAction)instance;
             return that.Value;
         }
-        private void set_36_ChangePropertyAction_Value(object instance, object Value)
+        private void set_38_ChangePropertyAction_Value(object instance, object Value)
         {
             var that = (global::Microsoft.Xaml.Interactions.Core.ChangePropertyAction)instance;
             that.Value = (global::System.Object)Value;
         }
-        private object get_37_ChangePropertyAction_TargetObject(object instance)
+        private object get_39_ChangePropertyAction_TargetObject(object instance)
         {
             var that = (global::Microsoft.Xaml.Interactions.Core.ChangePropertyAction)instance;
             return that.TargetObject;
         }
-        private void set_37_ChangePropertyAction_TargetObject(object instance, object Value)
+        private void set_39_ChangePropertyAction_TargetObject(object instance, object Value)
         {
             var that = (global::Microsoft.Xaml.Interactions.Core.ChangePropertyAction)instance;
             that.TargetObject = (global::System.Object)Value;
         }
-        private object get_38_StudentPage_DefaultViewModel(object instance)
+        private object get_40_StudentPage_DefaultViewModel(object instance)
         {
             var that = (global::ShaolinCheck.StudentPage)instance;
             return that.DefaultViewModel;
         }
-        private object get_39_StudentPage_NavigationHelper(object instance)
+        private object get_41_StudentPage_NavigationHelper(object instance)
         {
             var that = (global::ShaolinCheck.StudentPage)instance;
             return that.NavigationHelper;
@@ -1125,37 +1147,49 @@ namespace ShaolinCheck.ShaolinCheck_XamlTypeInfo
                 xamlMember.Getter = get_34_MainPage_NavigationHelper;
                 xamlMember.SetIsReadOnly();
                 break;
+            case "ShaolinCheck.View.RegistrationsPage.DefaultViewModel":
+                userType = (global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ShaolinCheck.View.RegistrationsPage");
+                xamlMember = new global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlMember(this, "DefaultViewModel", "ShaolinCheck.Common.ObservableDictionary");
+                xamlMember.Getter = get_35_RegistrationsPage_DefaultViewModel;
+                xamlMember.SetIsReadOnly();
+                break;
+            case "ShaolinCheck.View.RegistrationsPage.NavigationHelper":
+                userType = (global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ShaolinCheck.View.RegistrationsPage");
+                xamlMember = new global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlMember(this, "NavigationHelper", "ShaolinCheck.Common.NavigationHelper");
+                xamlMember.Getter = get_36_RegistrationsPage_NavigationHelper;
+                xamlMember.SetIsReadOnly();
+                break;
             case "Microsoft.Xaml.Interactions.Core.ChangePropertyAction.PropertyName":
                 userType = (global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.Xaml.Interactions.Core.ChangePropertyAction");
                 xamlMember = new global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlMember(this, "PropertyName", "String");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_35_ChangePropertyAction_PropertyName;
-                xamlMember.Setter = set_35_ChangePropertyAction_PropertyName;
+                xamlMember.Getter = get_37_ChangePropertyAction_PropertyName;
+                xamlMember.Setter = set_37_ChangePropertyAction_PropertyName;
                 break;
             case "Microsoft.Xaml.Interactions.Core.ChangePropertyAction.Value":
                 userType = (global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.Xaml.Interactions.Core.ChangePropertyAction");
                 xamlMember = new global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlMember(this, "Value", "Object");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_36_ChangePropertyAction_Value;
-                xamlMember.Setter = set_36_ChangePropertyAction_Value;
+                xamlMember.Getter = get_38_ChangePropertyAction_Value;
+                xamlMember.Setter = set_38_ChangePropertyAction_Value;
                 break;
             case "Microsoft.Xaml.Interactions.Core.ChangePropertyAction.TargetObject":
                 userType = (global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.Xaml.Interactions.Core.ChangePropertyAction");
                 xamlMember = new global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlMember(this, "TargetObject", "Object");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_37_ChangePropertyAction_TargetObject;
-                xamlMember.Setter = set_37_ChangePropertyAction_TargetObject;
+                xamlMember.Getter = get_39_ChangePropertyAction_TargetObject;
+                xamlMember.Setter = set_39_ChangePropertyAction_TargetObject;
                 break;
             case "ShaolinCheck.StudentPage.DefaultViewModel":
                 userType = (global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ShaolinCheck.StudentPage");
                 xamlMember = new global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlMember(this, "DefaultViewModel", "ShaolinCheck.Common.ObservableDictionary");
-                xamlMember.Getter = get_38_StudentPage_DefaultViewModel;
+                xamlMember.Getter = get_40_StudentPage_DefaultViewModel;
                 xamlMember.SetIsReadOnly();
                 break;
             case "ShaolinCheck.StudentPage.NavigationHelper":
                 userType = (global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ShaolinCheck.StudentPage");
                 xamlMember = new global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlMember(this, "NavigationHelper", "ShaolinCheck.Common.NavigationHelper");
-                xamlMember.Getter = get_39_StudentPage_NavigationHelper;
+                xamlMember.Getter = get_41_StudentPage_NavigationHelper;
                 xamlMember.SetIsReadOnly();
                 break;
             }

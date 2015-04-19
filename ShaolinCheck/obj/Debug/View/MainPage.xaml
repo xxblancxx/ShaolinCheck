@@ -18,6 +18,18 @@
         </DataTemplate>
 
     </Page.Resources>
+    <Page.BottomAppBar>
+        <AppBar>
+            <AppBarButton Label="Se Møde oversigt" HorizontalAlignment="Right" Icon="ContactInfo">
+            	<Interactivity:Interaction.Behaviors>
+            		<Core:EventTriggerBehavior EventName="Click">
+            			<Core:NavigateToPageAction TargetPage="ShaolinCheck.View.RegistrationsPage"/>
+            			<Core:InvokeCommandAction Command="{Binding GetRegistrationsCommand}"/>
+            		</Core:EventTriggerBehavior>
+            	</Interactivity:Interaction.Behaviors>
+            </AppBarButton>
+        </AppBar>
+    </Page.BottomAppBar>
     <Page.DataContext>
         <local:ViewModel/>
     </Page.DataContext>

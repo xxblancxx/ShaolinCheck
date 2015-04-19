@@ -122,3 +122,8 @@ C:\Users\martin\Documents\Visual Studio 2013\Projects\ShaolinCheck\ShaolinCheck\
 C:\Users\martin\Documents\Visual Studio 2013\Projects\ShaolinCheck\ShaolinCheck\ShaolinCheck\obj\Debug\qualifiers.txt.intermediate
 C:\Users\martin\Documents\Visual Studio 2013\Projects\ShaolinCheck\ShaolinCheck\ShaolinCheck\obj\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\martin\Documents\Visual Studio 2013\Projects\ShaolinCheck\ShaolinCheck\ShaolinCheck\obj\Debug\ProjectArchitectures.txt
+C:\Users\martin\Documents\Visual Studio 2013\Projects\ShaolinCheck\ShaolinCheck\ShaolinCheck\bin\Debug\View\RegistrationsPage.xbf
+C:\Users\martin\Documents\Visual Studio 2013\Projects\ShaolinCheck\ShaolinCheck\ShaolinCheck\obj\Debug\View\RegistrationsPage.g.i.cs
+C:\Users\martin\Documents\Visual Studio 2013\Projects\ShaolinCheck\ShaolinCheck\ShaolinCheck\obj\Debug\View\RegistrationsPage.g.cs
+C:\Users\martin\Documents\Visual Studio 2013\Projects\ShaolinCheck\ShaolinCheck\ShaolinCheck\obj\Debug\View\RegistrationsPage.xaml
+C:\Users\martin\Documents\Visual Studio 2013\Projects\ShaolinCheck\ShaolinCheck\ShaolinCheck\obj\Debug\View\RegistrationsPage.xbf

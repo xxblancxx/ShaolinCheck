@@ -10,8 +10,12 @@
     <RootPropertyPathName Name="SelectedClub" />
     <RootPropertyPathName Name="NavigationHelper" />
     <RootPropertyPathName Name="GoBackCommand" />
+    <RootPropertyPathName Name="GetRegistrationsCommand" />
     <RootPropertyPathName Name="ClubList" />
     <RootPropertyPathName Name="SelectClubCommand" />
+    <RootPropertyPathName Name="TimeStamp" />
+    <RootPropertyPathName Name="Student" />
+    <RootPropertyPathName Name="RegistrationList" />
     <RootPropertyPathName Name="StudentList" />
     <RootPropertyPathName Name="SelectStudentCommand" />
     <RootPropertyPathName Name="SelectedTeam" />
@@ -22,6 +26,7 @@
       <RootProperty Name="Resources" />
       <RootProperty Name="DataContext" />
       <RootProperty Name="Content" />
+      <RootProperty Name="BottomAppBar" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.DataTemplate">
       <RootProperty Name="Template" />
@@ -123,10 +128,20 @@
       <RootMethod Name="SetItemType" />
     </RootType>
     <RootType FullName="ShaolinCheck.ClubPage" />
+    <RootType FullName="Windows.UI.Xaml.Controls.AppBar">
+      <RootProperty Name="Content" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.AppBarButton">
+      <RootProperty Name="Label" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Icon" />
+    </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.StackPanel">
       <RootProperty Name="Orientation" />
       <RootProperty Name="Margin" />
       <RootProperty Name="Children" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Image">
       <RootProperty Name="Width" />
@@ -141,6 +156,12 @@
       <RootProperty Name="Text" />
     </RootType>
     <RootType FullName="ShaolinCheck.MainPage" />
+    <RootType FullName="System.String" />
+    <RootType FullName="Windows.UI.Xaml.Controls.ListView">
+      <RootProperty Name="ItemTemplate" />
+      <RootProperty Name="ItemsSource" />
+    </RootType>
+    <RootType FullName="ShaolinCheck.View.RegistrationsPage" />
     <RootType FullName="Windows.UI.Xaml.Controls.ScrollViewer">
       <RootMethod Name="GetVerticalScrollBarVisibility" />
       <RootMethod Name="SetVerticalScrollBarVisibility" />

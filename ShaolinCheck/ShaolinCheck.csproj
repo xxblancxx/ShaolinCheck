@@ -129,6 +129,9 @@
     <Compile Include="Model\Registration.cs" />
     <Compile Include="Common\SingletonCommon.cs" />
     <Compile Include="Model\Student.cs" />
+    <Compile Include="View\RegistrationsPage.xaml.cs">
+      <DependentUpon>RegistrationsPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\StudentPage.xaml.cs">
       <DependentUpon>StudentPage.xaml</DependentUpon>
     </Compile>
@@ -164,6 +167,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="View\MainPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\RegistrationsPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

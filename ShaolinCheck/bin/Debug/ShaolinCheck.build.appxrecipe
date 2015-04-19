@@ -68,6 +68,9 @@
     <AppxPackagedFile Include="C:\Users\martin\Documents\Visual Studio 2013\Projects\ShaolinCheck\ShaolinCheck\ShaolinCheck\bin\Debug\View\MainPage.xbf">
       <PackagePath>View\MainPage.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\martin\Documents\Visual Studio 2013\Projects\ShaolinCheck\ShaolinCheck\ShaolinCheck\bin\Debug\View\RegistrationsPage.xbf">
+      <PackagePath>View\RegistrationsPage.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\martin\Documents\Visual Studio 2013\Projects\ShaolinCheck\ShaolinCheck\ShaolinCheck\bin\Debug\View\StudentPage.xbf">
       <PackagePath>View\StudentPage.xbf</PackagePath>
     </AppxPackagedFile>
