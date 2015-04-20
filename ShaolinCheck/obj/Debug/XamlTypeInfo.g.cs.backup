@@ -124,79 +124,81 @@ namespace ShaolinCheck.ShaolinCheck_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[35];
+            _typeNameTable = new string[36];
             _typeNameTable[0] = "ShaolinCheck.ViewModel";
             _typeNameTable[1] = "Object";
-            _typeNameTable[2] = "Windows.UI.Popups.MessageDialog";
-            _typeNameTable[3] = "ShaolinCheck.WSContext";
-            _typeNameTable[4] = "ShaolinCheck.Common.RelayArgCommand`1<ShaolinCheck.Student>";
-            _typeNameTable[5] = "ShaolinCheck.Common.RelayArgCommand`1<ShaolinCheck.Team>";
-            _typeNameTable[6] = "ShaolinCheck.SingletonCommon";
-            _typeNameTable[7] = "System.Collections.Generic.List`1<ShaolinCheck.Club>";
-            _typeNameTable[8] = "ShaolinCheck.Club";
-            _typeNameTable[9] = "System.Collections.Generic.List`1<ShaolinCheck.Team>";
-            _typeNameTable[10] = "ShaolinCheck.Team";
-            _typeNameTable[11] = "String";
-            _typeNameTable[12] = "System.Collections.Generic.List`1<ShaolinCheck.Student>";
-            _typeNameTable[13] = "ShaolinCheck.Student";
-            _typeNameTable[14] = "Int32";
-            _typeNameTable[15] = "ShaolinCheck.Common.RelayArgCommand`1<ShaolinCheck.Club>";
-            _typeNameTable[16] = "Microsoft.Xaml.Interactivity.Interaction";
-            _typeNameTable[17] = "Microsoft.Xaml.Interactivity.BehaviorCollection";
-            _typeNameTable[18] = "Windows.UI.Xaml.DependencyObjectCollection";
-            _typeNameTable[19] = "Windows.UI.Xaml.DependencyObject";
-            _typeNameTable[20] = "Microsoft.Xaml.Interactions.Core.EventTriggerBehavior";
-            _typeNameTable[21] = "Microsoft.Xaml.Interactivity.ActionCollection";
-            _typeNameTable[22] = "Microsoft.Xaml.Interactions.Core.NavigateToPageAction";
-            _typeNameTable[23] = "Microsoft.Xaml.Interactions.Core.InvokeCommandAction";
-            _typeNameTable[24] = "System.Windows.Input.ICommand";
-            _typeNameTable[25] = "Windows.UI.Xaml.Data.IValueConverter";
-            _typeNameTable[26] = "ShaolinCheck.ClubPage";
-            _typeNameTable[27] = "Windows.UI.Xaml.Controls.Page";
-            _typeNameTable[28] = "Windows.UI.Xaml.Controls.UserControl";
-            _typeNameTable[29] = "ShaolinCheck.Common.ObservableDictionary";
-            _typeNameTable[30] = "ShaolinCheck.Common.NavigationHelper";
-            _typeNameTable[31] = "ShaolinCheck.MainPage";
-            _typeNameTable[32] = "ShaolinCheck.View.RegistrationsPage";
-            _typeNameTable[33] = "Microsoft.Xaml.Interactions.Core.ChangePropertyAction";
-            _typeNameTable[34] = "ShaolinCheck.StudentPage";
+            _typeNameTable[2] = "ShaolinCheck.Common.RelayCommand";
+            _typeNameTable[3] = "Windows.UI.Popups.MessageDialog";
+            _typeNameTable[4] = "ShaolinCheck.WSContext";
+            _typeNameTable[5] = "ShaolinCheck.Common.RelayArgCommand`1<ShaolinCheck.Student>";
+            _typeNameTable[6] = "ShaolinCheck.Common.RelayArgCommand`1<ShaolinCheck.Team>";
+            _typeNameTable[7] = "ShaolinCheck.SingletonCommon";
+            _typeNameTable[8] = "System.Collections.Generic.List`1<ShaolinCheck.Club>";
+            _typeNameTable[9] = "ShaolinCheck.Club";
+            _typeNameTable[10] = "System.Collections.Generic.List`1<ShaolinCheck.Team>";
+            _typeNameTable[11] = "ShaolinCheck.Team";
+            _typeNameTable[12] = "String";
+            _typeNameTable[13] = "System.Collections.Generic.List`1<ShaolinCheck.Student>";
+            _typeNameTable[14] = "ShaolinCheck.Student";
+            _typeNameTable[15] = "Int32";
+            _typeNameTable[16] = "ShaolinCheck.Common.RelayArgCommand`1<ShaolinCheck.Club>";
+            _typeNameTable[17] = "Microsoft.Xaml.Interactivity.Interaction";
+            _typeNameTable[18] = "Microsoft.Xaml.Interactivity.BehaviorCollection";
+            _typeNameTable[19] = "Windows.UI.Xaml.DependencyObjectCollection";
+            _typeNameTable[20] = "Windows.UI.Xaml.DependencyObject";
+            _typeNameTable[21] = "Microsoft.Xaml.Interactions.Core.EventTriggerBehavior";
+            _typeNameTable[22] = "Microsoft.Xaml.Interactivity.ActionCollection";
+            _typeNameTable[23] = "Microsoft.Xaml.Interactions.Core.NavigateToPageAction";
+            _typeNameTable[24] = "Microsoft.Xaml.Interactions.Core.InvokeCommandAction";
+            _typeNameTable[25] = "System.Windows.Input.ICommand";
+            _typeNameTable[26] = "Windows.UI.Xaml.Data.IValueConverter";
+            _typeNameTable[27] = "ShaolinCheck.ClubPage";
+            _typeNameTable[28] = "Windows.UI.Xaml.Controls.Page";
+            _typeNameTable[29] = "Windows.UI.Xaml.Controls.UserControl";
+            _typeNameTable[30] = "ShaolinCheck.Common.ObservableDictionary";
+            _typeNameTable[31] = "ShaolinCheck.Common.NavigationHelper";
+            _typeNameTable[32] = "ShaolinCheck.MainPage";
+            _typeNameTable[33] = "ShaolinCheck.View.RegistrationsPage";
+            _typeNameTable[34] = "Microsoft.Xaml.Interactions.Core.ChangePropertyAction";
+            _typeNameTable[35] = "ShaolinCheck.StudentPage";
 
-            _typeTable = new global::System.Type[35];
+            _typeTable = new global::System.Type[36];
             _typeTable[0] = typeof(global::ShaolinCheck.ViewModel);
             _typeTable[1] = typeof(global::System.Object);
-            _typeTable[2] = typeof(global::Windows.UI.Popups.MessageDialog);
-            _typeTable[3] = typeof(global::ShaolinCheck.WSContext);
-            _typeTable[4] = typeof(global::ShaolinCheck.Common.RelayArgCommand<global::ShaolinCheck.Student>);
-            _typeTable[5] = typeof(global::ShaolinCheck.Common.RelayArgCommand<global::ShaolinCheck.Team>);
-            _typeTable[6] = typeof(global::ShaolinCheck.SingletonCommon);
-            _typeTable[7] = typeof(global::System.Collections.Generic.List<global::ShaolinCheck.Club>);
-            _typeTable[8] = typeof(global::ShaolinCheck.Club);
-            _typeTable[9] = typeof(global::System.Collections.Generic.List<global::ShaolinCheck.Team>);
-            _typeTable[10] = typeof(global::ShaolinCheck.Team);
-            _typeTable[11] = typeof(global::System.String);
-            _typeTable[12] = typeof(global::System.Collections.Generic.List<global::ShaolinCheck.Student>);
-            _typeTable[13] = typeof(global::ShaolinCheck.Student);
-            _typeTable[14] = typeof(global::System.Int32);
-            _typeTable[15] = typeof(global::ShaolinCheck.Common.RelayArgCommand<global::ShaolinCheck.Club>);
-            _typeTable[16] = typeof(global::Microsoft.Xaml.Interactivity.Interaction);
-            _typeTable[17] = typeof(global::Microsoft.Xaml.Interactivity.BehaviorCollection);
-            _typeTable[18] = typeof(global::Windows.UI.Xaml.DependencyObjectCollection);
-            _typeTable[19] = typeof(global::Windows.UI.Xaml.DependencyObject);
-            _typeTable[20] = typeof(global::Microsoft.Xaml.Interactions.Core.EventTriggerBehavior);
-            _typeTable[21] = typeof(global::Microsoft.Xaml.Interactivity.ActionCollection);
-            _typeTable[22] = typeof(global::Microsoft.Xaml.Interactions.Core.NavigateToPageAction);
-            _typeTable[23] = typeof(global::Microsoft.Xaml.Interactions.Core.InvokeCommandAction);
-            _typeTable[24] = typeof(global::System.Windows.Input.ICommand);
-            _typeTable[25] = typeof(global::Windows.UI.Xaml.Data.IValueConverter);
-            _typeTable[26] = typeof(global::ShaolinCheck.ClubPage);
-            _typeTable[27] = typeof(global::Windows.UI.Xaml.Controls.Page);
-            _typeTable[28] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
-            _typeTable[29] = typeof(global::ShaolinCheck.Common.ObservableDictionary);
-            _typeTable[30] = typeof(global::ShaolinCheck.Common.NavigationHelper);
-            _typeTable[31] = typeof(global::ShaolinCheck.MainPage);
-            _typeTable[32] = typeof(global::ShaolinCheck.View.RegistrationsPage);
-            _typeTable[33] = typeof(global::Microsoft.Xaml.Interactions.Core.ChangePropertyAction);
-            _typeTable[34] = typeof(global::ShaolinCheck.StudentPage);
+            _typeTable[2] = typeof(global::ShaolinCheck.Common.RelayCommand);
+            _typeTable[3] = typeof(global::Windows.UI.Popups.MessageDialog);
+            _typeTable[4] = typeof(global::ShaolinCheck.WSContext);
+            _typeTable[5] = typeof(global::ShaolinCheck.Common.RelayArgCommand<global::ShaolinCheck.Student>);
+            _typeTable[6] = typeof(global::ShaolinCheck.Common.RelayArgCommand<global::ShaolinCheck.Team>);
+            _typeTable[7] = typeof(global::ShaolinCheck.SingletonCommon);
+            _typeTable[8] = typeof(global::System.Collections.Generic.List<global::ShaolinCheck.Club>);
+            _typeTable[9] = typeof(global::ShaolinCheck.Club);
+            _typeTable[10] = typeof(global::System.Collections.Generic.List<global::ShaolinCheck.Team>);
+            _typeTable[11] = typeof(global::ShaolinCheck.Team);
+            _typeTable[12] = typeof(global::System.String);
+            _typeTable[13] = typeof(global::System.Collections.Generic.List<global::ShaolinCheck.Student>);
+            _typeTable[14] = typeof(global::ShaolinCheck.Student);
+            _typeTable[15] = typeof(global::System.Int32);
+            _typeTable[16] = typeof(global::ShaolinCheck.Common.RelayArgCommand<global::ShaolinCheck.Club>);
+            _typeTable[17] = typeof(global::Microsoft.Xaml.Interactivity.Interaction);
+            _typeTable[18] = typeof(global::Microsoft.Xaml.Interactivity.BehaviorCollection);
+            _typeTable[19] = typeof(global::Windows.UI.Xaml.DependencyObjectCollection);
+            _typeTable[20] = typeof(global::Windows.UI.Xaml.DependencyObject);
+            _typeTable[21] = typeof(global::Microsoft.Xaml.Interactions.Core.EventTriggerBehavior);
+            _typeTable[22] = typeof(global::Microsoft.Xaml.Interactivity.ActionCollection);
+            _typeTable[23] = typeof(global::Microsoft.Xaml.Interactions.Core.NavigateToPageAction);
+            _typeTable[24] = typeof(global::Microsoft.Xaml.Interactions.Core.InvokeCommandAction);
+            _typeTable[25] = typeof(global::System.Windows.Input.ICommand);
+            _typeTable[26] = typeof(global::Windows.UI.Xaml.Data.IValueConverter);
+            _typeTable[27] = typeof(global::ShaolinCheck.ClubPage);
+            _typeTable[28] = typeof(global::Windows.UI.Xaml.Controls.Page);
+            _typeTable[29] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
+            _typeTable[30] = typeof(global::ShaolinCheck.Common.ObservableDictionary);
+            _typeTable[31] = typeof(global::ShaolinCheck.Common.NavigationHelper);
+            _typeTable[32] = typeof(global::ShaolinCheck.MainPage);
+            _typeTable[33] = typeof(global::ShaolinCheck.View.RegistrationsPage);
+            _typeTable[34] = typeof(global::Microsoft.Xaml.Interactions.Core.ChangePropertyAction);
+            _typeTable[35] = typeof(global::ShaolinCheck.StudentPage);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -232,53 +234,53 @@ namespace ShaolinCheck.ShaolinCheck_XamlTypeInfo
         }
 
         private object Activate_0_ViewModel() { return new global::ShaolinCheck.ViewModel(); }
-        private object Activate_3_WSContext() { return new global::ShaolinCheck.WSContext(); }
-        private object Activate_6_SingletonCommon() { return new global::ShaolinCheck.SingletonCommon(); }
-        private object Activate_7_List() { return new global::System.Collections.Generic.List<global::ShaolinCheck.Club>(); }
-        private object Activate_9_List() { return new global::System.Collections.Generic.List<global::ShaolinCheck.Team>(); }
-        private object Activate_12_List() { return new global::System.Collections.Generic.List<global::ShaolinCheck.Student>(); }
-        private object Activate_17_BehaviorCollection() { return new global::Microsoft.Xaml.Interactivity.BehaviorCollection(); }
-        private object Activate_20_EventTriggerBehavior() { return new global::Microsoft.Xaml.Interactions.Core.EventTriggerBehavior(); }
-        private object Activate_21_ActionCollection() { return new global::Microsoft.Xaml.Interactivity.ActionCollection(); }
-        private object Activate_22_NavigateToPageAction() { return new global::Microsoft.Xaml.Interactions.Core.NavigateToPageAction(); }
-        private object Activate_23_InvokeCommandAction() { return new global::Microsoft.Xaml.Interactions.Core.InvokeCommandAction(); }
-        private object Activate_26_ClubPage() { return new global::ShaolinCheck.ClubPage(); }
-        private object Activate_29_ObservableDictionary() { return new global::ShaolinCheck.Common.ObservableDictionary(); }
-        private object Activate_31_MainPage() { return new global::ShaolinCheck.MainPage(); }
-        private object Activate_32_RegistrationsPage() { return new global::ShaolinCheck.View.RegistrationsPage(); }
-        private object Activate_33_ChangePropertyAction() { return new global::Microsoft.Xaml.Interactions.Core.ChangePropertyAction(); }
-        private object Activate_34_StudentPage() { return new global::ShaolinCheck.StudentPage(); }
-        private void VectorAdd_7_List(object instance, object item)
+        private object Activate_4_WSContext() { return new global::ShaolinCheck.WSContext(); }
+        private object Activate_7_SingletonCommon() { return new global::ShaolinCheck.SingletonCommon(); }
+        private object Activate_8_List() { return new global::System.Collections.Generic.List<global::ShaolinCheck.Club>(); }
+        private object Activate_10_List() { return new global::System.Collections.Generic.List<global::ShaolinCheck.Team>(); }
+        private object Activate_13_List() { return new global::System.Collections.Generic.List<global::ShaolinCheck.Student>(); }
+        private object Activate_18_BehaviorCollection() { return new global::Microsoft.Xaml.Interactivity.BehaviorCollection(); }
+        private object Activate_21_EventTriggerBehavior() { return new global::Microsoft.Xaml.Interactions.Core.EventTriggerBehavior(); }
+        private object Activate_22_ActionCollection() { return new global::Microsoft.Xaml.Interactivity.ActionCollection(); }
+        private object Activate_23_NavigateToPageAction() { return new global::Microsoft.Xaml.Interactions.Core.NavigateToPageAction(); }
+        private object Activate_24_InvokeCommandAction() { return new global::Microsoft.Xaml.Interactions.Core.InvokeCommandAction(); }
+        private object Activate_27_ClubPage() { return new global::ShaolinCheck.ClubPage(); }
+        private object Activate_30_ObservableDictionary() { return new global::ShaolinCheck.Common.ObservableDictionary(); }
+        private object Activate_32_MainPage() { return new global::ShaolinCheck.MainPage(); }
+        private object Activate_33_RegistrationsPage() { return new global::ShaolinCheck.View.RegistrationsPage(); }
+        private object Activate_34_ChangePropertyAction() { return new global::Microsoft.Xaml.Interactions.Core.ChangePropertyAction(); }
+        private object Activate_35_StudentPage() { return new global::ShaolinCheck.StudentPage(); }
+        private void VectorAdd_8_List(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::ShaolinCheck.Club>)instance;
             var newItem = (global::ShaolinCheck.Club)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_9_List(object instance, object item)
+        private void VectorAdd_10_List(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::ShaolinCheck.Team>)instance;
             var newItem = (global::ShaolinCheck.Team)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_12_List(object instance, object item)
+        private void VectorAdd_13_List(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::ShaolinCheck.Student>)instance;
             var newItem = (global::ShaolinCheck.Student)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_17_BehaviorCollection(object instance, object item)
+        private void VectorAdd_18_BehaviorCollection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Windows.UI.Xaml.DependencyObject>)instance;
             var newItem = (global::Windows.UI.Xaml.DependencyObject)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_21_ActionCollection(object instance, object item)
+        private void VectorAdd_22_ActionCollection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Windows.UI.Xaml.DependencyObject>)instance;
             var newItem = (global::Windows.UI.Xaml.DependencyObject)item;
             collection.Add(newItem);
         }
-        private void MapAdd_29_ObservableDictionary(object instance, object key, object item)
+        private void MapAdd_30_ObservableDictionary(object instance, object key, object item)
         {
             var collection = (global::System.Collections.Generic.IDictionary<global::System.String, global::System.Object>)instance;
             var newKey = (global::System.String)key;
@@ -299,6 +301,7 @@ namespace ShaolinCheck.ShaolinCheck_XamlTypeInfo
             case 0:   //  ShaolinCheck.ViewModel
                 userType = new global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 userType.Activator = Activate_0_ViewModel;
+                userType.AddMemberName("GetRegistrationsCommand");
                 userType.AddMemberName("msgDialog");
                 userType.AddMemberName("WsContext");
                 userType.AddMemberName("SelectStudentCommand");
@@ -314,48 +317,55 @@ namespace ShaolinCheck.ShaolinCheck_XamlTypeInfo
                 xamlType = new global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 2:   //  Windows.UI.Popups.MessageDialog
-                userType = new global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.SetIsReturnTypeStub();
-                xamlType = userType;
-                break;
-
-            case 3:   //  ShaolinCheck.WSContext
+            case 2:   //  ShaolinCheck.Common.RelayCommand
                 userType = new global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 4:   //  ShaolinCheck.Common.RelayArgCommand`1<ShaolinCheck.Student>
+            case 3:   //  Windows.UI.Popups.MessageDialog
+                userType = new global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 4:   //  ShaolinCheck.WSContext
                 userType = new global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 5:   //  ShaolinCheck.Common.RelayArgCommand`1<ShaolinCheck.Team>
+            case 5:   //  ShaolinCheck.Common.RelayArgCommand`1<ShaolinCheck.Student>
                 userType = new global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 6:   //  ShaolinCheck.SingletonCommon
+            case 6:   //  ShaolinCheck.Common.RelayArgCommand`1<ShaolinCheck.Team>
                 userType = new global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 7:   //  System.Collections.Generic.List`1<ShaolinCheck.Club>
+            case 7:   //  ShaolinCheck.SingletonCommon
                 userType = new global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.CollectionAdd = VectorAdd_7_List;
+                userType.SetIsReturnTypeStub();
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 8:   //  System.Collections.Generic.List`1<ShaolinCheck.Club>
+                userType = new global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.CollectionAdd = VectorAdd_8_List;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 8:   //  ShaolinCheck.Club
+            case 9:   //  ShaolinCheck.Club
                 userType = new global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 userType.AddMemberName("TeamList");
                 userType.AddMemberName("Id");
@@ -365,14 +375,14 @@ namespace ShaolinCheck.ShaolinCheck_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 9:   //  System.Collections.Generic.List`1<ShaolinCheck.Team>
+            case 10:   //  System.Collections.Generic.List`1<ShaolinCheck.Team>
                 userType = new global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.CollectionAdd = VectorAdd_9_List;
+                userType.CollectionAdd = VectorAdd_10_List;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 10:   //  ShaolinCheck.Team
+            case 11:   //  ShaolinCheck.Team
                 userType = new global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 userType.AddMemberName("Name");
                 userType.AddMemberName("SCommon");
@@ -383,18 +393,18 @@ namespace ShaolinCheck.ShaolinCheck_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 11:   //  String
+            case 12:   //  String
                 xamlType = new global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 12:   //  System.Collections.Generic.List`1<ShaolinCheck.Student>
+            case 13:   //  System.Collections.Generic.List`1<ShaolinCheck.Student>
                 userType = new global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.CollectionAdd = VectorAdd_12_List;
+                userType.CollectionAdd = VectorAdd_13_List;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 13:   //  ShaolinCheck.Student
+            case 14:   //  ShaolinCheck.Student
                 userType = new global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 userType.AddMemberName("Name");
                 userType.AddMemberName("Id");
@@ -403,41 +413,41 @@ namespace ShaolinCheck.ShaolinCheck_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 14:   //  Int32
+            case 15:   //  Int32
                 xamlType = new global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 15:   //  ShaolinCheck.Common.RelayArgCommand`1<ShaolinCheck.Club>
+            case 16:   //  ShaolinCheck.Common.RelayArgCommand`1<ShaolinCheck.Club>
                 userType = new global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 16:   //  Microsoft.Xaml.Interactivity.Interaction
+            case 17:   //  Microsoft.Xaml.Interactivity.Interaction
                 userType = new global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 userType.AddMemberName("Behaviors");
                 xamlType = userType;
                 break;
 
-            case 17:   //  Microsoft.Xaml.Interactivity.BehaviorCollection
+            case 18:   //  Microsoft.Xaml.Interactivity.BehaviorCollection
                 userType = new global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObjectCollection"));
-                userType.CollectionAdd = VectorAdd_17_BehaviorCollection;
+                userType.CollectionAdd = VectorAdd_18_BehaviorCollection;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 18:   //  Windows.UI.Xaml.DependencyObjectCollection
+            case 19:   //  Windows.UI.Xaml.DependencyObjectCollection
                 xamlType = new global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 19:   //  Windows.UI.Xaml.DependencyObject
+            case 20:   //  Windows.UI.Xaml.DependencyObject
                 xamlType = new global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 20:   //  Microsoft.Xaml.Interactions.Core.EventTriggerBehavior
+            case 21:   //  Microsoft.Xaml.Interactions.Core.EventTriggerBehavior
                 userType = new global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
-                userType.Activator = Activate_20_EventTriggerBehavior;
+                userType.Activator = Activate_21_EventTriggerBehavior;
                 userType.SetContentPropertyName("Microsoft.Xaml.Interactions.Core.EventTriggerBehavior.Actions");
                 userType.AddMemberName("Actions");
                 userType.AddMemberName("EventName");
@@ -446,24 +456,24 @@ namespace ShaolinCheck.ShaolinCheck_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 21:   //  Microsoft.Xaml.Interactivity.ActionCollection
+            case 22:   //  Microsoft.Xaml.Interactivity.ActionCollection
                 userType = new global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObjectCollection"));
-                userType.CollectionAdd = VectorAdd_21_ActionCollection;
+                userType.CollectionAdd = VectorAdd_22_ActionCollection;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 22:   //  Microsoft.Xaml.Interactions.Core.NavigateToPageAction
+            case 23:   //  Microsoft.Xaml.Interactions.Core.NavigateToPageAction
                 userType = new global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
-                userType.Activator = Activate_22_NavigateToPageAction;
+                userType.Activator = Activate_23_NavigateToPageAction;
                 userType.AddMemberName("TargetPage");
                 userType.AddMemberName("Parameter");
                 xamlType = userType;
                 break;
 
-            case 23:   //  Microsoft.Xaml.Interactions.Core.InvokeCommandAction
+            case 24:   //  Microsoft.Xaml.Interactions.Core.InvokeCommandAction
                 userType = new global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
-                userType.Activator = Activate_23_InvokeCommandAction;
+                userType.Activator = Activate_24_InvokeCommandAction;
                 userType.AddMemberName("Command");
                 userType.AddMemberName("CommandParameter");
                 userType.AddMemberName("InputConverter");
@@ -472,78 +482,78 @@ namespace ShaolinCheck.ShaolinCheck_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 24:   //  System.Windows.Input.ICommand
+            case 25:   //  System.Windows.Input.ICommand
                 userType = new global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlUserType(this, typeName, type, null);
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 25:   //  Windows.UI.Xaml.Data.IValueConverter
+            case 26:   //  Windows.UI.Xaml.Data.IValueConverter
                 xamlType = new global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 26:   //  ShaolinCheck.ClubPage
+            case 27:   //  ShaolinCheck.ClubPage
                 userType = new global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_26_ClubPage;
+                userType.Activator = Activate_27_ClubPage;
                 userType.AddMemberName("DefaultViewModel");
                 userType.AddMemberName("NavigationHelper");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 27:   //  Windows.UI.Xaml.Controls.Page
+            case 28:   //  Windows.UI.Xaml.Controls.Page
                 xamlType = new global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 28:   //  Windows.UI.Xaml.Controls.UserControl
+            case 29:   //  Windows.UI.Xaml.Controls.UserControl
                 xamlType = new global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 29:   //  ShaolinCheck.Common.ObservableDictionary
+            case 30:   //  ShaolinCheck.Common.ObservableDictionary
                 userType = new global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.DictionaryAdd = MapAdd_29_ObservableDictionary;
+                userType.DictionaryAdd = MapAdd_30_ObservableDictionary;
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 30:   //  ShaolinCheck.Common.NavigationHelper
+            case 31:   //  ShaolinCheck.Common.NavigationHelper
                 userType = new global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 31:   //  ShaolinCheck.MainPage
+            case 32:   //  ShaolinCheck.MainPage
                 userType = new global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_31_MainPage;
+                userType.Activator = Activate_32_MainPage;
                 userType.AddMemberName("DefaultViewModel");
                 userType.AddMemberName("NavigationHelper");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 32:   //  ShaolinCheck.View.RegistrationsPage
+            case 33:   //  ShaolinCheck.View.RegistrationsPage
                 userType = new global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_32_RegistrationsPage;
+                userType.Activator = Activate_33_RegistrationsPage;
                 userType.AddMemberName("DefaultViewModel");
                 userType.AddMemberName("NavigationHelper");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 33:   //  Microsoft.Xaml.Interactions.Core.ChangePropertyAction
+            case 34:   //  Microsoft.Xaml.Interactions.Core.ChangePropertyAction
                 userType = new global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
-                userType.Activator = Activate_33_ChangePropertyAction;
+                userType.Activator = Activate_34_ChangePropertyAction;
                 userType.AddMemberName("PropertyName");
                 userType.AddMemberName("Value");
                 userType.AddMemberName("TargetObject");
                 xamlType = userType;
                 break;
 
-            case 34:   //  ShaolinCheck.StudentPage
+            case 35:   //  ShaolinCheck.StudentPage
                 userType = new global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_34_StudentPage;
+                userType.Activator = Activate_35_StudentPage;
                 userType.AddMemberName("DefaultViewModel");
                 userType.AddMemberName("NavigationHelper");
                 userType.SetIsLocalType();
@@ -554,365 +564,375 @@ namespace ShaolinCheck.ShaolinCheck_XamlTypeInfo
         }
 
 
-        private object get_0_ViewModel_msgDialog(object instance)
+        private object get_0_ViewModel_GetRegistrationsCommand(object instance)
+        {
+            var that = (global::ShaolinCheck.ViewModel)instance;
+            return that.GetRegistrationsCommand;
+        }
+        private void set_0_ViewModel_GetRegistrationsCommand(object instance, object Value)
+        {
+            var that = (global::ShaolinCheck.ViewModel)instance;
+            that.GetRegistrationsCommand = (global::ShaolinCheck.Common.RelayCommand)Value;
+        }
+        private object get_1_ViewModel_msgDialog(object instance)
         {
             var that = (global::ShaolinCheck.ViewModel)instance;
             return that.msgDialog;
         }
-        private void set_0_ViewModel_msgDialog(object instance, object Value)
+        private void set_1_ViewModel_msgDialog(object instance, object Value)
         {
             var that = (global::ShaolinCheck.ViewModel)instance;
             that.msgDialog = (global::Windows.UI.Popups.MessageDialog)Value;
         }
-        private object get_1_ViewModel_WsContext(object instance)
+        private object get_2_ViewModel_WsContext(object instance)
         {
             var that = (global::ShaolinCheck.ViewModel)instance;
             return that.WsContext;
         }
-        private void set_1_ViewModel_WsContext(object instance, object Value)
+        private void set_2_ViewModel_WsContext(object instance, object Value)
         {
             var that = (global::ShaolinCheck.ViewModel)instance;
             that.WsContext = (global::ShaolinCheck.WSContext)Value;
         }
-        private object get_2_ViewModel_SelectStudentCommand(object instance)
+        private object get_3_ViewModel_SelectStudentCommand(object instance)
         {
             var that = (global::ShaolinCheck.ViewModel)instance;
             return that.SelectStudentCommand;
         }
-        private void set_2_ViewModel_SelectStudentCommand(object instance, object Value)
+        private void set_3_ViewModel_SelectStudentCommand(object instance, object Value)
         {
             var that = (global::ShaolinCheck.ViewModel)instance;
             that.SelectStudentCommand = (global::ShaolinCheck.Common.RelayArgCommand<global::ShaolinCheck.Student>)Value;
         }
-        private object get_3_ViewModel_SelectTeamCommand(object instance)
+        private object get_4_ViewModel_SelectTeamCommand(object instance)
         {
             var that = (global::ShaolinCheck.ViewModel)instance;
             return that.SelectTeamCommand;
         }
-        private void set_3_ViewModel_SelectTeamCommand(object instance, object Value)
+        private void set_4_ViewModel_SelectTeamCommand(object instance, object Value)
         {
             var that = (global::ShaolinCheck.ViewModel)instance;
             that.SelectTeamCommand = (global::ShaolinCheck.Common.RelayArgCommand<global::ShaolinCheck.Team>)Value;
         }
-        private object get_4_ViewModel_SCommon(object instance)
+        private object get_5_ViewModel_SCommon(object instance)
         {
             var that = (global::ShaolinCheck.ViewModel)instance;
             return that.SCommon;
         }
-        private object get_5_ViewModel_ClubList(object instance)
+        private object get_6_ViewModel_ClubList(object instance)
         {
             var that = (global::ShaolinCheck.ViewModel)instance;
             return that.ClubList;
         }
-        private void set_5_ViewModel_ClubList(object instance, object Value)
+        private void set_6_ViewModel_ClubList(object instance, object Value)
         {
             var that = (global::ShaolinCheck.ViewModel)instance;
             that.ClubList = (global::System.Collections.Generic.List<global::ShaolinCheck.Club>)Value;
         }
-        private object get_6_Club_TeamList(object instance)
+        private object get_7_Club_TeamList(object instance)
         {
             var that = (global::ShaolinCheck.Club)instance;
             return that.TeamList;
         }
-        private void set_6_Club_TeamList(object instance, object Value)
+        private void set_7_Club_TeamList(object instance, object Value)
         {
             var that = (global::ShaolinCheck.Club)instance;
             that.TeamList = (global::System.Collections.Generic.List<global::ShaolinCheck.Team>)Value;
         }
-        private object get_7_Team_Name(object instance)
+        private object get_8_Team_Name(object instance)
         {
             var that = (global::ShaolinCheck.Team)instance;
             return that.Name;
         }
-        private void set_7_Team_Name(object instance, object Value)
+        private void set_8_Team_Name(object instance, object Value)
         {
             var that = (global::ShaolinCheck.Team)instance;
             that.Name = (global::System.String)Value;
         }
-        private object get_8_Team_SCommon(object instance)
+        private object get_9_Team_SCommon(object instance)
         {
             var that = (global::ShaolinCheck.Team)instance;
             return that.SCommon;
         }
-        private void set_8_Team_SCommon(object instance, object Value)
+        private void set_9_Team_SCommon(object instance, object Value)
         {
             var that = (global::ShaolinCheck.Team)instance;
             that.SCommon = (global::ShaolinCheck.SingletonCommon)Value;
         }
-        private object get_9_Team_StudentList(object instance)
+        private object get_10_Team_StudentList(object instance)
         {
             var that = (global::ShaolinCheck.Team)instance;
             return that.StudentList;
         }
-        private void set_9_Team_StudentList(object instance, object Value)
+        private void set_10_Team_StudentList(object instance, object Value)
         {
             var that = (global::ShaolinCheck.Team)instance;
             that.StudentList = (global::System.Collections.Generic.List<global::ShaolinCheck.Student>)Value;
         }
-        private object get_10_Student_Name(object instance)
+        private object get_11_Student_Name(object instance)
         {
             var that = (global::ShaolinCheck.Student)instance;
             return that.Name;
         }
-        private void set_10_Student_Name(object instance, object Value)
+        private void set_11_Student_Name(object instance, object Value)
         {
             var that = (global::ShaolinCheck.Student)instance;
             that.Name = (global::System.String)Value;
         }
-        private object get_11_Student_Id(object instance)
+        private object get_12_Student_Id(object instance)
         {
             var that = (global::ShaolinCheck.Student)instance;
             return that.Id;
         }
-        private void set_11_Student_Id(object instance, object Value)
+        private void set_12_Student_Id(object instance, object Value)
         {
             var that = (global::ShaolinCheck.Student)instance;
             that.Id = (global::System.Int32)Value;
         }
-        private object get_12_Student_Team(object instance)
+        private object get_13_Student_Team(object instance)
         {
             var that = (global::ShaolinCheck.Student)instance;
             return that.Team;
         }
-        private void set_12_Student_Team(object instance, object Value)
+        private void set_13_Student_Team(object instance, object Value)
         {
             var that = (global::ShaolinCheck.Student)instance;
             that.Team = (global::System.Int32)Value;
         }
-        private object get_13_Team_Id(object instance)
+        private object get_14_Team_Id(object instance)
         {
             var that = (global::ShaolinCheck.Team)instance;
             return that.Id;
         }
-        private void set_13_Team_Id(object instance, object Value)
+        private void set_14_Team_Id(object instance, object Value)
         {
             var that = (global::ShaolinCheck.Team)instance;
             that.Id = (global::System.Int32)Value;
         }
-        private object get_14_Team_Club(object instance)
+        private object get_15_Team_Club(object instance)
         {
             var that = (global::ShaolinCheck.Team)instance;
             return that.Club;
         }
-        private void set_14_Team_Club(object instance, object Value)
+        private void set_15_Team_Club(object instance, object Value)
         {
             var that = (global::ShaolinCheck.Team)instance;
             that.Club = (global::System.Int32)Value;
         }
-        private object get_15_Club_Id(object instance)
+        private object get_16_Club_Id(object instance)
         {
             var that = (global::ShaolinCheck.Club)instance;
             return that.Id;
         }
-        private void set_15_Club_Id(object instance, object Value)
+        private void set_16_Club_Id(object instance, object Value)
         {
             var that = (global::ShaolinCheck.Club)instance;
             that.Id = (global::System.Int32)Value;
         }
-        private object get_16_Club_Name(object instance)
+        private object get_17_Club_Name(object instance)
         {
             var that = (global::ShaolinCheck.Club)instance;
             return that.Name;
         }
-        private void set_16_Club_Name(object instance, object Value)
+        private void set_17_Club_Name(object instance, object Value)
         {
             var that = (global::ShaolinCheck.Club)instance;
             that.Name = (global::System.String)Value;
         }
-        private object get_17_Club_SCommon(object instance)
+        private object get_18_Club_SCommon(object instance)
         {
             var that = (global::ShaolinCheck.Club)instance;
             return that.SCommon;
         }
-        private void set_17_Club_SCommon(object instance, object Value)
+        private void set_18_Club_SCommon(object instance, object Value)
         {
             var that = (global::ShaolinCheck.Club)instance;
             that.SCommon = (global::ShaolinCheck.SingletonCommon)Value;
         }
-        private object get_18_ViewModel_SelectClubCommand(object instance)
+        private object get_19_ViewModel_SelectClubCommand(object instance)
         {
             var that = (global::ShaolinCheck.ViewModel)instance;
             return that.SelectClubCommand;
         }
-        private void set_18_ViewModel_SelectClubCommand(object instance, object Value)
+        private void set_19_ViewModel_SelectClubCommand(object instance, object Value)
         {
             var that = (global::ShaolinCheck.ViewModel)instance;
             that.SelectClubCommand = (global::ShaolinCheck.Common.RelayArgCommand<global::ShaolinCheck.Club>)Value;
         }
-        private object get_19_Interaction_Behaviors(object instance)
+        private object get_20_Interaction_Behaviors(object instance)
         {
             return global::Microsoft.Xaml.Interactivity.Interaction.GetBehaviors((global::Windows.UI.Xaml.DependencyObject)instance);
         }
-        private void set_19_Interaction_Behaviors(object instance, object Value)
+        private void set_20_Interaction_Behaviors(object instance, object Value)
         {
             global::Microsoft.Xaml.Interactivity.Interaction.SetBehaviors((global::Windows.UI.Xaml.DependencyObject)instance, (global::Microsoft.Xaml.Interactivity.BehaviorCollection)Value);
         }
-        private object get_20_EventTriggerBehavior_Actions(object instance)
+        private object get_21_EventTriggerBehavior_Actions(object instance)
         {
             var that = (global::Microsoft.Xaml.Interactions.Core.EventTriggerBehavior)instance;
             return that.Actions;
         }
-        private object get_21_EventTriggerBehavior_EventName(object instance)
+        private object get_22_EventTriggerBehavior_EventName(object instance)
         {
             var that = (global::Microsoft.Xaml.Interactions.Core.EventTriggerBehavior)instance;
             return that.EventName;
         }
-        private void set_21_EventTriggerBehavior_EventName(object instance, object Value)
+        private void set_22_EventTriggerBehavior_EventName(object instance, object Value)
         {
             var that = (global::Microsoft.Xaml.Interactions.Core.EventTriggerBehavior)instance;
             that.EventName = (global::System.String)Value;
         }
-        private object get_22_EventTriggerBehavior_SourceObject(object instance)
+        private object get_23_EventTriggerBehavior_SourceObject(object instance)
         {
             var that = (global::Microsoft.Xaml.Interactions.Core.EventTriggerBehavior)instance;
             return that.SourceObject;
         }
-        private void set_22_EventTriggerBehavior_SourceObject(object instance, object Value)
+        private void set_23_EventTriggerBehavior_SourceObject(object instance, object Value)
         {
             var that = (global::Microsoft.Xaml.Interactions.Core.EventTriggerBehavior)instance;
             that.SourceObject = (global::System.Object)Value;
         }
-        private object get_23_EventTriggerBehavior_AssociatedObject(object instance)
+        private object get_24_EventTriggerBehavior_AssociatedObject(object instance)
         {
             var that = (global::Microsoft.Xaml.Interactions.Core.EventTriggerBehavior)instance;
             return that.AssociatedObject;
         }
-        private object get_24_NavigateToPageAction_TargetPage(object instance)
+        private object get_25_NavigateToPageAction_TargetPage(object instance)
         {
             var that = (global::Microsoft.Xaml.Interactions.Core.NavigateToPageAction)instance;
             return that.TargetPage;
         }
-        private void set_24_NavigateToPageAction_TargetPage(object instance, object Value)
+        private void set_25_NavigateToPageAction_TargetPage(object instance, object Value)
         {
             var that = (global::Microsoft.Xaml.Interactions.Core.NavigateToPageAction)instance;
             that.TargetPage = (global::System.String)Value;
         }
-        private object get_25_NavigateToPageAction_Parameter(object instance)
+        private object get_26_NavigateToPageAction_Parameter(object instance)
         {
             var that = (global::Microsoft.Xaml.Interactions.Core.NavigateToPageAction)instance;
             return that.Parameter;
         }
-        private void set_25_NavigateToPageAction_Parameter(object instance, object Value)
+        private void set_26_NavigateToPageAction_Parameter(object instance, object Value)
         {
             var that = (global::Microsoft.Xaml.Interactions.Core.NavigateToPageAction)instance;
             that.Parameter = (global::System.Object)Value;
         }
-        private object get_26_InvokeCommandAction_Command(object instance)
+        private object get_27_InvokeCommandAction_Command(object instance)
         {
             var that = (global::Microsoft.Xaml.Interactions.Core.InvokeCommandAction)instance;
             return that.Command;
         }
-        private void set_26_InvokeCommandAction_Command(object instance, object Value)
+        private void set_27_InvokeCommandAction_Command(object instance, object Value)
         {
             var that = (global::Microsoft.Xaml.Interactions.Core.InvokeCommandAction)instance;
             that.Command = (global::System.Windows.Input.ICommand)Value;
         }
-        private object get_27_InvokeCommandAction_CommandParameter(object instance)
+        private object get_28_InvokeCommandAction_CommandParameter(object instance)
         {
             var that = (global::Microsoft.Xaml.Interactions.Core.InvokeCommandAction)instance;
             return that.CommandParameter;
         }
-        private void set_27_InvokeCommandAction_CommandParameter(object instance, object Value)
+        private void set_28_InvokeCommandAction_CommandParameter(object instance, object Value)
         {
             var that = (global::Microsoft.Xaml.Interactions.Core.InvokeCommandAction)instance;
             that.CommandParameter = (global::System.Object)Value;
         }
-        private object get_28_InvokeCommandAction_InputConverter(object instance)
+        private object get_29_InvokeCommandAction_InputConverter(object instance)
         {
             var that = (global::Microsoft.Xaml.Interactions.Core.InvokeCommandAction)instance;
             return that.InputConverter;
         }
-        private void set_28_InvokeCommandAction_InputConverter(object instance, object Value)
+        private void set_29_InvokeCommandAction_InputConverter(object instance, object Value)
         {
             var that = (global::Microsoft.Xaml.Interactions.Core.InvokeCommandAction)instance;
             that.InputConverter = (global::Windows.UI.Xaml.Data.IValueConverter)Value;
         }
-        private object get_29_InvokeCommandAction_InputConverterParameter(object instance)
+        private object get_30_InvokeCommandAction_InputConverterParameter(object instance)
         {
             var that = (global::Microsoft.Xaml.Interactions.Core.InvokeCommandAction)instance;
             return that.InputConverterParameter;
         }
-        private void set_29_InvokeCommandAction_InputConverterParameter(object instance, object Value)
+        private void set_30_InvokeCommandAction_InputConverterParameter(object instance, object Value)
         {
             var that = (global::Microsoft.Xaml.Interactions.Core.InvokeCommandAction)instance;
             that.InputConverterParameter = (global::System.Object)Value;
         }
-        private object get_30_InvokeCommandAction_InputConverterLanguage(object instance)
+        private object get_31_InvokeCommandAction_InputConverterLanguage(object instance)
         {
             var that = (global::Microsoft.Xaml.Interactions.Core.InvokeCommandAction)instance;
             return that.InputConverterLanguage;
         }
-        private void set_30_InvokeCommandAction_InputConverterLanguage(object instance, object Value)
+        private void set_31_InvokeCommandAction_InputConverterLanguage(object instance, object Value)
         {
             var that = (global::Microsoft.Xaml.Interactions.Core.InvokeCommandAction)instance;
             that.InputConverterLanguage = (global::System.String)Value;
         }
-        private object get_31_ClubPage_DefaultViewModel(object instance)
+        private object get_32_ClubPage_DefaultViewModel(object instance)
         {
             var that = (global::ShaolinCheck.ClubPage)instance;
             return that.DefaultViewModel;
         }
-        private object get_32_ClubPage_NavigationHelper(object instance)
+        private object get_33_ClubPage_NavigationHelper(object instance)
         {
             var that = (global::ShaolinCheck.ClubPage)instance;
             return that.NavigationHelper;
         }
-        private object get_33_MainPage_DefaultViewModel(object instance)
+        private object get_34_MainPage_DefaultViewModel(object instance)
         {
             var that = (global::ShaolinCheck.MainPage)instance;
             return that.DefaultViewModel;
         }
-        private object get_34_MainPage_NavigationHelper(object instance)
+        private object get_35_MainPage_NavigationHelper(object instance)
         {
             var that = (global::ShaolinCheck.MainPage)instance;
             return that.NavigationHelper;
         }
-        private object get_35_RegistrationsPage_DefaultViewModel(object instance)
+        private object get_36_RegistrationsPage_DefaultViewModel(object instance)
         {
             var that = (global::ShaolinCheck.View.RegistrationsPage)instance;
             return that.DefaultViewModel;
         }
-        private object get_36_RegistrationsPage_NavigationHelper(object instance)
+        private object get_37_RegistrationsPage_NavigationHelper(object instance)
         {
             var that = (global::ShaolinCheck.View.RegistrationsPage)instance;
             return that.NavigationHelper;
         }
-        private object get_37_ChangePropertyAction_PropertyName(object instance)
+        private object get_38_ChangePropertyAction_PropertyName(object instance)
         {
             var that = (global::Microsoft.Xaml.Interactions.Core.ChangePropertyAction)instance;
             return that.PropertyName;
         }
-        private void set_37_ChangePropertyAction_PropertyName(object instance, object Value)
+        private void set_38_ChangePropertyAction_PropertyName(object instance, object Value)
         {
             var that = (global::Microsoft.Xaml.Interactions.Core.ChangePropertyAction)instance;
             that.PropertyName = (global::System.String)Value;
         }
-        private object get_38_ChangePropertyAction_Value(object instance)
+        private object get_39_ChangePropertyAction_Value(object instance)
         {
             var that = (global::Microsoft.Xaml.Interactions.Core.ChangePropertyAction)instance;
             return that.Value;
         }
-        private void set_38_ChangePropertyAction_Value(object instance, object Value)
+        private void set_39_ChangePropertyAction_Value(object instance, object Value)
         {
             var that = (global::Microsoft.Xaml.Interactions.Core.ChangePropertyAction)instance;
             that.Value = (global::System.Object)Value;
         }
-        private object get_39_ChangePropertyAction_TargetObject(object instance)
+        private object get_40_ChangePropertyAction_TargetObject(object instance)
         {
             var that = (global::Microsoft.Xaml.Interactions.Core.ChangePropertyAction)instance;
             return that.TargetObject;
         }
-        private void set_39_ChangePropertyAction_TargetObject(object instance, object Value)
+        private void set_40_ChangePropertyAction_TargetObject(object instance, object Value)
         {
             var that = (global::Microsoft.Xaml.Interactions.Core.ChangePropertyAction)instance;
             that.TargetObject = (global::System.Object)Value;
         }
-        private object get_40_StudentPage_DefaultViewModel(object instance)
+        private object get_41_StudentPage_DefaultViewModel(object instance)
         {
             var that = (global::ShaolinCheck.StudentPage)instance;
             return that.DefaultViewModel;
         }
-        private object get_41_StudentPage_NavigationHelper(object instance)
+        private object get_42_StudentPage_NavigationHelper(object instance)
         {
             var that = (global::ShaolinCheck.StudentPage)instance;
             return that.NavigationHelper;
@@ -925,271 +945,277 @@ namespace ShaolinCheck.ShaolinCheck_XamlTypeInfo
 
             switch (longMemberName)
             {
+            case "ShaolinCheck.ViewModel.GetRegistrationsCommand":
+                userType = (global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ShaolinCheck.ViewModel");
+                xamlMember = new global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlMember(this, "GetRegistrationsCommand", "ShaolinCheck.Common.RelayCommand");
+                xamlMember.Getter = get_0_ViewModel_GetRegistrationsCommand;
+                xamlMember.Setter = set_0_ViewModel_GetRegistrationsCommand;
+                break;
             case "ShaolinCheck.ViewModel.msgDialog":
                 userType = (global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ShaolinCheck.ViewModel");
                 xamlMember = new global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlMember(this, "msgDialog", "Windows.UI.Popups.MessageDialog");
-                xamlMember.Getter = get_0_ViewModel_msgDialog;
-                xamlMember.Setter = set_0_ViewModel_msgDialog;
+                xamlMember.Getter = get_1_ViewModel_msgDialog;
+                xamlMember.Setter = set_1_ViewModel_msgDialog;
                 break;
             case "ShaolinCheck.ViewModel.WsContext":
                 userType = (global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ShaolinCheck.ViewModel");
                 xamlMember = new global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlMember(this, "WsContext", "ShaolinCheck.WSContext");
-                xamlMember.Getter = get_1_ViewModel_WsContext;
-                xamlMember.Setter = set_1_ViewModel_WsContext;
+                xamlMember.Getter = get_2_ViewModel_WsContext;
+                xamlMember.Setter = set_2_ViewModel_WsContext;
                 break;
             case "ShaolinCheck.ViewModel.SelectStudentCommand":
                 userType = (global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ShaolinCheck.ViewModel");
                 xamlMember = new global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlMember(this, "SelectStudentCommand", "ShaolinCheck.Common.RelayArgCommand`1<ShaolinCheck.Student>");
-                xamlMember.Getter = get_2_ViewModel_SelectStudentCommand;
-                xamlMember.Setter = set_2_ViewModel_SelectStudentCommand;
+                xamlMember.Getter = get_3_ViewModel_SelectStudentCommand;
+                xamlMember.Setter = set_3_ViewModel_SelectStudentCommand;
                 break;
             case "ShaolinCheck.ViewModel.SelectTeamCommand":
                 userType = (global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ShaolinCheck.ViewModel");
                 xamlMember = new global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlMember(this, "SelectTeamCommand", "ShaolinCheck.Common.RelayArgCommand`1<ShaolinCheck.Team>");
-                xamlMember.Getter = get_3_ViewModel_SelectTeamCommand;
-                xamlMember.Setter = set_3_ViewModel_SelectTeamCommand;
+                xamlMember.Getter = get_4_ViewModel_SelectTeamCommand;
+                xamlMember.Setter = set_4_ViewModel_SelectTeamCommand;
                 break;
             case "ShaolinCheck.ViewModel.SCommon":
                 userType = (global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ShaolinCheck.ViewModel");
                 xamlMember = new global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlMember(this, "SCommon", "ShaolinCheck.SingletonCommon");
-                xamlMember.Getter = get_4_ViewModel_SCommon;
+                xamlMember.Getter = get_5_ViewModel_SCommon;
                 xamlMember.SetIsReadOnly();
                 break;
             case "ShaolinCheck.ViewModel.ClubList":
                 userType = (global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ShaolinCheck.ViewModel");
                 xamlMember = new global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlMember(this, "ClubList", "System.Collections.Generic.List`1<ShaolinCheck.Club>");
-                xamlMember.Getter = get_5_ViewModel_ClubList;
-                xamlMember.Setter = set_5_ViewModel_ClubList;
+                xamlMember.Getter = get_6_ViewModel_ClubList;
+                xamlMember.Setter = set_6_ViewModel_ClubList;
                 break;
             case "ShaolinCheck.Club.TeamList":
                 userType = (global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ShaolinCheck.Club");
                 xamlMember = new global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlMember(this, "TeamList", "System.Collections.Generic.List`1<ShaolinCheck.Team>");
-                xamlMember.Getter = get_6_Club_TeamList;
-                xamlMember.Setter = set_6_Club_TeamList;
+                xamlMember.Getter = get_7_Club_TeamList;
+                xamlMember.Setter = set_7_Club_TeamList;
                 break;
             case "ShaolinCheck.Team.Name":
                 userType = (global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ShaolinCheck.Team");
                 xamlMember = new global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlMember(this, "Name", "String");
-                xamlMember.Getter = get_7_Team_Name;
-                xamlMember.Setter = set_7_Team_Name;
+                xamlMember.Getter = get_8_Team_Name;
+                xamlMember.Setter = set_8_Team_Name;
                 break;
             case "ShaolinCheck.Team.SCommon":
                 userType = (global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ShaolinCheck.Team");
                 xamlMember = new global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlMember(this, "SCommon", "ShaolinCheck.SingletonCommon");
-                xamlMember.Getter = get_8_Team_SCommon;
-                xamlMember.Setter = set_8_Team_SCommon;
+                xamlMember.Getter = get_9_Team_SCommon;
+                xamlMember.Setter = set_9_Team_SCommon;
                 break;
             case "ShaolinCheck.Team.StudentList":
                 userType = (global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ShaolinCheck.Team");
                 xamlMember = new global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlMember(this, "StudentList", "System.Collections.Generic.List`1<ShaolinCheck.Student>");
-                xamlMember.Getter = get_9_Team_StudentList;
-                xamlMember.Setter = set_9_Team_StudentList;
+                xamlMember.Getter = get_10_Team_StudentList;
+                xamlMember.Setter = set_10_Team_StudentList;
                 break;
             case "ShaolinCheck.Student.Name":
                 userType = (global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ShaolinCheck.Student");
                 xamlMember = new global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlMember(this, "Name", "String");
-                xamlMember.Getter = get_10_Student_Name;
-                xamlMember.Setter = set_10_Student_Name;
+                xamlMember.Getter = get_11_Student_Name;
+                xamlMember.Setter = set_11_Student_Name;
                 break;
             case "ShaolinCheck.Student.Id":
                 userType = (global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ShaolinCheck.Student");
                 xamlMember = new global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlMember(this, "Id", "Int32");
-                xamlMember.Getter = get_11_Student_Id;
-                xamlMember.Setter = set_11_Student_Id;
+                xamlMember.Getter = get_12_Student_Id;
+                xamlMember.Setter = set_12_Student_Id;
                 break;
             case "ShaolinCheck.Student.Team":
                 userType = (global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ShaolinCheck.Student");
                 xamlMember = new global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlMember(this, "Team", "Int32");
-                xamlMember.Getter = get_12_Student_Team;
-                xamlMember.Setter = set_12_Student_Team;
+                xamlMember.Getter = get_13_Student_Team;
+                xamlMember.Setter = set_13_Student_Team;
                 break;
             case "ShaolinCheck.Team.Id":
                 userType = (global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ShaolinCheck.Team");
                 xamlMember = new global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlMember(this, "Id", "Int32");
-                xamlMember.Getter = get_13_Team_Id;
-                xamlMember.Setter = set_13_Team_Id;
+                xamlMember.Getter = get_14_Team_Id;
+                xamlMember.Setter = set_14_Team_Id;
                 break;
             case "ShaolinCheck.Team.Club":
                 userType = (global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ShaolinCheck.Team");
                 xamlMember = new global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlMember(this, "Club", "Int32");
-                xamlMember.Getter = get_14_Team_Club;
-                xamlMember.Setter = set_14_Team_Club;
+                xamlMember.Getter = get_15_Team_Club;
+                xamlMember.Setter = set_15_Team_Club;
                 break;
             case "ShaolinCheck.Club.Id":
                 userType = (global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ShaolinCheck.Club");
                 xamlMember = new global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlMember(this, "Id", "Int32");
-                xamlMember.Getter = get_15_Club_Id;
-                xamlMember.Setter = set_15_Club_Id;
+                xamlMember.Getter = get_16_Club_Id;
+                xamlMember.Setter = set_16_Club_Id;
                 break;
             case "ShaolinCheck.Club.Name":
                 userType = (global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ShaolinCheck.Club");
                 xamlMember = new global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlMember(this, "Name", "String");
-                xamlMember.Getter = get_16_Club_Name;
-                xamlMember.Setter = set_16_Club_Name;
+                xamlMember.Getter = get_17_Club_Name;
+                xamlMember.Setter = set_17_Club_Name;
                 break;
             case "ShaolinCheck.Club.SCommon":
                 userType = (global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ShaolinCheck.Club");
                 xamlMember = new global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlMember(this, "SCommon", "ShaolinCheck.SingletonCommon");
-                xamlMember.Getter = get_17_Club_SCommon;
-                xamlMember.Setter = set_17_Club_SCommon;
+                xamlMember.Getter = get_18_Club_SCommon;
+                xamlMember.Setter = set_18_Club_SCommon;
                 break;
             case "ShaolinCheck.ViewModel.SelectClubCommand":
                 userType = (global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ShaolinCheck.ViewModel");
                 xamlMember = new global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlMember(this, "SelectClubCommand", "ShaolinCheck.Common.RelayArgCommand`1<ShaolinCheck.Club>");
-                xamlMember.Getter = get_18_ViewModel_SelectClubCommand;
-                xamlMember.Setter = set_18_ViewModel_SelectClubCommand;
+                xamlMember.Getter = get_19_ViewModel_SelectClubCommand;
+                xamlMember.Setter = set_19_ViewModel_SelectClubCommand;
                 break;
             case "Microsoft.Xaml.Interactivity.Interaction.Behaviors":
                 userType = (global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.Xaml.Interactivity.Interaction");
                 xamlMember = new global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlMember(this, "Behaviors", "Microsoft.Xaml.Interactivity.BehaviorCollection");
                 xamlMember.SetTargetTypeName("Windows.UI.Xaml.DependencyObject");
                 xamlMember.SetIsAttachable();
-                xamlMember.Getter = get_19_Interaction_Behaviors;
-                xamlMember.Setter = set_19_Interaction_Behaviors;
+                xamlMember.Getter = get_20_Interaction_Behaviors;
+                xamlMember.Setter = set_20_Interaction_Behaviors;
                 break;
             case "Microsoft.Xaml.Interactions.Core.EventTriggerBehavior.Actions":
                 userType = (global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.Xaml.Interactions.Core.EventTriggerBehavior");
                 xamlMember = new global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlMember(this, "Actions", "Microsoft.Xaml.Interactivity.ActionCollection");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_20_EventTriggerBehavior_Actions;
+                xamlMember.Getter = get_21_EventTriggerBehavior_Actions;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.Xaml.Interactions.Core.EventTriggerBehavior.EventName":
                 userType = (global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.Xaml.Interactions.Core.EventTriggerBehavior");
                 xamlMember = new global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlMember(this, "EventName", "String");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_21_EventTriggerBehavior_EventName;
-                xamlMember.Setter = set_21_EventTriggerBehavior_EventName;
+                xamlMember.Getter = get_22_EventTriggerBehavior_EventName;
+                xamlMember.Setter = set_22_EventTriggerBehavior_EventName;
                 break;
             case "Microsoft.Xaml.Interactions.Core.EventTriggerBehavior.SourceObject":
                 userType = (global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.Xaml.Interactions.Core.EventTriggerBehavior");
                 xamlMember = new global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlMember(this, "SourceObject", "Object");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_22_EventTriggerBehavior_SourceObject;
-                xamlMember.Setter = set_22_EventTriggerBehavior_SourceObject;
+                xamlMember.Getter = get_23_EventTriggerBehavior_SourceObject;
+                xamlMember.Setter = set_23_EventTriggerBehavior_SourceObject;
                 break;
             case "Microsoft.Xaml.Interactions.Core.EventTriggerBehavior.AssociatedObject":
                 userType = (global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.Xaml.Interactions.Core.EventTriggerBehavior");
                 xamlMember = new global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlMember(this, "AssociatedObject", "Windows.UI.Xaml.DependencyObject");
-                xamlMember.Getter = get_23_EventTriggerBehavior_AssociatedObject;
+                xamlMember.Getter = get_24_EventTriggerBehavior_AssociatedObject;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.Xaml.Interactions.Core.NavigateToPageAction.TargetPage":
                 userType = (global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.Xaml.Interactions.Core.NavigateToPageAction");
                 xamlMember = new global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlMember(this, "TargetPage", "String");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_24_NavigateToPageAction_TargetPage;
-                xamlMember.Setter = set_24_NavigateToPageAction_TargetPage;
+                xamlMember.Getter = get_25_NavigateToPageAction_TargetPage;
+                xamlMember.Setter = set_25_NavigateToPageAction_TargetPage;
                 break;
             case "Microsoft.Xaml.Interactions.Core.NavigateToPageAction.Parameter":
                 userType = (global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.Xaml.Interactions.Core.NavigateToPageAction");
                 xamlMember = new global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlMember(this, "Parameter", "Object");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_25_NavigateToPageAction_Parameter;
-                xamlMember.Setter = set_25_NavigateToPageAction_Parameter;
+                xamlMember.Getter = get_26_NavigateToPageAction_Parameter;
+                xamlMember.Setter = set_26_NavigateToPageAction_Parameter;
                 break;
             case "Microsoft.Xaml.Interactions.Core.InvokeCommandAction.Command":
                 userType = (global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.Xaml.Interactions.Core.InvokeCommandAction");
                 xamlMember = new global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlMember(this, "Command", "System.Windows.Input.ICommand");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_26_InvokeCommandAction_Command;
-                xamlMember.Setter = set_26_InvokeCommandAction_Command;
+                xamlMember.Getter = get_27_InvokeCommandAction_Command;
+                xamlMember.Setter = set_27_InvokeCommandAction_Command;
                 break;
             case "Microsoft.Xaml.Interactions.Core.InvokeCommandAction.CommandParameter":
                 userType = (global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.Xaml.Interactions.Core.InvokeCommandAction");
                 xamlMember = new global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlMember(this, "CommandParameter", "Object");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_27_InvokeCommandAction_CommandParameter;
-                xamlMember.Setter = set_27_InvokeCommandAction_CommandParameter;
+                xamlMember.Getter = get_28_InvokeCommandAction_CommandParameter;
+                xamlMember.Setter = set_28_InvokeCommandAction_CommandParameter;
                 break;
             case "Microsoft.Xaml.Interactions.Core.InvokeCommandAction.InputConverter":
                 userType = (global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.Xaml.Interactions.Core.InvokeCommandAction");
                 xamlMember = new global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlMember(this, "InputConverter", "Windows.UI.Xaml.Data.IValueConverter");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_28_InvokeCommandAction_InputConverter;
-                xamlMember.Setter = set_28_InvokeCommandAction_InputConverter;
+                xamlMember.Getter = get_29_InvokeCommandAction_InputConverter;
+                xamlMember.Setter = set_29_InvokeCommandAction_InputConverter;
                 break;
             case "Microsoft.Xaml.Interactions.Core.InvokeCommandAction.InputConverterParameter":
                 userType = (global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.Xaml.Interactions.Core.InvokeCommandAction");
                 xamlMember = new global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlMember(this, "InputConverterParameter", "Object");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_29_InvokeCommandAction_InputConverterParameter;
-                xamlMember.Setter = set_29_InvokeCommandAction_InputConverterParameter;
+                xamlMember.Getter = get_30_InvokeCommandAction_InputConverterParameter;
+                xamlMember.Setter = set_30_InvokeCommandAction_InputConverterParameter;
                 break;
             case "Microsoft.Xaml.Interactions.Core.InvokeCommandAction.InputConverterLanguage":
                 userType = (global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.Xaml.Interactions.Core.InvokeCommandAction");
                 xamlMember = new global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlMember(this, "InputConverterLanguage", "String");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_30_InvokeCommandAction_InputConverterLanguage;
-                xamlMember.Setter = set_30_InvokeCommandAction_InputConverterLanguage;
+                xamlMember.Getter = get_31_InvokeCommandAction_InputConverterLanguage;
+                xamlMember.Setter = set_31_InvokeCommandAction_InputConverterLanguage;
                 break;
             case "ShaolinCheck.ClubPage.DefaultViewModel":
                 userType = (global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ShaolinCheck.ClubPage");
                 xamlMember = new global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlMember(this, "DefaultViewModel", "ShaolinCheck.Common.ObservableDictionary");
-                xamlMember.Getter = get_31_ClubPage_DefaultViewModel;
+                xamlMember.Getter = get_32_ClubPage_DefaultViewModel;
                 xamlMember.SetIsReadOnly();
                 break;
             case "ShaolinCheck.ClubPage.NavigationHelper":
                 userType = (global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ShaolinCheck.ClubPage");
                 xamlMember = new global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlMember(this, "NavigationHelper", "ShaolinCheck.Common.NavigationHelper");
-                xamlMember.Getter = get_32_ClubPage_NavigationHelper;
+                xamlMember.Getter = get_33_ClubPage_NavigationHelper;
                 xamlMember.SetIsReadOnly();
                 break;
             case "ShaolinCheck.MainPage.DefaultViewModel":
                 userType = (global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ShaolinCheck.MainPage");
                 xamlMember = new global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlMember(this, "DefaultViewModel", "ShaolinCheck.Common.ObservableDictionary");
-                xamlMember.Getter = get_33_MainPage_DefaultViewModel;
+                xamlMember.Getter = get_34_MainPage_DefaultViewModel;
                 xamlMember.SetIsReadOnly();
                 break;
             case "ShaolinCheck.MainPage.NavigationHelper":
                 userType = (global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ShaolinCheck.MainPage");
                 xamlMember = new global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlMember(this, "NavigationHelper", "ShaolinCheck.Common.NavigationHelper");
-                xamlMember.Getter = get_34_MainPage_NavigationHelper;
+                xamlMember.Getter = get_35_MainPage_NavigationHelper;
                 xamlMember.SetIsReadOnly();
                 break;
             case "ShaolinCheck.View.RegistrationsPage.DefaultViewModel":
                 userType = (global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ShaolinCheck.View.RegistrationsPage");
                 xamlMember = new global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlMember(this, "DefaultViewModel", "ShaolinCheck.Common.ObservableDictionary");
-                xamlMember.Getter = get_35_RegistrationsPage_DefaultViewModel;
+                xamlMember.Getter = get_36_RegistrationsPage_DefaultViewModel;
                 xamlMember.SetIsReadOnly();
                 break;
             case "ShaolinCheck.View.RegistrationsPage.NavigationHelper":
                 userType = (global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ShaolinCheck.View.RegistrationsPage");
                 xamlMember = new global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlMember(this, "NavigationHelper", "ShaolinCheck.Common.NavigationHelper");
-                xamlMember.Getter = get_36_RegistrationsPage_NavigationHelper;
+                xamlMember.Getter = get_37_RegistrationsPage_NavigationHelper;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.Xaml.Interactions.Core.ChangePropertyAction.PropertyName":
                 userType = (global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.Xaml.Interactions.Core.ChangePropertyAction");
                 xamlMember = new global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlMember(this, "PropertyName", "String");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_37_ChangePropertyAction_PropertyName;
-                xamlMember.Setter = set_37_ChangePropertyAction_PropertyName;
+                xamlMember.Getter = get_38_ChangePropertyAction_PropertyName;
+                xamlMember.Setter = set_38_ChangePropertyAction_PropertyName;
                 break;
             case "Microsoft.Xaml.Interactions.Core.ChangePropertyAction.Value":
                 userType = (global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.Xaml.Interactions.Core.ChangePropertyAction");
                 xamlMember = new global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlMember(this, "Value", "Object");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_38_ChangePropertyAction_Value;
-                xamlMember.Setter = set_38_ChangePropertyAction_Value;
+                xamlMember.Getter = get_39_ChangePropertyAction_Value;
+                xamlMember.Setter = set_39_ChangePropertyAction_Value;
                 break;
             case "Microsoft.Xaml.Interactions.Core.ChangePropertyAction.TargetObject":
                 userType = (global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.Xaml.Interactions.Core.ChangePropertyAction");
                 xamlMember = new global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlMember(this, "TargetObject", "Object");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_39_ChangePropertyAction_TargetObject;
-                xamlMember.Setter = set_39_ChangePropertyAction_TargetObject;
+                xamlMember.Getter = get_40_ChangePropertyAction_TargetObject;
+                xamlMember.Setter = set_40_ChangePropertyAction_TargetObject;
                 break;
             case "ShaolinCheck.StudentPage.DefaultViewModel":
                 userType = (global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ShaolinCheck.StudentPage");
                 xamlMember = new global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlMember(this, "DefaultViewModel", "ShaolinCheck.Common.ObservableDictionary");
-                xamlMember.Getter = get_40_StudentPage_DefaultViewModel;
+                xamlMember.Getter = get_41_StudentPage_DefaultViewModel;
                 xamlMember.SetIsReadOnly();
                 break;
             case "ShaolinCheck.StudentPage.NavigationHelper":
                 userType = (global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlUserType)GetXamlTypeByName("ShaolinCheck.StudentPage");
                 xamlMember = new global::ShaolinCheck.ShaolinCheck_XamlTypeInfo.XamlMember(this, "NavigationHelper", "ShaolinCheck.Common.NavigationHelper");
-                xamlMember.Getter = get_41_StudentPage_NavigationHelper;
+                xamlMember.Getter = get_42_StudentPage_NavigationHelper;
                 xamlMember.SetIsReadOnly();
                 break;
             }

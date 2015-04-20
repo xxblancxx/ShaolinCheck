@@ -9,6 +9,7 @@ using System.Net.Http;
 using System.Threading.Tasks;
 using System.Web.Http;
 using System.Web.Http.Description;
+using System.Web.Mvc.Html;
 using _4._5._1Webservice;
 
 namespace _4._5._1Webservice.Controllers
@@ -25,15 +26,13 @@ namespace _4._5._1Webservice.Controllers
 
         // GET: api/Registrations/5
         [ResponseType(typeof(Registration))]
-        public async Task<IHttpActionResult> GetRegistration(int id)
+        public async Task<IQueryable<Registration>> GetRegistration(int id)
         {
-            Registration registration = await db.Registrations.FindAsync(id);
-            if (registration == null)
-            {
-                return NotFound();
-            }
+            var reglist = from reg in db.Registrations
+                          where reg.Student == id
+                          select reg;
+            return reglist;
 
-            return Ok(registration);
         }
 
         // PUT: api/Registrations/5

@@ -16,7 +16,7 @@
         <DataTemplate x:Key="ListviewDataTemplate">
             <Grid>
                 <StackPanel HorizontalAlignment="Center" VerticalAlignment="Top" Orientation="Horizontal">
-                    <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="{Binding Student}" VerticalAlignment="Top"/>
+                    <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="{Binding StudentObject.Name}" VerticalAlignment="Top" Margin="0,0,50,0"/>
                     <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="{Binding TimeStamp}" VerticalAlignment="Top"/>
                 </StackPanel>
             </Grid>

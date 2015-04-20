@@ -14,7 +14,7 @@
     <RootPropertyPathName Name="ClubList" />
     <RootPropertyPathName Name="SelectClubCommand" />
     <RootPropertyPathName Name="TimeStamp" />
-    <RootPropertyPathName Name="Student" />
+    <RootPropertyPathName Name="StudentObject" />
     <RootPropertyPathName Name="RegistrationList" />
     <RootPropertyPathName Name="StudentList" />
     <RootPropertyPathName Name="SelectStudentCommand" />

@@ -93,10 +93,10 @@ namespace ShaolinCheck
             var alreadyRegisteredList = new List<Registration>();
             try
             {
-                var RegList = await GetRegistrations();
+                var RegList = await WsContext.GetStudentRegistrations(s.Id);
                 foreach (var reg in RegList)
                 {
-                    if (reg.Student.Equals(_sCommon.SelectedStudent.Id) && reg.TimeStamp.Date.Equals(DateTime.Today))
+                    if (reg.Student.Equals(s.Id) && reg.TimeStamp.Date.Equals(DateTime.Today))
                     {
                         alreadyRegisteredList.Add(reg);
                     }
