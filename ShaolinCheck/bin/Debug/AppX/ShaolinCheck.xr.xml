@@ -14,6 +14,9 @@
     <RootPropertyPathName Name="ClubList" />
     <RootPropertyPathName Name="SelectClubCommand" />
     <RootPropertyPathName Name="TimeStamp" />
+    <RootPropertyPathName Name="Year" />
+    <RootPropertyPathName Name="Month" />
+    <RootPropertyPathName Name="Day" />
     <RootPropertyPathName Name="StudentObject" />
     <RootPropertyPathName Name="RegistrationList" />
     <RootPropertyPathName Name="StudentList" />
@@ -47,6 +50,7 @@
     <RootType FullName="Windows.UI.Xaml.Data.Binding">
       <RootProperty Name="ElementName" />
       <RootProperty Name="Path" />
+      <RootProperty Name="Mode" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
       <RootProperty Name="Text" />
@@ -61,8 +65,8 @@
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Inlines" />
-      <RootProperty Name="Height" />
       <RootProperty Name="Width" />
+      <RootProperty Name="Height" />
     </RootType>
     <RootType FullName="ShaolinCheck.ViewModel" />
     <RootType FullName="Microsoft.Xaml.Tools.DirectUI.ProxyTypes.ThemeResourceExtension" />
@@ -107,6 +111,7 @@
     <RootType FullName="Windows.UI.Xaml.Controls.VariableSizedWrapGrid">
       <RootProperty Name="Orientation" />
       <RootProperty Name="MaximumRowsOrColumns" />
+      <RootProperty Name="HorizontalAlignment" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ColumnDefinition">
       <RootProperty Name="Width" />
@@ -157,15 +162,11 @@
     </RootType>
     <RootType FullName="ShaolinCheck.MainPage" />
     <RootType FullName="System.String" />
-    <RootType FullName="Windows.UI.Xaml.Controls.ListView">
-      <RootProperty Name="ItemTemplate" />
-      <RootProperty Name="ItemsSource" />
-    </RootType>
-    <RootType FullName="ShaolinCheck.View.RegistrationsPage" />
     <RootType FullName="Windows.UI.Xaml.Controls.ScrollViewer">
       <RootMethod Name="GetVerticalScrollBarVisibility" />
       <RootMethod Name="SetVerticalScrollBarVisibility" />
     </RootType>
+    <RootType FullName="ShaolinCheck.View.RegistrationsPage" />
     <RootType FullName="Microsoft.Xaml.Interactions.Core.ChangePropertyAction">
       <RootProperty Name="PropertyName" />
     </RootType>

@@ -14,10 +14,14 @@
         <!-- TODO: Delete this line if the key AppName is declared in App.xaml -->
         <x:String x:Key="AppName">My Application</x:String>
         <DataTemplate x:Key="ListviewDataTemplate">
-            <Grid>
-                <StackPanel HorizontalAlignment="Center" VerticalAlignment="Top" Orientation="Horizontal">
-                    <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="{Binding StudentObject.Name}" VerticalAlignment="Top" Margin="0,0,50,0"/>
-                    <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="{Binding TimeStamp}" VerticalAlignment="Top"/>
+            <Grid Background="#FF9D1B0D">
+                <StackPanel HorizontalAlignment="Center" VerticalAlignment="Stretch" Orientation="Horizontal">
+                    <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="{Binding StudentObject.Name}" VerticalAlignment="Stretch" Margin="0" FontSize="15" Width="160"/>
+                    <TextBlock x:Name="Day" HorizontalAlignment="Left" TextWrapping="Wrap" Text="{Binding TimeStamp.Day, Mode=OneWay}" VerticalAlignment="Stretch" Margin="0" FontSize="15"/>
+                    <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="-" VerticalAlignment="Stretch" Margin="0" FontSize="15"/>
+                    <TextBlock x:Name="Month" HorizontalAlignment="Left" TextWrapping="Wrap" Text="{Binding TimeStamp.Month, Mode=OneWay}" VerticalAlignment="Stretch" FontSize="15"/>
+                    <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="-" VerticalAlignment="Stretch" Margin="0" FontSize="15"/>
+                    <TextBlock x:Name="Year" HorizontalAlignment="Left" TextWrapping="Wrap" Text="{Binding TimeStamp.Year, Mode=OneWay}" VerticalAlignment="Stretch" FontSize="15"/>
                 </StackPanel>
             </Grid>
         </DataTemplate>
@@ -58,7 +62,13 @@
             <TextBlock x:Name="pageTitle" Text="Møde Oversigt" Style="{StaticResource HeaderTextBlockStyle}" Grid.Column="1" 
 				IsHitTestVisible="false" TextWrapping="NoWrap" VerticalAlignment="Bottom" Margin="0,0,30,40"/>
         </Grid>
-        <ListView Grid.Row="1" ItemTemplate="{StaticResource ListviewDataTemplate}" ItemsSource="{Binding SCommon.RegistrationList}"/>
+        <GridView Grid.Row="1" ItemTemplate="{StaticResource ListviewDataTemplate}" ItemsSource="{Binding SCommon.RegistrationList}">
+            <GridView.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <VariableSizedWrapGrid  MaximumRowsOrColumns="4" Orientation="Horizontal" ScrollViewer.VerticalScrollBarVisibility="Auto" HorizontalAlignment="Center" />
+                </ItemsPanelTemplate>
+            </GridView.ItemsPanel>
+        </GridView>
     </Grid>
 </Page>
 

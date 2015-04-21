@@ -28,7 +28,8 @@ namespace ShaolinCheck
         {
             get
             {
-                _getRegistrationsCommand = new RelayCommand(SetRegistrationList); return _getRegistrationsCommand; }
+                _getRegistrationsCommand = new RelayCommand(SetRegistrationList); return _getRegistrationsCommand;
+            }
             set { _getRegistrationsCommand = value; }
         }
 
@@ -47,9 +48,17 @@ namespace ShaolinCheck
 
         public async void SetRegistrationList()
         {
-            var templist = await GetRegistrations();
-            var list = templist.ToList();
-            _sCommon.RegistrationList = list;
+            try
+            {
+                var templist = await GetRegistrations();
+                var list = templist.ToList();
+                _sCommon.RegistrationList = list.OrderByDescending(x => x.TimeStamp.Date).ToList();
+            }
+            catch (HttpRequestException)
+            {
+                SetRegistrationList();
+            }
+
 
         }
         public RelayArgCommand<Team> SelectTeamCommand
@@ -83,9 +92,9 @@ namespace ShaolinCheck
 
         public Task<ObservableCollection<Registration>> GetRegistrations()
         {
-               var regList = WsContext.GetAllRegistrations();
-                return regList;
-           
+            var regList = WsContext.GetAllRegistrations();
+            return regList;
+
         }
         public async void SetSelectedStudent(Student s)
         {
@@ -128,13 +137,13 @@ namespace ShaolinCheck
             catch (TaskCanceledException)
             {
                 new MessageDialog("Der mangler desværre internetforbindelse").ShowAsync();
-                
+
             }
             catch (HttpRequestException)
             {
                 new MessageDialog("Der mangler desværre internetforbindelse").ShowAsync();
             }
-          
+
         }
 
         private void ClickcancelButton(IUICommand command)

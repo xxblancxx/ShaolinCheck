@@ -12,8 +12,15 @@ namespace ShaolinCheck
     class Registration : INotifyPropertyChanged
     {
         private Student _studentObject;
+        private DateTime _timeStamp;
         public int Id { get; set; }
-        public DateTime TimeStamp { get; set; }
+
+        public DateTime TimeStamp
+        {
+            get { return _timeStamp; }
+            set { _timeStamp = value; }
+        }
+
 
         public int Student { get; set; }
 
