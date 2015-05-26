@@ -1,0 +1,6 @@
+﻿[ResourceMetadata]
+"ResourceId"			"split.language-zh-hans"
+"ResourceDimensions"		"language-zh-cn"
+
+[Files]
+"C:\Users\martin\Documents\Visual Studio 2013\Projects\ShaolinCheck\ShaolinCheck\ShaolinCheck\obj\Debug\split.language-zh-hans.pri"			"resources.pri"

@@ -181,9 +181,10 @@ namespace ShaolinCheck
             {
                 ClubList = await GetAllClubs();
             }
-            catch (HttpRequestException)
+            catch (HttpRequestException e)
             {
-                LoadClubs();
+                MessageDialog msg = new MessageDialog(e.HelpLink +"\n"+ e + "\n" + e.Message);
+                msg.ShowAsync();
             }
 
         }

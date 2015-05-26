@@ -8,25 +8,25 @@
     <PackageArchitecture>neutral</PackageArchitecture>
     <PackageIdentityName>3851efcd-9f1b-4ce1-b06c-3ddd3d3dc88c</PackageIdentityName>
     <IntermediateOutputPath>C:\Users\martin\Documents\Visual Studio 2013\Projects\ShaolinCheck\ShaolinCheck\ShaolinCheck\obj\Debug\</IntermediateOutputPath>
-    <RegisteredManifestChecksum>E53DBB4BED52FEC842DF3C15AA8D85F52DE8C1B6963A291CA9941E0EF0972170</RegisteredManifestChecksum>
-    <RegisteredPackageMoniker>3851efcd-9f1b-4ce1-b06c-3ddd3d3dc88c_1.0.0.0_neutral__a1691p6wrfp9c</RegisteredPackageMoniker>
+    <RegisteredManifestChecksum>B0D81E6CC913D1C3452EE918DF3369E8E0D822BA367CDF209AA8BF3AB025C9E8</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>3851efcd-9f1b-4ce1-b06c-3ddd3d3dc88c_1.2.2.16_neutral__a1691p6wrfp9c</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>3851efcd-9f1b-4ce1-b06c-3ddd3d3dc88c_a1691p6wrfp9c!App</RegisteredUserModeAppID>
     <RegisteredPackageID>3851efcd-9f1b-4ce1-b06c-3ddd3d3dc88c</RegisteredPackageID>
     <RegisteredPackagePublisher>CN=martin</RegisteredPackagePublisher>
-    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <RegisteredVersion>1.2.2.16</RegisteredVersion>
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
     <AppXManifest Include="C:\Users\martin\Documents\Visual Studio 2013\Projects\ShaolinCheck\ShaolinCheck\ShaolinCheck\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-04-20T22:06:13.074</Modified>
+      <Modified>2015-04-28T21:49:59.102</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\martin\Documents\Visual Studio 2013\Projects\ShaolinCheck\ShaolinCheck\ShaolinCheck\bin\Debug\ShaolinCheck.exe">
       <PackagePath>ShaolinCheck.exe</PackagePath>
-      <Modified>2015-04-20T22:33:50.699</Modified>
+      <Modified>2015-04-29T18:08:48.844</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\BehaviorsXamlSDKManaged\12.0\References\CommonConfiguration\Neutral\Microsoft.Xaml.Interactions.dll">
       <PackagePath>Microsoft.Xaml.Interactions.dll</PackagePath>
@@ -55,7 +55,7 @@
     <AppxPackagedFile Include="C:\Users\martin\Documents\Visual Studio 2013\Projects\ShaolinCheck\ShaolinCheck\ShaolinCheck\Assets\Logo.scale-100.png">
       <PackagePath>Assets\Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-07-23T05:01:02.000</Modified>
+      <Modified>2015-04-21T14:31:52.864</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\martin\Documents\Visual Studio 2013\Projects\ShaolinCheck\ShaolinCheck\ShaolinCheck\Assets\ShaolinLogo.PNG">
       <PackagePath>Assets\ShaolinLogo.PNG</PackagePath>
@@ -64,17 +64,17 @@
     <AppxPackagedFile Include="C:\Users\martin\Documents\Visual Studio 2013\Projects\ShaolinCheck\ShaolinCheck\ShaolinCheck\Assets\SmallLogo.scale-100.png">
       <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-07-23T05:01:02.000</Modified>
+      <Modified>2015-04-21T14:33:05.550</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\martin\Documents\Visual Studio 2013\Projects\ShaolinCheck\ShaolinCheck\ShaolinCheck\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-07-23T05:01:02.000</Modified>
+      <Modified>2015-04-21T14:38:31.720</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\martin\Documents\Visual Studio 2013\Projects\ShaolinCheck\ShaolinCheck\ShaolinCheck\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-07-23T05:01:02.000</Modified>
+      <Modified>2015-04-21T14:34:34.178</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\martin\Documents\Visual Studio 2013\Projects\ShaolinCheck\ShaolinCheck\ShaolinCheck\Assets\user_male_1-512.png">
       <PackagePath>Assets\user_male_1-512.png</PackagePath>
@@ -82,31 +82,31 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\martin\Documents\Visual Studio 2013\Projects\ShaolinCheck\ShaolinCheck\ShaolinCheck\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2015-04-18T22:23:34.621</Modified>
+      <Modified>2015-04-28T14:05:35.114</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\martin\Documents\Visual Studio 2013\Projects\ShaolinCheck\ShaolinCheck\ShaolinCheck\bin\Debug\View\ClubPage.xbf">
       <PackagePath>View\ClubPage.xbf</PackagePath>
-      <Modified>2015-04-18T22:55:09.190</Modified>
+      <Modified>2015-04-28T14:05:35.115</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\martin\Documents\Visual Studio 2013\Projects\ShaolinCheck\ShaolinCheck\ShaolinCheck\bin\Debug\View\MainPage.xbf">
       <PackagePath>View\MainPage.xbf</PackagePath>
-      <Modified>2015-04-19T22:00:06.551</Modified>
+      <Modified>2015-04-28T14:29:57.049</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\martin\Documents\Visual Studio 2013\Projects\ShaolinCheck\ShaolinCheck\ShaolinCheck\bin\Debug\View\RegistrationsPage.xbf">
       <PackagePath>View\RegistrationsPage.xbf</PackagePath>
-      <Modified>2015-04-20T22:33:49.798</Modified>
+      <Modified>2015-04-28T14:05:35.115</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\martin\Documents\Visual Studio 2013\Projects\ShaolinCheck\ShaolinCheck\ShaolinCheck\bin\Debug\View\StudentPage.xbf">
       <PackagePath>View\StudentPage.xbf</PackagePath>
-      <Modified>2015-04-18T22:23:34.622</Modified>
+      <Modified>2015-04-28T14:05:35.115</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\martin\Documents\Visual Studio 2013\Projects\ShaolinCheck\ShaolinCheck\ShaolinCheck\bin\Debug\ShaolinCheck.xr.xml">
       <PackagePath>ShaolinCheck.xr.xml</PackagePath>
-      <Modified>2015-04-20T22:31:55.177</Modified>
+      <Modified>2015-04-21T10:17:58.966</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\martin\Documents\Visual Studio 2013\Projects\ShaolinCheck\ShaolinCheck\ShaolinCheck\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2015-04-20T22:33:51.515</Modified>
+      <Modified>2015-04-28T21:49:58.918</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

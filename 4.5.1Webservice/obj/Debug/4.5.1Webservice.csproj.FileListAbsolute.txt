@@ -71,6 +71,5 @@ C:\Users\martin\Documents\Visual Studio 2013\Projects\ShaolinCheck\ShaolinCheck\
 C:\Users\martin\Documents\Visual Studio 2013\Projects\ShaolinCheck\ShaolinCheck\4.5.1Webservice\bin\System.Web.WebPages.Deployment.xml
 C:\Users\martin\Documents\Visual Studio 2013\Projects\ShaolinCheck\ShaolinCheck\4.5.1Webservice\bin\System.Web.WebPages.Razor.xml
 C:\Users\martin\Documents\Visual Studio 2013\Projects\ShaolinCheck\ShaolinCheck\4.5.1Webservice\bin\Antlr3.Runtime.pdb
-C:\Users\martin\Documents\Visual Studio 2013\Projects\ShaolinCheck\ShaolinCheck\4.5.1Webservice\obj\Debug\4.5.1Webservice.csprojResolveAssemblyReference.cache
 C:\Users\martin\Documents\Visual Studio 2013\Projects\ShaolinCheck\ShaolinCheck\4.5.1Webservice\obj\Debug\4.5.1Webservice.dll
 C:\Users\martin\Documents\Visual Studio 2013\Projects\ShaolinCheck\ShaolinCheck\4.5.1Webservice\obj\Debug\4.5.1Webservice.pdb

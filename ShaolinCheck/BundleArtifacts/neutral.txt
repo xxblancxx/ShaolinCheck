@@ -1,0 +1,2 @@
+MainPackage=C:\Users\martin\Documents\Visual Studio 2013\Projects\ShaolinCheck\ShaolinCheck\ShaolinCheck\bin\Debug\ShaolinCheck_1.2.0.6_Bundle\ShaolinCheck_1.2.0.6_AnyCPU_Debug.appx
+SymbolPackage=C:\Users\martin\Documents\Visual Studio 2013\Projects\ShaolinCheck\ShaolinCheck\ShaolinCheck\AppPackages\New\ShaolinCheck_1.2.0.6_Debug_Test\ShaolinCheck_1.2.0.6_AnyCPU_Debug.appxsym

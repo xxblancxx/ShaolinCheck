@@ -1,1 +1,1 @@
-C:\Users\martin\Documents\Visual Studio 2013\Projects\shaolinwebservice\ShaolinCheck\AppPackages\ShaolinCheck_1.0.0.0_AnyCPU_Debug_Test\ShaolinCheck_1.0.0.0_AnyCPU_Debug.appx
+C:\Users\martin\Documents\Visual Studio 2013\Projects\ShaolinCheck\ShaolinCheck\ShaolinCheck\AppPackages\ShaolinCheck_1.2.2.16_AnyCPU_Debug_Test\ShaolinCheck_1.2.2.16_AnyCPU_Debug.appx
