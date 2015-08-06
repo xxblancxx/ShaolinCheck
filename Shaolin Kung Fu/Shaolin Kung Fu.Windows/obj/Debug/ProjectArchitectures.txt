@@ -1,1 +1,1 @@
-C:\Users\martin\Documents\Visual Studio 2013\Projects\ShaolinCheck\ShaolinCheck\Shaolin Kung Fu\Shaolin Kung Fu.Windows\Shaolin Kung Fu.Windows.csproj;neutral
+C:\Users\martin\Documents\Visual Studio 2013\Projects\shaolinwebservice\ShaolinProjectv1.1\Shaolin Kung Fu\Shaolin Kung Fu.Windows\Shaolin Kung Fu.Windows.csproj;neutral

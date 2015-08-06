@@ -1,1 +1,1 @@
-C:\Users\martin\Documents\Visual Studio 2013\Projects\ShaolinCheck\ShaolinCheck\ShaolinCheck\ShaolinCheck.csproj;neutral
+C:\Users\martin\Documents\Visual Studio 2013\Projects\shaolinwebservice\ShaolinProjectv1.1\ShaolinCheck\ShaolinCheck.csproj;neutral

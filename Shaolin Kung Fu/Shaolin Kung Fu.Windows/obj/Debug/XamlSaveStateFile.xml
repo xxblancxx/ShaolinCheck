@@ -1,9 +1,11 @@
 <XamlCompilerSaveState>
   <ReferenceAssemblyList>
-    <LocalAssembly PathName="c:\users\martin\documents\visual studio 2013\projects\shaolincheck\shaolincheck\shaolin kung fu\shaolin kung fu.windows\obj\debug\intermediatexaml\shaolin kung fu.windows.exe" HashGuid="f9904e3c-c2b9-9bd3-2bd9-d01b781d779d" />
-    <ReferenceAssembly PathName="c:\users\martin\documents\visual studio 2013\projects\shaolincheck\shaolincheck\packages\newtonsoft.json.6.0.8\lib\netcore45\newtonsoft.json.dll" HashGuid="fd3dfcab-cf69-c796-78a2-2423dadb814b" />
-    <ReferenceAssembly PathName="c:\users\martin\documents\visual studio 2013\projects\shaolincheck\shaolincheck\packages\microsoft.net.http.2.2.22\lib\win8\system.net.http.extensions.dll" HashGuid="b50282f8-b9f8-4408-8d49-ba2efe301624" />
-    <ReferenceAssembly PathName="c:\users\martin\documents\visual studio 2013\projects\shaolincheck\shaolincheck\packages\microsoft.aspnet.webapi.client.5.2.3\lib\portable-wp8+netcore45+net45+wp81+wpa81\system.net.http.formatting.dll" HashGuid="2be584ba-1a95-71f0-a34d-ef121720ead4" />
-    <ReferenceAssembly PathName="c:\users\martin\documents\visual studio 2013\projects\shaolincheck\shaolincheck\packages\microsoft.net.http.2.2.22\lib\win8\system.net.http.primitives.dll" HashGuid="7b71418d-e056-7613-c839-85fb8f6472a6" />
+    <LocalAssembly PathName="c:\users\martin\documents\visual studio 2013\projects\shaolinwebservice\shaolinprojectv1.1\shaolin kung fu\shaolin kung fu.windows\obj\debug\intermediatexaml\shaolin kung fu.windows.exe" HashGuid="3d6bda81-186a-cd08-63b3-1d6b65f52c1b" />
+    <ReferenceAssembly PathName="c:\program files (x86)\microsoft sdks\windows\v8.1\extensionsdks\behaviorsxamlsdkmanaged\12.0\references\commonconfiguration\neutral\microsoft.xaml.interactions.dll" HashGuid="95a94f94-3917-d473-4f7c-18c4bd437046" />
+    <ReferenceAssembly PathName="c:\program files (x86)\microsoft sdks\windows\v8.1\extensionsdks\behaviorsxamlsdkmanaged\12.0\references\commonconfiguration\neutral\microsoft.xaml.interactivity.dll" HashGuid="d25f59e6-dd81-900a-0dfc-55b39f6898ef" />
+    <ReferenceAssembly PathName="c:\users\martin\documents\visual studio 2013\projects\shaolinwebservice\shaolinprojectv1.1\packages\newtonsoft.json.6.0.8\lib\netcore45\newtonsoft.json.dll" HashGuid="fd3dfcab-cf69-c796-78a2-2423dadb814b" />
+    <ReferenceAssembly PathName="c:\users\martin\documents\visual studio 2013\projects\shaolinwebservice\shaolinprojectv1.1\packages\microsoft.net.http.2.2.22\lib\win8\system.net.http.extensions.dll" HashGuid="b50282f8-b9f8-4408-8d49-ba2efe301624" />
+    <ReferenceAssembly PathName="c:\users\martin\documents\visual studio 2013\projects\shaolinwebservice\shaolinprojectv1.1\packages\microsoft.aspnet.webapi.client.5.2.3\lib\portable-wp8+netcore45+net45+wp81+wpa81\system.net.http.formatting.dll" HashGuid="2be584ba-1a95-71f0-a34d-ef121720ead4" />
+    <ReferenceAssembly PathName="c:\users\martin\documents\visual studio 2013\projects\shaolinwebservice\shaolinprojectv1.1\packages\microsoft.net.http.2.2.22\lib\win8\system.net.http.primitives.dll" HashGuid="7b71418d-e056-7613-c839-85fb8f6472a6" />
   </ReferenceAssemblyList>
 </XamlCompilerSaveState>
