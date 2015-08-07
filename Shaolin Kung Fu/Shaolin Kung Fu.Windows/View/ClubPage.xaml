@@ -59,7 +59,7 @@
 			<TextBlock x:Name="pageTitle" Text="{Binding SCommon.SelectedClub.Name}" Style="{StaticResource HeaderTextBlockStyle}" Grid.Column="1" 
 				IsHitTestVisible="false" TextWrapping="NoWrap" VerticalAlignment="Bottom" Margin="0,0,30,40"/>
 		</Grid>
-		<GridView x:Name="GridView" HorizontalAlignment="Center" Grid.Row="1" VerticalAlignment="Center" ItemsSource="{Binding SCommon.TeamList}" FontSize="23" ItemTemplate="{StaticResource GridViewTemplate}" Header="Vælg Hold">
+		<GridView x:Name="GridView" HorizontalAlignment="Center" Grid.Row="1" VerticalAlignment="Center" ItemsSource="{Binding TeamList}" FontSize="23" ItemTemplate="{StaticResource GridViewTemplate}" Header="Vælg Hold">
             <GridView.ItemsPanel>
                 <ItemsPanelTemplate>
                     <VariableSizedWrapGrid  Orientation="Horizontal" />
@@ -72,5 +72,5 @@
 				</Core:EventTriggerBehavior>
 			</Interactivity:Interaction.Behaviors>
 		</GridView>
-	</Grid>
+    </Grid>
 </Page>

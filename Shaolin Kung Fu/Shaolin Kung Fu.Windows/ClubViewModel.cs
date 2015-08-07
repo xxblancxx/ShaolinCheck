@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,7 +11,7 @@ namespace Shaolin_Kung_Fu
     class ClubViewModel : ViewModel
     {
         private RelayArgCommand<Team> _selectTeamCommand;
-
+        public ObservableCollection<Team> TeamList { get; set; }
         public RelayArgCommand<Team> SelectTeamCommand
         {
             get
@@ -20,6 +21,17 @@ namespace Shaolin_Kung_Fu
             }
             private set { _selectTeamCommand = value; }
             
+        }
+
+        public ClubViewModel()
+        {
+            foreach (var t in SCommon.TeamList)
+            {
+                if (t.Club.Equals(SCommon.SelectedClub.Id))
+                {
+                    TeamList.Add(t);
+                }
+            }
         }
         public override void SetSelectedObject(object obj)
         {

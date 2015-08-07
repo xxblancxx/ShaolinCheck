@@ -110,3 +110,4 @@ C:\Users\martin\Documents\Visual Studio 2013\Projects\shaolinwebservice\ShaolinP
 C:\Users\martin\Documents\Visual Studio 2013\Projects\shaolinwebservice\ShaolinProjectv1.1\4.5.1Webservice\bin\Antlr3.Runtime.pdb
 C:\Users\martin\Documents\Visual Studio 2013\Projects\shaolinwebservice\ShaolinProjectv1.1\4.5.1Webservice\obj\Debug\4.5.1Webservice.dll
 C:\Users\martin\Documents\Visual Studio 2013\Projects\shaolinwebservice\ShaolinProjectv1.1\4.5.1Webservice\obj\Debug\4.5.1Webservice.pdb
+C:\Users\martin\Documents\Visual Studio 2013\Projects\shaolinwebservice\ShaolinProjectv1.1\4.5.1Webservice\obj\Debug\4.5.1Webservice.csprojResolveAssemblyReference.cache

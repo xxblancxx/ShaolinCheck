@@ -2,9 +2,9 @@
 <Roots >
   <Roots.PropertyPathNames>
     <RootPropertyPathName Name="Name" />
-    <RootPropertyPathName Name="SCommon" />
     <RootPropertyPathName Name="TeamList" />
     <RootPropertyPathName Name="SelectTeamCommand" />
+    <RootPropertyPathName Name="SCommon" />
     <RootPropertyPathName Name="SelectedClub" />
     <RootPropertyPathName Name="NavigationHelper" />
     <RootPropertyPathName Name="GoBackCommand" />

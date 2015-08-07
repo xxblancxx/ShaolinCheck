@@ -4,7 +4,7 @@
     xmlns:local="using:Shaolin_Kung_Fu"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    xmlns:Interactivity="using:Microsoft.Xaml.Interactivity" xmlns:Core="using:Microsoft.Xaml.Interactions.Core"
+    xmlns:Interactivity="using:Microsoft.Xaml.Interactivity" xmlns:Core="using:Microsoft.Xaml.Interactions.Core" x:Name="MainPage1"
     x:Class="Shaolin_Kung_Fu.MainPage"
     mc:Ignorable="d">
     <Page.Resources>
@@ -38,12 +38,6 @@
 				<ColumnDefinition Width="*"/>
 			</Grid.ColumnDefinitions>
             <StackPanel Grid.ColumnSpan="2" Margin="39,0,0,0" Orientation="Horizontal">
-                <Button x:Name="backButton" Margin="0,59,35,0" Command="{Binding NavigationHelper.GoBackCommand, ElementName=pageRoot}"
-					Style="{StaticResource NavigationBackButtonNormalStyle}"
-					VerticalAlignment="Top"
-					AutomationProperties.Name="Back"
-					AutomationProperties.AutomationId="BackButton"
-					AutomationProperties.ItemType="Navigation Button"/>
                 <TextBlock x:Name="pageTitle" Text="Shaolin Kung Fu Danmark" Style="{StaticResource HeaderTextBlockStyle}" 
 					IsHitTestVisible="false" TextWrapping="NoWrap" VerticalAlignment="Bottom" Margin="0,0,0,40" HorizontalAlignment="Left"/>
                 <Image Source="ms-appx:///Assets/ShaolinLogo.PNG" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="35,10,0,0"/>
@@ -62,5 +56,6 @@
 				</Core:EventTriggerBehavior>
 			</Interactivity:Interaction.Behaviors>
 		</GridView>
-	</Grid>
+    </Grid>
 </Page>
+
