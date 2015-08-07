@@ -104,7 +104,6 @@ C:\Users\martin\Documents\Visual Studio 2013\Projects\shaolinwebservice\ShaolinP
 C:\Users\martin\Documents\Visual Studio 2013\Projects\shaolinwebservice\ShaolinProjectv1.1\Shaolin Kung Fu\Shaolin Kung Fu.Windows\obj\Debug\View\TeamPage.g.cs
 C:\Users\martin\Documents\Visual Studio 2013\Projects\shaolinwebservice\ShaolinProjectv1.1\Shaolin Kung Fu\Shaolin Kung Fu.Windows\obj\Debug\View\TeamPage.xaml
 C:\Users\martin\Documents\Visual Studio 2013\Projects\shaolinwebservice\ShaolinProjectv1.1\Shaolin Kung Fu\Shaolin Kung Fu.Windows\obj\Debug\View\TeamPage.xbf
-C:\Users\martin\Documents\Visual Studio 2013\Projects\shaolinwebservice\ShaolinProjectv1.1\Shaolin Kung Fu\Shaolin Kung Fu.Windows\obj\Debug\Shaolin Kung Fu.Windows.csprojResolveAssemblyReference.cache
 C:\Users\martin\Documents\Visual Studio 2013\Projects\shaolinwebservice\ShaolinProjectv1.1\Shaolin Kung Fu\Shaolin Kung Fu.Windows\bin\Debug\View\MainPage.xbf
 C:\Users\martin\Documents\Visual Studio 2013\Projects\shaolinwebservice\ShaolinProjectv1.1\Shaolin Kung Fu\Shaolin Kung Fu.Windows\obj\Debug\View\MainPage.g.i.cs
 C:\Users\martin\Documents\Visual Studio 2013\Projects\shaolinwebservice\ShaolinProjectv1.1\Shaolin Kung Fu\Shaolin Kung Fu.Windows\obj\Debug\View\MainPage.g.cs

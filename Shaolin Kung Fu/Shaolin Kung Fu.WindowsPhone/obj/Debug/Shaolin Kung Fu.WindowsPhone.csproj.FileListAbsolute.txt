@@ -107,4 +107,3 @@ C:\Users\martin\Documents\Visual Studio 2013\Projects\shaolinwebservice\ShaolinP
 C:\Users\martin\Documents\Visual Studio 2013\Projects\shaolinwebservice\ShaolinProjectv1.1\Shaolin Kung Fu\Shaolin Kung Fu.WindowsPhone\obj\Debug\qualifiers.txt.intermediate
 C:\Users\martin\Documents\Visual Studio 2013\Projects\shaolinwebservice\ShaolinProjectv1.1\Shaolin Kung Fu\Shaolin Kung Fu.WindowsPhone\obj\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\martin\Documents\Visual Studio 2013\Projects\shaolinwebservice\ShaolinProjectv1.1\Shaolin Kung Fu\Shaolin Kung Fu.WindowsPhone\obj\Debug\ProjectArchitectures.txt
-C:\Users\martin\Documents\Visual Studio 2013\Projects\shaolinwebservice\ShaolinProjectv1.1\Shaolin Kung Fu\Shaolin Kung Fu.WindowsPhone\obj\Debug\Shaolin Kung Fu.WindowsPhone.csprojResolveAssemblyReference.cache

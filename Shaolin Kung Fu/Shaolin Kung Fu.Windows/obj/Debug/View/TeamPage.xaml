@@ -64,7 +64,7 @@
             <TextBlock x:Name="pageTitle" Text="{Binding SCommon.SelectedTeam.Name}" Style="{StaticResource HeaderTextBlockStyle}" Grid.Column="1" 
 				IsHitTestVisible="false" TextWrapping="NoWrap" VerticalAlignment="Bottom" Margin="0,0,30,40"/>
         </Grid>
-        <GridView x:Name="GridView" Grid.Row="1" ItemsSource="{Binding SCommon.StudentList}" ItemTemplate="{StaticResource GridViewTemplate2}" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" ScrollViewer.VerticalScrollBarVisibility="Auto" Header="" >
+        <GridView x:Name="GridView" Grid.Row="1" ItemsSource="{Binding StudentList}" ItemTemplate="{StaticResource GridViewTemplate2}" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" ScrollViewer.VerticalScrollBarVisibility="Auto" Header="" >
             <GridView.ItemsPanel>
                 <ItemsPanelTemplate>
                     <VariableSizedWrapGrid  MaximumRowsOrColumns="3" Orientation="Vertical" ScrollViewer.VerticalScrollBarVisibility="Auto" />

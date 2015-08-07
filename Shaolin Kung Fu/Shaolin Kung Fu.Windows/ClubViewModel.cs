@@ -25,6 +25,7 @@ namespace Shaolin_Kung_Fu
 
         public ClubViewModel()
         {
+            TeamList = new ObservableCollection<Team>();
             foreach (var t in SCommon.TeamList)
             {
                 if (t.Club.Equals(SCommon.SelectedClub.Id))

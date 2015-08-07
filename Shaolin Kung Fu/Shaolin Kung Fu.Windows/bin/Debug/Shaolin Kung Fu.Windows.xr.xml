@@ -4,13 +4,13 @@
     <RootPropertyPathName Name="Name" />
     <RootPropertyPathName Name="TeamList" />
     <RootPropertyPathName Name="SelectTeamCommand" />
+    <RootPropertyPathName Name="SelectedItem" />
     <RootPropertyPathName Name="SCommon" />
     <RootPropertyPathName Name="SelectedClub" />
     <RootPropertyPathName Name="NavigationHelper" />
     <RootPropertyPathName Name="GoBackCommand" />
     <RootPropertyPathName Name="ClubList" />
     <RootPropertyPathName Name="SelectClubCommand" />
-    <RootPropertyPathName Name="SelectedItem" />
     <RootPropertyPathName Name="StudentList" />
     <RootPropertyPathName Name="SelectStudentCommand" />
     <RootPropertyPathName Name="SelectedTeam" />
@@ -56,7 +56,6 @@
       <RootProperty Name="HorizontalAlignment" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Data.Binding">
-      <RootProperty Name="Mode" />
       <RootProperty Name="ElementName" />
     </RootType>
     <RootType FullName="Shaolin_Kung_Fu.ClubViewModel" />

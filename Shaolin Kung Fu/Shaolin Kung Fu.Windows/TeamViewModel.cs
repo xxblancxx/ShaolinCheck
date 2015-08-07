@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Net.Http;
 using System.Text;
@@ -14,6 +15,9 @@ namespace Shaolin_Kung_Fu
         private RelayArgCommand<Team> _selectStudentCommand;
         public Student SelectedStudent { get; set; }
 
+        public ObservableCollection<Student> StudentList { get; set; }
+
+       
         public RelayArgCommand<Team> SelectStudentCommand
         {
             get
@@ -23,6 +27,18 @@ namespace Shaolin_Kung_Fu
             }
             private set { _selectStudentCommand = value; }
 
+        }
+
+        public TeamViewModel()
+        {
+            StudentList = new ObservableCollection<Student>();
+            foreach (var s in SCommon.StudentList)
+            {
+                if (s.Team.Equals(SCommon.SelectedTeam.Id))
+                {
+                    StudentList.Add(s);
+                }
+            }
         }
         public async override void SetSelectedObject(object obj)
         {

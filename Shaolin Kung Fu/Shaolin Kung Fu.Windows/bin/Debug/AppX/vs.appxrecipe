@@ -20,13 +20,13 @@
     <AppXManifest Include="C:\Users\martin\Documents\Visual Studio 2013\Projects\shaolinwebservice\ShaolinProjectv1.1\Shaolin Kung Fu\Shaolin Kung Fu.Windows\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-08-07T00:35:40.813</Modified>
+      <Modified>2015-08-07T00:49:12.804</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\martin\Documents\Visual Studio 2013\Projects\shaolinwebservice\ShaolinProjectv1.1\Shaolin Kung Fu\Shaolin Kung Fu.Windows\bin\Debug\Shaolin Kung Fu.Windows.exe">
       <PackagePath>Shaolin Kung Fu.Windows.exe</PackagePath>
-      <Modified>2015-08-07T00:36:37.501</Modified>
+      <Modified>2015-08-07T00:56:00.068</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\BehaviorsXamlSDKManaged\12.0\References\CommonConfiguration\Neutral\Microsoft.Xaml.Interactions.dll">
       <PackagePath>Microsoft.Xaml.Interactions.dll</PackagePath>
@@ -82,27 +82,27 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\martin\Documents\Visual Studio 2013\Projects\shaolinwebservice\ShaolinProjectv1.1\Shaolin Kung Fu\Shaolin Kung Fu.Windows\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2015-08-07T00:35:36.458</Modified>
+      <Modified>2015-08-07T00:49:09.828</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\martin\Documents\Visual Studio 2013\Projects\shaolinwebservice\ShaolinProjectv1.1\Shaolin Kung Fu\Shaolin Kung Fu.Windows\bin\Debug\View\ClubPage.xbf">
       <PackagePath>View\ClubPage.xbf</PackagePath>
-      <Modified>2015-08-07T00:36:36.708</Modified>
+      <Modified>2015-08-07T00:55:59.237</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\martin\Documents\Visual Studio 2013\Projects\shaolinwebservice\ShaolinProjectv1.1\Shaolin Kung Fu\Shaolin Kung Fu.Windows\bin\Debug\View\MainPage.xbf">
       <PackagePath>View\MainPage.xbf</PackagePath>
-      <Modified>2015-08-07T00:35:36.459</Modified>
+      <Modified>2015-08-07T00:49:09.828</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\martin\Documents\Visual Studio 2013\Projects\shaolinwebservice\ShaolinProjectv1.1\Shaolin Kung Fu\Shaolin Kung Fu.Windows\bin\Debug\View\TeamPage.xbf">
       <PackagePath>View\TeamPage.xbf</PackagePath>
-      <Modified>2015-08-07T00:35:36.460</Modified>
+      <Modified>2015-08-07T00:50:42.507</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\martin\Documents\Visual Studio 2013\Projects\shaolinwebservice\ShaolinProjectv1.1\Shaolin Kung Fu\Shaolin Kung Fu.Windows\bin\Debug\Shaolin Kung Fu.Windows.xr.xml">
       <PackagePath>Shaolin Kung Fu.Windows.xr.xml</PackagePath>
-      <Modified>2015-08-07T00:36:36.583</Modified>
+      <Modified>2015-08-07T00:55:59.202</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\martin\Documents\Visual Studio 2013\Projects\shaolinwebservice\ShaolinProjectv1.1\Shaolin Kung Fu\Shaolin Kung Fu.Windows\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2015-08-07T00:35:40.494</Modified>
+      <Modified>2015-08-07T00:51:30.581</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

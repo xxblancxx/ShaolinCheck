@@ -67,7 +67,7 @@
             </GridView.ItemsPanel>
             <Interactivity:Interaction.Behaviors>
 				<Core:EventTriggerBehavior EventName="SelectionChanged">
-					<Core:InvokeCommandAction Command="{Binding SelectTeamCommand, Mode=OneWay}"/>
+                    <Core:InvokeCommandAction Command="{Binding SelectTeamCommand}" CommandParameter="{Binding SelectedItem, ElementName=GridView}"/>
 					<Core:NavigateToPageAction TargetPage="Shaolin_Kung_Fu.View.TeamPage"/>
 				</Core:EventTriggerBehavior>
 			</Interactivity:Interaction.Behaviors>
