@@ -23,7 +23,7 @@
         <DataTemplate x:Key="GridViewTemplate2">
             <Grid x:Name="grid" Background="#FF9D1B0D" Margin="5" Width="150">
                 <StackPanel Orientation="Vertical">
-                    <Image Source="Assets/user_male_1-512.png" Stretch="Fill" Width="100" Height="100" Margin="5,0" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+                    <Image Source="{Binding ProfilePicture}" Stretch="Fill" Width="100" Height="100" Margin="5,0" HorizontalAlignment="Center" VerticalAlignment="Top"/>
                     <TextBlock Text="{Binding Name}" Foreground="White" SelectionHighlightColor="#FFB81908" FontFamily="Footlight MT Light" FontSize="25" TextWrapping="WrapWholeWords"/>
                 </StackPanel>
             </Grid>

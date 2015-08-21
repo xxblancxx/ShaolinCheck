@@ -11,6 +11,7 @@
     <RootPropertyPathName Name="GoBackCommand" />
     <RootPropertyPathName Name="ClubList" />
     <RootPropertyPathName Name="SelectClubCommand" />
+    <RootPropertyPathName Name="ProfilePicture" />
     <RootPropertyPathName Name="StudentList" />
     <RootPropertyPathName Name="SelectStudentCommand" />
     <RootPropertyPathName Name="SelectedTeam" />
@@ -107,6 +108,9 @@
       <RootProperty Name="Command" />
       <RootProperty Name="Style" />
       <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Content" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootEvent Name="Click" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Automation.AutomationProperties">
       <RootMethod Name="GetName" />

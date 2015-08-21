@@ -70,6 +70,13 @@ namespace Shaolin_Kung_Fu
                     cancelButton.Invoked = ClickcancelButton;
                     MsgDialog.Commands.Add(cancelButton);
 
+                    if (student.Image == null)
+                    {
+                        UICommand pictureButton = new UICommand("Tilføj Billede");
+                     //   pictureButton.Invoked = ClickPictureButton;
+                        MsgDialog.Commands.Add(pictureButton);
+                    }
+
                     await MsgDialog.ShowAsync();
                 }
                 else

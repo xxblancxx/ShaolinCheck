@@ -22,6 +22,9 @@ namespace _4._5._1Webservice
 
         public int Team { get; set; }
 
+        [Column(TypeName = "mediumblob")]
+        public byte[] Image { get; set; }
+
         public virtual ICollection<Registration> Registrations { get; set; }
 
         public virtual Team Team1 { get; set; }
