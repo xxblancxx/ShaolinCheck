@@ -75,13 +75,11 @@
             </GridView.ItemContainerTransitions>
             <Interactivity:Interaction.Behaviors>
                 <Core:EventTriggerBehavior EventName="SelectionChanged">
-                    <Core:InvokeCommandAction Command="{Binding SelectStudentCommand}" CommandParameter="{Binding SelectedItem, ElementName=GridView}"/>
+                    <Core:InvokeCommandAction Command="{Binding SelectStudentCommand, Mode=OneWay}" CommandParameter="{Binding SelectedItem, ElementName=GridView}"/>
                     <Core:ChangePropertyAction PropertyName="SelectedItem"/>
                 </Core:EventTriggerBehavior>
             </Interactivity:Interaction.Behaviors>
         </GridView>
-        <Image x:Name="MyTestImage" HorizontalAlignment="Left" Height="100" Margin="305,85,0,0" Grid.Row="1" VerticalAlignment="Top" Width="100"/>
-        <Button x:ConnectionId='1' Content="SetImage" HorizontalAlignment="Left" Margin="238,26,0,0" Grid.Row="1" VerticalAlignment="Top"                     />
     </Grid>
 </Page>
 

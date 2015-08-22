@@ -75,7 +75,7 @@
             </GridView.ItemContainerTransitions>
             <Interactivity:Interaction.Behaviors>
                 <Core:EventTriggerBehavior EventName="SelectionChanged">
-                    <Core:InvokeCommandAction Command="{Binding SelectStudentCommand}" CommandParameter="{Binding SelectedItem, ElementName=GridView}"/>
+                    <Core:InvokeCommandAction Command="{Binding SelectStudentCommand, Mode=OneWay}" CommandParameter="{Binding SelectedItem, ElementName=GridView}"/>
                     <Core:ChangePropertyAction PropertyName="SelectedItem"/>
                 </Core:EventTriggerBehavior>
             </Interactivity:Interaction.Behaviors>

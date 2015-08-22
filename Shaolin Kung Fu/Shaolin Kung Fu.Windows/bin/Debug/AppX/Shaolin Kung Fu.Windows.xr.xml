@@ -58,6 +58,7 @@
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Data.Binding">
       <RootProperty Name="ElementName" />
+      <RootProperty Name="Mode" />
     </RootType>
     <RootType FullName="Shaolin_Kung_Fu.ClubViewModel" />
     <RootType FullName="Microsoft.Xaml.Tools.DirectUI.ProxyTypes.ThemeResourceExtension" />
@@ -108,9 +109,6 @@
       <RootProperty Name="Command" />
       <RootProperty Name="Style" />
       <RootProperty Name="VerticalAlignment" />
-      <RootProperty Name="Content" />
-      <RootProperty Name="HorizontalAlignment" />
-      <RootEvent Name="Click" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Automation.AutomationProperties">
       <RootMethod Name="GetName" />

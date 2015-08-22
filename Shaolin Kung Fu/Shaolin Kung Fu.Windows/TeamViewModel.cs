@@ -12,17 +12,17 @@ namespace Shaolin_Kung_Fu
 {
     class TeamViewModel : ViewModel
     {
-        private RelayArgCommand<Team> _selectStudentCommand;
+        private RelayArgCommand<Student> _selectStudentCommand;
         public Student SelectedStudent { get; set; }
 
         public ObservableCollection<Student> StudentList { get; set; }
 
-       
-        public RelayArgCommand<Team> SelectStudentCommand
+
+        public RelayArgCommand<Student> SelectStudentCommand
         {
             get
             {
-                _selectStudentCommand = new RelayArgCommand<Team>(SetSelectedObject);
+                _selectStudentCommand = new RelayArgCommand<Student>(SetSelectedObject);
                 return _selectStudentCommand;
             }
             private set { _selectStudentCommand = value; }
@@ -42,23 +42,22 @@ namespace Shaolin_Kung_Fu
         }
         public async override void SetSelectedObject(object obj)
         {
-            Student student = (Student) obj;
-            // stuff happens, and Andi is a huge throbbing Cawk
-            SelectedStudent = student;
-         //   SCommon.SelectedStudent = student;
+           // stuff happens, and Andi is a huge throbbing Cawk
+            SelectedStudent = (Student)obj;
+            //   SCommon.SelectedStudent = student;
             var alreadyRegisteredList = new List<Registration>();
             try
             {
                 foreach (var reg in SCommon.RegistrationList)
                 {
-                    if (reg.Student.Equals(student.Id) && reg.TimeStamp.Date.Equals(DateTime.Today))
+                    if (reg.Student.Equals(SelectedStudent.Id) && reg.TimeStamp.Date.Equals(DateTime.Today))
                     {
                         alreadyRegisteredList.Add(reg);
                     }
                 }
                 if (alreadyRegisteredList.Count.Equals(0))
                 {
-                    MsgDialog = new MessageDialog("Vælg handling nedenunder", "Hej " + student.Name);
+                    MsgDialog = new MessageDialog("Vælg handling nedenunder", "Hej " + SelectedStudent.Name);
 
                     //Register button
                     UICommand rgButton = new UICommand("Mød Ind");
@@ -70,10 +69,10 @@ namespace Shaolin_Kung_Fu
                     cancelButton.Invoked = ClickcancelButton;
                     MsgDialog.Commands.Add(cancelButton);
 
-                    if (student.Image == null)
+                    if (SelectedStudent.Image == null)
                     {
                         UICommand pictureButton = new UICommand("Tilføj Billede");
-                     //   pictureButton.Invoked = ClickPictureButton;
+                        pictureButton.Invoked = ClickcancelButton; //ClickPictureButton;
                         MsgDialog.Commands.Add(pictureButton);
                     }
 
@@ -82,7 +81,7 @@ namespace Shaolin_Kung_Fu
                 else
                 {
                     MsgDialog = new MessageDialog("Du er allerede registreret, god træning!",
-                        "Hej " + student.Name);
+                        "Hej " + SelectedStudent.Name);
                     await MsgDialog.ShowAsync();
                 }
 
@@ -105,7 +104,9 @@ namespace Shaolin_Kung_Fu
 
             if (SelectedStudent != null)
             {
-                WsContext.CreateRegistration(new Registration(SelectedStudent.Id));
+                var st = new Registration(SelectedStudent.Id);
+                WsContext.CreateRegistration(st);
+                SCommon.RegistrationList.Add(st);
             }
         }
     }
