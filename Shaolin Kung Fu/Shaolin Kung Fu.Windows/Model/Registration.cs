@@ -12,7 +12,7 @@ namespace Shaolin_Kung_Fu
 {
     class Registration : INotifyPropertyChanged
     {
-        private Student _studentObject;
+        
         private DateTime _timeStamp;
         public int Id { get; set; }
 
@@ -22,26 +22,15 @@ namespace Shaolin_Kung_Fu
             set { _timeStamp = value; }
         }
 
+        // Needs implementation of getting the Name. to view list of registrations.
 
         public int Student { get; set; }
 
-        public Student StudentObject
-        {
-            get { return _studentObject; }
-            set { _studentObject = value; OnPropertyChanged(); }
-        }
-
-        public async void GetName()
-        {
-            var context = new WSContext();
-            var student = await context.GetStudent(Student);
-            StudentObject = student;
-        }
+        
         public Registration(int student)
         {
             TimeStamp = DateTime.Now;
             Student = student;
-            GetName();
         }
 
         public event PropertyChangedEventHandler PropertyChanged;
@@ -52,5 +41,10 @@ namespace Shaolin_Kung_Fu
             PropertyChangedEventHandler handler = PropertyChanged;
             if (handler != null) handler(this, new PropertyChangedEventArgs(propertyName));
         }
+
+        //public override string ToString()
+        //{
+        //    return string.Format("{0},     {1}", _studentObject.Name, _timeStamp);
+        //}
     }
 }
