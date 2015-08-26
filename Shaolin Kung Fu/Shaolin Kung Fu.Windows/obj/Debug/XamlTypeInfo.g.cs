@@ -1472,4 +1472,3 @@ namespace Shaolin_Kung_Fu.Shaolin_Kung_Fu_Windows_XamlTypeInfo
 }
 
 
-

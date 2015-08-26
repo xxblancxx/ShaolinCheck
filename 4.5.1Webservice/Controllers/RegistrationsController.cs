@@ -12,6 +12,7 @@ using System.Web.Http.Description;
 using System.Web.Mvc.Html;
 using _4._5._1Webservice;
 
+
 namespace _4._5._1Webservice.Controllers
 {
     public class RegistrationsController : ApiController
@@ -23,6 +24,7 @@ namespace _4._5._1Webservice.Controllers
         {
             return db.Registrations;
         }
+
 
         // GET: api/Registrations/5
         [ResponseType(typeof(Registration))]

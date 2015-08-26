@@ -112,6 +112,7 @@
     <Compile Include="Common\RelayCommand.cs" />
     <Compile Include="Common\SuspensionManager.cs" />
     <Compile Include="Common\WSContext.cs" />
+    <Compile Include="Model\StudentRegistration.cs" />
     <Compile Include="Properties\Annotations.cs" />
     <Compile Include="View\ClubPage.xaml.cs">
       <DependentUpon>ClubPage.xaml</DependentUpon>
