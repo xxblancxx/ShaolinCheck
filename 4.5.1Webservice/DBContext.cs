@@ -17,6 +17,7 @@ namespace _4._5._1Webservice
         public virtual DbSet<Registration> Registrations { get; set; }
         public virtual DbSet<Student> Students { get; set; }
         public virtual DbSet<Team> Teams { get; set; }
+        public virtual DbSet<StudentRegistration> StudentRegistrations { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
@@ -46,6 +47,10 @@ namespace _4._5._1Webservice
                 .HasMany(e => e.Students)
                 .WithRequired(e => e.Team1)
                 .HasForeignKey(e => e.Team);
+
+            modelBuilder.Entity<StudentRegistration>()
+                .Property(e => e.Name)
+                .IsUnicode(false);
         }
     }
 }

@@ -114,6 +114,7 @@
     <Compile Include="Common\WSContext.cs" />
     <Compile Include="Model\StudentRegistration.cs" />
     <Compile Include="Properties\Annotations.cs" />
+    <Compile Include="RegistrationViewModel.cs" />
     <Compile Include="View\ClubPage.xaml.cs">
       <DependentUpon>ClubPage.xaml</DependentUpon>
     </Compile>
@@ -129,6 +130,9 @@
     <Compile Include="Common\ViewModel.cs" />
     <Compile Include="StartViewModel.cs" />
     <Compile Include="TeamViewModel.cs" />
+    <Compile Include="View\RegistrationPage.xaml.cs">
+      <DependentUpon>RegistrationPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\TeamPage.xaml.cs">
       <DependentUpon>TeamPage.xaml</DependentUpon>
     </Compile>
@@ -156,6 +160,10 @@
     <Page Include="View\MainPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="View\RegistrationPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="View\TeamPage.xaml">
       <SubType>Designer</SubType>

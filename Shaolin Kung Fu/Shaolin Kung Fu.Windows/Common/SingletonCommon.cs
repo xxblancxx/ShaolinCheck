@@ -7,6 +7,7 @@ using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 using Shaolin_Kung_Fu.Annotations;
+using Shaolin_Kung_Fu.Model;
 
 namespace Shaolin_Kung_Fu
 {
@@ -16,11 +17,35 @@ namespace Shaolin_Kung_Fu
         private ObservableCollection<Club> _clubList;
         private ObservableCollection<Team> _teamList;
         private ObservableCollection<Student> _studentList;
+        private ObservableCollection<StudentRegistration> _studentRegistrationList;
         private ObservableCollection<Registration> _registrationList;
 
         public Club SelectedClub { get; set; }
         public Team SelectedTeam { get; set; }
-       // public Student SelectedStudent { get; set; }
+
+        public ObservableCollection<Registration> RegistrationList
+        {
+            get { return _registrationList; }
+            set
+            {
+                if (Equals(value, _registrationList)) return;
+                _registrationList = value;
+                OnPropertyChanged();
+            }
+        }
+
+        public ObservableCollection<StudentRegistration> StudentRegistrationList
+        {
+            get { return _studentRegistrationList; }
+            set
+            {
+                if (Equals(value, _studentRegistrationList)) return;
+                _studentRegistrationList = value;
+                OnPropertyChanged();
+            }
+        }
+
+        // public Student SelectedStudent { get; set; }
         public ObservableCollection<Club> ClubList
         {
             get { return _clubList; }
@@ -54,16 +79,7 @@ namespace Shaolin_Kung_Fu
             }
         }
 
-        public ObservableCollection<Registration> RegistrationList
-        {
-            get { return _registrationList; }
-            set
-            {
-                if (Equals(value, _registrationList)) return;
-                _registrationList = value;
-                OnPropertyChanged();
-            }
-        }
+      
 
         public static SingletonCommon Instance
         {

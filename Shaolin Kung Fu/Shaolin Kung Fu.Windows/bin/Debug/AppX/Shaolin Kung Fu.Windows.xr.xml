@@ -11,6 +11,7 @@
     <RootPropertyPathName Name="GoBackCommand" />
     <RootPropertyPathName Name="ClubList" />
     <RootPropertyPathName Name="SelectClubCommand" />
+    <RootPropertyPathName Name="StudentRegistrationList" />
     <RootPropertyPathName Name="ProfilePicture" />
     <RootPropertyPathName Name="StudentList" />
     <RootPropertyPathName Name="SelectStudentCommand" />
@@ -22,6 +23,7 @@
       <RootProperty Name="Resources" />
       <RootProperty Name="DataContext" />
       <RootProperty Name="Content" />
+      <RootProperty Name="BottomAppBar" />
     </RootType>
     <RootType FullName="System.String" />
     <RootType FullName="Windows.UI.Xaml.DataTemplate">
@@ -35,7 +37,6 @@
       <RootProperty Name="RowDefinitions" />
       <RootProperty Name="ColumnDefinitions" />
       <RootProperty Name="RenderTransformOrigin" />
-      <RootProperty Name="Width" />
       <RootMethod Name="GetRow" />
       <RootMethod Name="SetRow" />
       <RootMethod Name="GetColumn" />
@@ -89,6 +90,7 @@
     <RootType FullName="Windows.UI.Xaml.Controls.VariableSizedWrapGrid">
       <RootProperty Name="Orientation" />
       <RootProperty Name="MaximumRowsOrColumns" />
+      <RootProperty Name="HorizontalAlignment" />
     </RootType>
     <RootType FullName="Microsoft.Xaml.Interactions.Core.EventTriggerBehavior">
       <RootProperty Name="EventName" />
@@ -119,11 +121,22 @@
       <RootMethod Name="SetItemType" />
     </RootType>
     <RootType FullName="Shaolin_Kung_Fu.View.ClubPage" />
+    <RootType FullName="Windows.UI.Xaml.Controls.AppBar">
+      <RootProperty Name="Content" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.AppBarButton">
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Icon" />
+      <RootProperty Name="Label" />
+      <RootProperty Name="VerticalAlignment" />
+    </RootType>
     <RootType FullName="Shaolin_Kung_Fu.StartViewModel" />
     <RootType FullName="Windows.UI.Xaml.Controls.StackPanel">
       <RootProperty Name="Margin" />
       <RootProperty Name="Orientation" />
       <RootProperty Name="Children" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Height" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Image">
       <RootProperty Name="Source" />
@@ -131,15 +144,18 @@
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Margin" />
       <RootProperty Name="Stretch" />
-      <RootProperty Name="Width" />
+      <RootProperty Name="NineGrid" />
       <RootProperty Name="Height" />
+      <RootProperty Name="Width" />
     </RootType>
     <RootType FullName="Shaolin_Kung_Fu.MainPage" />
-    <RootType FullName="Shaolin_Kung_Fu.TeamViewModel" />
+    <RootType FullName="Shaolin_Kung_Fu.RegistrationViewModel" />
     <RootType FullName="Windows.UI.Xaml.Controls.ScrollViewer">
       <RootMethod Name="GetVerticalScrollBarVisibility" />
       <RootMethod Name="SetVerticalScrollBarVisibility" />
     </RootType>
+    <RootType FullName="Shaolin_Kung_Fu.View.RegistrationPage" />
+    <RootType FullName="Shaolin_Kung_Fu.TeamViewModel" />
     <RootType FullName="Microsoft.Xaml.Interactions.Core.ChangePropertyAction">
       <RootProperty Name="PropertyName" />
     </RootType>

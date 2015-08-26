@@ -10,6 +10,8 @@ namespace Shaolin_Kung_Fu.Model
     {
         public int Id { get; set; }
 
+        public int Team { get; set; }
+
         public string Name { get; set; }
 
         public DateTime TimeStamp { get; set; }

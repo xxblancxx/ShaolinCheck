@@ -7,6 +7,7 @@ using System.Net.Http.Headers;
 using System.Text;
 using System.Threading.Tasks;
 using Windows.UI.Popups;
+using Shaolin_Kung_Fu.Model;
 
 namespace Shaolin_Kung_Fu.Common
 {
@@ -100,7 +101,7 @@ namespace Shaolin_Kung_Fu.Common
             handler = new HttpClientHandler();
             //Creates a new HttpClientHandler.
             handler.UseDefaultCredentials = true;
-            
+
             //true if the default credentials are used; otherwise false. will use authentication credentials from the logged on user on your pc.
             using (HttpClient client = new HttpClient(handler))
             {
@@ -117,6 +118,27 @@ namespace Shaolin_Kung_Fu.Common
             }
         }
 
+        public async Task<ObservableCollection<StudentRegistration>> GetAllStudentRegistrations()
+        { // Looks for registrations connected to a specific student
+            handler = new HttpClientHandler();
+            //Creates a new HttpClientHandler.
+            handler.UseDefaultCredentials = true;
+
+            //true if the default credentials are used; otherwise false. will use authentication credentials from the logged on user on your pc.
+            using (HttpClient client = new HttpClient(handler))
+            {
+                client.Timeout = TimeSpan.FromSeconds(4);
+                client.BaseAddress = new Uri(ServerUrl);
+                var task = client.GetAsync("StudentRegistrations");
+                // var means the compiler will determine the explicit type of the variable, based on usage. this would give you a variable of type Client.
+                HttpResponseMessage response = await task;
+                response.EnsureSuccessStatusCode();
+                // check for response code (if response is not 200 throw exception)
+                var registrationlist = await response.Content.ReadAsAsync<ObservableCollection<StudentRegistration>>();
+                // var will give you a variable of type IEnumerable.
+                return registrationlist;
+            }
+        }
         public async Task<ObservableCollection<Registration>> GetStudentRegistrations(int id)
         { // Looks for registrations connected to a specific student
             handler = new HttpClientHandler();

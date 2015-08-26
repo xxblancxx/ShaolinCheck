@@ -32,12 +32,11 @@ namespace Shaolin_Kung_Fu
 
         public void GetAllFromDatabase()
         {
-
             LoadClubs();
             LoadTeams();
             LoadStudents();
             LoadRegistrations();
-
+            LoadStudentRegistrations();
         }
 
         public StartViewModel()
@@ -140,11 +139,49 @@ namespace Shaolin_Kung_Fu
             }
 
         }
+
         private async void LoadRegistrations()
         {
             try
             {
                 SCommon.RegistrationList = await WsContext.GetAllRegistrations();
+            }
+            catch (HttpRequestException)
+            {
+                if (!msgdialogShown)
+                {
+                    RetryConnectionDialog();
+                }
+            }
+            catch (TaskCanceledException)
+            {
+                if (tries >= 2)
+                {
+                    tries = 0;
+                    if (!msgdialogShown)
+                    {
+                        RetryConnectionDialog();
+                    }
+                }
+                else
+                {
+                    tries++;
+                    GetAllFromDatabase();
+                }
+            }
+        }
+        private async void LoadStudentRegistrations()
+        {
+            try
+            {
+                SCommon.StudentRegistrationList = await WsContext.GetAllStudentRegistrations();
+            }
+            catch (HttpRequestException)
+            {
+                if (!msgdialogShown)
+                {
+                    RetryConnectionDialog();
+                }
             }
             catch (TaskCanceledException)
             {
