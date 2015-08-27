@@ -13,6 +13,14 @@
     <Page.Resources>
         <!-- TODO: Delete this line if the key AppName is declared in App.xaml -->
         <x:String x:Key="AppName">My Application</x:String>
+        <DataTemplate x:Key="GridViewDataTemplate">
+            <Grid Background="#FF9D1B0D">
+                <StackPanel Orientation="Horizontal" Margin="5,5,5,8">
+                    <TextBlock TextWrapping="Wrap" Text="{Binding Name}" Margin="0,5,10,0" FontFamily="Segoe WP Semibold" FontSize="14" FontWeight="Bold"/>
+                    <TextBlock TextWrapping="Wrap" Text="{Binding TimeStamp}" Margin="10,5,0,0" FontSize="14" FontFamily="Segoe UI Semibold" FontWeight="Bold"/>
+                </StackPanel>
+            </Grid>
+        </DataTemplate>
     </Page.Resources>
 
     <Page.DataContext>
@@ -43,11 +51,12 @@
 				AutomationProperties.ItemType="Navigation Button"/>
             <TextBlock x:Name="pageTitle" Text="Møde Oversigt" Style="{StaticResource HeaderTextBlockStyle}" Grid.Column="1" 
 				IsHitTestVisible="false" TextWrapping="NoWrap" VerticalAlignment="Bottom" Margin="0,0,30,40"/>
+            <SearchBox Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0,80,100,0" Width="200" PlaceholderText="Søg efter navn" QueryText="{Binding SearchText, Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"/>
         </Grid>
-        <GridView Grid.Row="1" ItemsSource="{Binding SCommon.StudentRegistrationList}">
+        <GridView Grid.Row="1" ItemTemplate="{StaticResource GridViewDataTemplate}" ItemsSource="{Binding LocalStudentRegistrations}">
             <GridView.ItemsPanel>
                 <ItemsPanelTemplate>
-                    <VariableSizedWrapGrid  MaximumRowsOrColumns="4" Orientation="Horizontal" ScrollViewer.VerticalScrollBarVisibility="Auto" HorizontalAlignment="Center" />
+                    <VariableSizedWrapGrid  MaximumRowsOrColumns="3" Orientation="Horizontal" ScrollViewer.VerticalScrollBarVisibility="Auto" HorizontalAlignment="Center" />
                 </ItemsPanelTemplate>
             </GridView.ItemsPanel>
         </GridView>

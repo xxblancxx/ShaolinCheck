@@ -124,7 +124,7 @@ namespace Shaolin_Kung_Fu.Shaolin_Kung_Fu_Windows_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[43];
+            _typeNameTable = new string[47];
             _typeNameTable[0] = "Shaolin_Kung_Fu.ClubViewModel";
             _typeNameTable[1] = "Shaolin_Kung_Fu.ViewModel";
             _typeNameTable[2] = "Object";
@@ -155,21 +155,25 @@ namespace Shaolin_Kung_Fu.Shaolin_Kung_Fu_Windows_XamlTypeInfo
             _typeNameTable[27] = "ShaolinCheck.Common.RelayArgCommand`1<Shaolin_Kung_Fu.Club>";
             _typeNameTable[28] = "Shaolin_Kung_Fu.MainPage";
             _typeNameTable[29] = "Shaolin_Kung_Fu.RegistrationViewModel";
-            _typeNameTable[30] = "Shaolin_Kung_Fu.View.RegistrationPage";
-            _typeNameTable[31] = "Shaolin_Kung_Fu.TeamViewModel";
-            _typeNameTable[32] = "Shaolin_Kung_Fu.Student";
-            _typeNameTable[33] = "System.Collections.ObjectModel.ObservableCollection`1<Shaolin_Kung_Fu.Student>";
-            _typeNameTable[34] = "System.Collections.ObjectModel.Collection`1<Shaolin_Kung_Fu.Student>";
-            _typeNameTable[35] = "Byte[]";
-            _typeNameTable[36] = "System.Array";
-            _typeNameTable[37] = "Byte";
-            _typeNameTable[38] = "System.ValueType";
-            _typeNameTable[39] = "Windows.UI.Xaml.Media.Imaging.BitmapImage";
-            _typeNameTable[40] = "ShaolinCheck.Common.RelayArgCommand`1<Shaolin_Kung_Fu.Student>";
-            _typeNameTable[41] = "Microsoft.Xaml.Interactions.Core.ChangePropertyAction";
-            _typeNameTable[42] = "Shaolin_Kung_Fu.View.TeamPage";
+            _typeNameTable[30] = "System.Collections.ObjectModel.ObservableCollection`1<Shaolin_Kung_Fu.Model.StudentRegistration>";
+            _typeNameTable[31] = "System.Collections.ObjectModel.Collection`1<Shaolin_Kung_Fu.Model.StudentRegistration>";
+            _typeNameTable[32] = "Shaolin_Kung_Fu.Model.StudentRegistration";
+            _typeNameTable[33] = "System.DateTime";
+            _typeNameTable[34] = "System.ValueType";
+            _typeNameTable[35] = "Shaolin_Kung_Fu.View.RegistrationPage";
+            _typeNameTable[36] = "Shaolin_Kung_Fu.TeamViewModel";
+            _typeNameTable[37] = "Shaolin_Kung_Fu.Student";
+            _typeNameTable[38] = "System.Collections.ObjectModel.ObservableCollection`1<Shaolin_Kung_Fu.Student>";
+            _typeNameTable[39] = "System.Collections.ObjectModel.Collection`1<Shaolin_Kung_Fu.Student>";
+            _typeNameTable[40] = "Byte[]";
+            _typeNameTable[41] = "System.Array";
+            _typeNameTable[42] = "Byte";
+            _typeNameTable[43] = "Windows.UI.Xaml.Media.Imaging.BitmapImage";
+            _typeNameTable[44] = "ShaolinCheck.Common.RelayArgCommand`1<Shaolin_Kung_Fu.Student>";
+            _typeNameTable[45] = "Microsoft.Xaml.Interactions.Core.ChangePropertyAction";
+            _typeNameTable[46] = "Shaolin_Kung_Fu.View.TeamPage";
 
-            _typeTable = new global::System.Type[43];
+            _typeTable = new global::System.Type[47];
             _typeTable[0] = typeof(global::Shaolin_Kung_Fu.ClubViewModel);
             _typeTable[1] = typeof(global::Shaolin_Kung_Fu.ViewModel);
             _typeTable[2] = typeof(global::System.Object);
@@ -200,19 +204,23 @@ namespace Shaolin_Kung_Fu.Shaolin_Kung_Fu_Windows_XamlTypeInfo
             _typeTable[27] = typeof(global::ShaolinCheck.Common.RelayArgCommand<global::Shaolin_Kung_Fu.Club>);
             _typeTable[28] = typeof(global::Shaolin_Kung_Fu.MainPage);
             _typeTable[29] = typeof(global::Shaolin_Kung_Fu.RegistrationViewModel);
-            _typeTable[30] = typeof(global::Shaolin_Kung_Fu.View.RegistrationPage);
-            _typeTable[31] = typeof(global::Shaolin_Kung_Fu.TeamViewModel);
-            _typeTable[32] = typeof(global::Shaolin_Kung_Fu.Student);
-            _typeTable[33] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::Shaolin_Kung_Fu.Student>);
-            _typeTable[34] = typeof(global::System.Collections.ObjectModel.Collection<global::Shaolin_Kung_Fu.Student>);
-            _typeTable[35] = typeof(global::System.Byte[]);
-            _typeTable[36] = typeof(global::System.Array);
-            _typeTable[37] = typeof(global::System.Byte);
-            _typeTable[38] = typeof(global::System.ValueType);
-            _typeTable[39] = typeof(global::Windows.UI.Xaml.Media.Imaging.BitmapImage);
-            _typeTable[40] = typeof(global::ShaolinCheck.Common.RelayArgCommand<global::Shaolin_Kung_Fu.Student>);
-            _typeTable[41] = typeof(global::Microsoft.Xaml.Interactions.Core.ChangePropertyAction);
-            _typeTable[42] = typeof(global::Shaolin_Kung_Fu.View.TeamPage);
+            _typeTable[30] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::Shaolin_Kung_Fu.Model.StudentRegistration>);
+            _typeTable[31] = typeof(global::System.Collections.ObjectModel.Collection<global::Shaolin_Kung_Fu.Model.StudentRegistration>);
+            _typeTable[32] = typeof(global::Shaolin_Kung_Fu.Model.StudentRegistration);
+            _typeTable[33] = typeof(global::System.DateTime);
+            _typeTable[34] = typeof(global::System.ValueType);
+            _typeTable[35] = typeof(global::Shaolin_Kung_Fu.View.RegistrationPage);
+            _typeTable[36] = typeof(global::Shaolin_Kung_Fu.TeamViewModel);
+            _typeTable[37] = typeof(global::Shaolin_Kung_Fu.Student);
+            _typeTable[38] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::Shaolin_Kung_Fu.Student>);
+            _typeTable[39] = typeof(global::System.Collections.ObjectModel.Collection<global::Shaolin_Kung_Fu.Student>);
+            _typeTable[40] = typeof(global::System.Byte[]);
+            _typeTable[41] = typeof(global::System.Array);
+            _typeTable[42] = typeof(global::System.Byte);
+            _typeTable[43] = typeof(global::Windows.UI.Xaml.Media.Imaging.BitmapImage);
+            _typeTable[44] = typeof(global::ShaolinCheck.Common.RelayArgCommand<global::Shaolin_Kung_Fu.Student>);
+            _typeTable[45] = typeof(global::Microsoft.Xaml.Interactions.Core.ChangePropertyAction);
+            _typeTable[46] = typeof(global::Shaolin_Kung_Fu.View.TeamPage);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -260,12 +268,15 @@ namespace Shaolin_Kung_Fu.Shaolin_Kung_Fu_Windows_XamlTypeInfo
         private object Activate_26_StartViewModel() { return new global::Shaolin_Kung_Fu.StartViewModel(); }
         private object Activate_28_MainPage() { return new global::Shaolin_Kung_Fu.MainPage(); }
         private object Activate_29_RegistrationViewModel() { return new global::Shaolin_Kung_Fu.RegistrationViewModel(); }
-        private object Activate_30_RegistrationPage() { return new global::Shaolin_Kung_Fu.View.RegistrationPage(); }
-        private object Activate_31_TeamViewModel() { return new global::Shaolin_Kung_Fu.TeamViewModel(); }
-        private object Activate_33_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::Shaolin_Kung_Fu.Student>(); }
-        private object Activate_34_Collection() { return new global::System.Collections.ObjectModel.Collection<global::Shaolin_Kung_Fu.Student>(); }
-        private object Activate_41_ChangePropertyAction() { return new global::Microsoft.Xaml.Interactions.Core.ChangePropertyAction(); }
-        private object Activate_42_TeamPage() { return new global::Shaolin_Kung_Fu.View.TeamPage(); }
+        private object Activate_30_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::Shaolin_Kung_Fu.Model.StudentRegistration>(); }
+        private object Activate_31_Collection() { return new global::System.Collections.ObjectModel.Collection<global::Shaolin_Kung_Fu.Model.StudentRegistration>(); }
+        private object Activate_32_StudentRegistration() { return new global::Shaolin_Kung_Fu.Model.StudentRegistration(); }
+        private object Activate_35_RegistrationPage() { return new global::Shaolin_Kung_Fu.View.RegistrationPage(); }
+        private object Activate_36_TeamViewModel() { return new global::Shaolin_Kung_Fu.TeamViewModel(); }
+        private object Activate_38_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::Shaolin_Kung_Fu.Student>(); }
+        private object Activate_39_Collection() { return new global::System.Collections.ObjectModel.Collection<global::Shaolin_Kung_Fu.Student>(); }
+        private object Activate_45_ChangePropertyAction() { return new global::Microsoft.Xaml.Interactions.Core.ChangePropertyAction(); }
+        private object Activate_46_TeamPage() { return new global::Shaolin_Kung_Fu.View.TeamPage(); }
         private void VectorAdd_3_ObservableCollection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Shaolin_Kung_Fu.Team>)instance;
@@ -297,13 +308,25 @@ namespace Shaolin_Kung_Fu.Shaolin_Kung_Fu_Windows_XamlTypeInfo
             var newItem = (global::System.Object)item;
             collection.Add(newKey, newItem);
         }
-        private void VectorAdd_33_ObservableCollection(object instance, object item)
+        private void VectorAdd_30_ObservableCollection(object instance, object item)
+        {
+            var collection = (global::System.Collections.Generic.ICollection<global::Shaolin_Kung_Fu.Model.StudentRegistration>)instance;
+            var newItem = (global::Shaolin_Kung_Fu.Model.StudentRegistration)item;
+            collection.Add(newItem);
+        }
+        private void VectorAdd_31_Collection(object instance, object item)
+        {
+            var collection = (global::System.Collections.Generic.ICollection<global::Shaolin_Kung_Fu.Model.StudentRegistration>)instance;
+            var newItem = (global::Shaolin_Kung_Fu.Model.StudentRegistration)item;
+            collection.Add(newItem);
+        }
+        private void VectorAdd_38_ObservableCollection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Shaolin_Kung_Fu.Student>)instance;
             var newItem = (global::Shaolin_Kung_Fu.Student)item;
             collection.Add(newItem);
         }
-        private void VectorAdd_34_Collection(object instance, object item)
+        private void VectorAdd_39_Collection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Shaolin_Kung_Fu.Student>)instance;
             var newItem = (global::Shaolin_Kung_Fu.Student)item;
@@ -518,22 +541,60 @@ namespace Shaolin_Kung_Fu.Shaolin_Kung_Fu_Windows_XamlTypeInfo
             case 29:   //  Shaolin_Kung_Fu.RegistrationViewModel
                 userType = new global::Shaolin_Kung_Fu.Shaolin_Kung_Fu_Windows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Shaolin_Kung_Fu.ViewModel"));
                 userType.Activator = Activate_29_RegistrationViewModel;
+                userType.AddMemberName("SearchText");
+                userType.AddMemberName("LocalStudentRegistrations");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 30:   //  Shaolin_Kung_Fu.View.RegistrationPage
+            case 30:   //  System.Collections.ObjectModel.ObservableCollection`1<Shaolin_Kung_Fu.Model.StudentRegistration>
+                userType = new global::Shaolin_Kung_Fu.Shaolin_Kung_Fu_Windows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Collections.ObjectModel.Collection`1<Shaolin_Kung_Fu.Model.StudentRegistration>"));
+                userType.CollectionAdd = VectorAdd_30_ObservableCollection;
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 31:   //  System.Collections.ObjectModel.Collection`1<Shaolin_Kung_Fu.Model.StudentRegistration>
+                userType = new global::Shaolin_Kung_Fu.Shaolin_Kung_Fu_Windows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.Activator = Activate_31_Collection;
+                userType.CollectionAdd = VectorAdd_31_Collection;
+                xamlType = userType;
+                break;
+
+            case 32:   //  Shaolin_Kung_Fu.Model.StudentRegistration
+                userType = new global::Shaolin_Kung_Fu.Shaolin_Kung_Fu_Windows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.Activator = Activate_32_StudentRegistration;
+                userType.AddMemberName("Id");
+                userType.AddMemberName("Team");
+                userType.AddMemberName("Name");
+                userType.AddMemberName("TimeStamp");
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 33:   //  System.DateTime
+                userType = new global::Shaolin_Kung_Fu.Shaolin_Kung_Fu_Windows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.ValueType"));
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+
+            case 34:   //  System.ValueType
+                userType = new global::Shaolin_Kung_Fu.Shaolin_Kung_Fu_Windows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                xamlType = userType;
+                break;
+
+            case 35:   //  Shaolin_Kung_Fu.View.RegistrationPage
                 userType = new global::Shaolin_Kung_Fu.Shaolin_Kung_Fu_Windows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_30_RegistrationPage;
+                userType.Activator = Activate_35_RegistrationPage;
                 userType.AddMemberName("DefaultViewModel");
                 userType.AddMemberName("NavigationHelper");
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 31:   //  Shaolin_Kung_Fu.TeamViewModel
+            case 36:   //  Shaolin_Kung_Fu.TeamViewModel
                 userType = new global::Shaolin_Kung_Fu.Shaolin_Kung_Fu_Windows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Shaolin_Kung_Fu.ViewModel"));
-                userType.Activator = Activate_31_TeamViewModel;
+                userType.Activator = Activate_36_TeamViewModel;
                 userType.AddMemberName("SelectedStudent");
                 userType.AddMemberName("StudentList");
                 userType.AddMemberName("SelectStudentCommand");
@@ -541,7 +602,7 @@ namespace Shaolin_Kung_Fu.Shaolin_Kung_Fu_Windows_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 32:   //  Shaolin_Kung_Fu.Student
+            case 37:   //  Shaolin_Kung_Fu.Student
                 userType = new global::Shaolin_Kung_Fu.Shaolin_Kung_Fu_Windows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 userType.AddMemberName("Name");
                 userType.AddMemberName("Id");
@@ -552,64 +613,59 @@ namespace Shaolin_Kung_Fu.Shaolin_Kung_Fu_Windows_XamlTypeInfo
                 xamlType = userType;
                 break;
 
-            case 33:   //  System.Collections.ObjectModel.ObservableCollection`1<Shaolin_Kung_Fu.Student>
+            case 38:   //  System.Collections.ObjectModel.ObservableCollection`1<Shaolin_Kung_Fu.Student>
                 userType = new global::Shaolin_Kung_Fu.Shaolin_Kung_Fu_Windows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Collections.ObjectModel.Collection`1<Shaolin_Kung_Fu.Student>"));
-                userType.CollectionAdd = VectorAdd_33_ObservableCollection;
+                userType.CollectionAdd = VectorAdd_38_ObservableCollection;
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 34:   //  System.Collections.ObjectModel.Collection`1<Shaolin_Kung_Fu.Student>
+            case 39:   //  System.Collections.ObjectModel.Collection`1<Shaolin_Kung_Fu.Student>
                 userType = new global::Shaolin_Kung_Fu.Shaolin_Kung_Fu_Windows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.Activator = Activate_34_Collection;
-                userType.CollectionAdd = VectorAdd_34_Collection;
+                userType.Activator = Activate_39_Collection;
+                userType.CollectionAdd = VectorAdd_39_Collection;
                 xamlType = userType;
                 break;
 
-            case 35:   //  Byte[]
+            case 40:   //  Byte[]
                 userType = new global::Shaolin_Kung_Fu.Shaolin_Kung_Fu_Windows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.Array"));
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
-            case 36:   //  System.Array
+            case 41:   //  System.Array
                 userType = new global::Shaolin_Kung_Fu.Shaolin_Kung_Fu_Windows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 xamlType = userType;
                 break;
 
-            case 37:   //  Byte
+            case 42:   //  Byte
                 userType = new global::Shaolin_Kung_Fu.Shaolin_Kung_Fu_Windows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("System.ValueType"));
                 xamlType = userType;
                 break;
 
-            case 38:   //  System.ValueType
-                userType = new global::Shaolin_Kung_Fu.Shaolin_Kung_Fu_Windows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                xamlType = userType;
-                break;
-
-            case 39:   //  Windows.UI.Xaml.Media.Imaging.BitmapImage
+            case 43:   //  Windows.UI.Xaml.Media.Imaging.BitmapImage
                 xamlType = new global::Shaolin_Kung_Fu.Shaolin_Kung_Fu_Windows_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 40:   //  ShaolinCheck.Common.RelayArgCommand`1<Shaolin_Kung_Fu.Student>
+            case 44:   //  ShaolinCheck.Common.RelayArgCommand`1<Shaolin_Kung_Fu.Student>
                 userType = new global::Shaolin_Kung_Fu.Shaolin_Kung_Fu_Windows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 userType.SetIsReturnTypeStub();
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 41:   //  Microsoft.Xaml.Interactions.Core.ChangePropertyAction
+            case 45:   //  Microsoft.Xaml.Interactions.Core.ChangePropertyAction
                 userType = new global::Shaolin_Kung_Fu.Shaolin_Kung_Fu_Windows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.DependencyObject"));
-                userType.Activator = Activate_41_ChangePropertyAction;
+                userType.Activator = Activate_45_ChangePropertyAction;
                 userType.AddMemberName("PropertyName");
                 userType.AddMemberName("Value");
                 userType.AddMemberName("TargetObject");
                 xamlType = userType;
                 break;
 
-            case 42:   //  Shaolin_Kung_Fu.View.TeamPage
+            case 46:   //  Shaolin_Kung_Fu.View.TeamPage
                 userType = new global::Shaolin_Kung_Fu.Shaolin_Kung_Fu_Windows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_42_TeamPage;
+                userType.Activator = Activate_46_TeamPage;
                 userType.AddMemberName("DefaultViewModel");
                 userType.AddMemberName("NavigationHelper");
                 userType.SetIsLocalType();
@@ -818,122 +874,182 @@ namespace Shaolin_Kung_Fu.Shaolin_Kung_Fu_Windows_XamlTypeInfo
             var that = (global::Shaolin_Kung_Fu.StartViewModel)instance;
             that.SelectClubCommand = (global::ShaolinCheck.Common.RelayArgCommand<global::Shaolin_Kung_Fu.Club>)Value;
         }
-        private object get_23_RegistrationPage_DefaultViewModel(object instance)
+        private object get_23_RegistrationViewModel_SearchText(object instance)
+        {
+            var that = (global::Shaolin_Kung_Fu.RegistrationViewModel)instance;
+            return that.SearchText;
+        }
+        private void set_23_RegistrationViewModel_SearchText(object instance, object Value)
+        {
+            var that = (global::Shaolin_Kung_Fu.RegistrationViewModel)instance;
+            that.SearchText = (global::System.String)Value;
+        }
+        private object get_24_RegistrationViewModel_LocalStudentRegistrations(object instance)
+        {
+            var that = (global::Shaolin_Kung_Fu.RegistrationViewModel)instance;
+            return that.LocalStudentRegistrations;
+        }
+        private void set_24_RegistrationViewModel_LocalStudentRegistrations(object instance, object Value)
+        {
+            var that = (global::Shaolin_Kung_Fu.RegistrationViewModel)instance;
+            that.LocalStudentRegistrations = (global::System.Collections.ObjectModel.ObservableCollection<global::Shaolin_Kung_Fu.Model.StudentRegistration>)Value;
+        }
+        private object get_25_StudentRegistration_Id(object instance)
+        {
+            var that = (global::Shaolin_Kung_Fu.Model.StudentRegistration)instance;
+            return that.Id;
+        }
+        private void set_25_StudentRegistration_Id(object instance, object Value)
+        {
+            var that = (global::Shaolin_Kung_Fu.Model.StudentRegistration)instance;
+            that.Id = (global::System.Int32)Value;
+        }
+        private object get_26_StudentRegistration_Team(object instance)
+        {
+            var that = (global::Shaolin_Kung_Fu.Model.StudentRegistration)instance;
+            return that.Team;
+        }
+        private void set_26_StudentRegistration_Team(object instance, object Value)
+        {
+            var that = (global::Shaolin_Kung_Fu.Model.StudentRegistration)instance;
+            that.Team = (global::System.Int32)Value;
+        }
+        private object get_27_StudentRegistration_Name(object instance)
+        {
+            var that = (global::Shaolin_Kung_Fu.Model.StudentRegistration)instance;
+            return that.Name;
+        }
+        private void set_27_StudentRegistration_Name(object instance, object Value)
+        {
+            var that = (global::Shaolin_Kung_Fu.Model.StudentRegistration)instance;
+            that.Name = (global::System.String)Value;
+        }
+        private object get_28_StudentRegistration_TimeStamp(object instance)
+        {
+            var that = (global::Shaolin_Kung_Fu.Model.StudentRegistration)instance;
+            return that.TimeStamp;
+        }
+        private void set_28_StudentRegistration_TimeStamp(object instance, object Value)
+        {
+            var that = (global::Shaolin_Kung_Fu.Model.StudentRegistration)instance;
+            that.TimeStamp = (global::System.DateTime)Value;
+        }
+        private object get_29_RegistrationPage_DefaultViewModel(object instance)
         {
             var that = (global::Shaolin_Kung_Fu.View.RegistrationPage)instance;
             return that.DefaultViewModel;
         }
-        private object get_24_RegistrationPage_NavigationHelper(object instance)
+        private object get_30_RegistrationPage_NavigationHelper(object instance)
         {
             var that = (global::Shaolin_Kung_Fu.View.RegistrationPage)instance;
             return that.NavigationHelper;
         }
-        private object get_25_TeamViewModel_SelectedStudent(object instance)
+        private object get_31_TeamViewModel_SelectedStudent(object instance)
         {
             var that = (global::Shaolin_Kung_Fu.TeamViewModel)instance;
             return that.SelectedStudent;
         }
-        private void set_25_TeamViewModel_SelectedStudent(object instance, object Value)
+        private void set_31_TeamViewModel_SelectedStudent(object instance, object Value)
         {
             var that = (global::Shaolin_Kung_Fu.TeamViewModel)instance;
             that.SelectedStudent = (global::Shaolin_Kung_Fu.Student)Value;
         }
-        private object get_26_TeamViewModel_StudentList(object instance)
+        private object get_32_TeamViewModel_StudentList(object instance)
         {
             var that = (global::Shaolin_Kung_Fu.TeamViewModel)instance;
             return that.StudentList;
         }
-        private void set_26_TeamViewModel_StudentList(object instance, object Value)
+        private void set_32_TeamViewModel_StudentList(object instance, object Value)
         {
             var that = (global::Shaolin_Kung_Fu.TeamViewModel)instance;
             that.StudentList = (global::System.Collections.ObjectModel.ObservableCollection<global::Shaolin_Kung_Fu.Student>)Value;
         }
-        private object get_27_Student_Name(object instance)
+        private object get_33_Student_Name(object instance)
         {
             var that = (global::Shaolin_Kung_Fu.Student)instance;
             return that.Name;
         }
-        private void set_27_Student_Name(object instance, object Value)
+        private void set_33_Student_Name(object instance, object Value)
         {
             var that = (global::Shaolin_Kung_Fu.Student)instance;
             that.Name = (global::System.String)Value;
         }
-        private object get_28_Student_Id(object instance)
+        private object get_34_Student_Id(object instance)
         {
             var that = (global::Shaolin_Kung_Fu.Student)instance;
             return that.Id;
         }
-        private void set_28_Student_Id(object instance, object Value)
+        private void set_34_Student_Id(object instance, object Value)
         {
             var that = (global::Shaolin_Kung_Fu.Student)instance;
             that.Id = (global::System.Int32)Value;
         }
-        private object get_29_Student_Team(object instance)
+        private object get_35_Student_Team(object instance)
         {
             var that = (global::Shaolin_Kung_Fu.Student)instance;
             return that.Team;
         }
-        private void set_29_Student_Team(object instance, object Value)
+        private void set_35_Student_Team(object instance, object Value)
         {
             var that = (global::Shaolin_Kung_Fu.Student)instance;
             that.Team = (global::System.Int32)Value;
         }
-        private object get_30_Student_Image(object instance)
+        private object get_36_Student_Image(object instance)
         {
             var that = (global::Shaolin_Kung_Fu.Student)instance;
             return that.Image;
         }
-        private void set_30_Student_Image(object instance, object Value)
+        private void set_36_Student_Image(object instance, object Value)
         {
             var that = (global::Shaolin_Kung_Fu.Student)instance;
             that.Image = (global::System.Byte[])Value;
         }
-        private object get_31_Student_ProfilePicture(object instance)
+        private object get_37_Student_ProfilePicture(object instance)
         {
             var that = (global::Shaolin_Kung_Fu.Student)instance;
             return that.ProfilePicture;
         }
-        private object get_32_TeamViewModel_SelectStudentCommand(object instance)
+        private object get_38_TeamViewModel_SelectStudentCommand(object instance)
         {
             var that = (global::Shaolin_Kung_Fu.TeamViewModel)instance;
             return that.SelectStudentCommand;
         }
-        private object get_33_ChangePropertyAction_PropertyName(object instance)
+        private object get_39_ChangePropertyAction_PropertyName(object instance)
         {
             var that = (global::Microsoft.Xaml.Interactions.Core.ChangePropertyAction)instance;
             return that.PropertyName;
         }
-        private void set_33_ChangePropertyAction_PropertyName(object instance, object Value)
+        private void set_39_ChangePropertyAction_PropertyName(object instance, object Value)
         {
             var that = (global::Microsoft.Xaml.Interactions.Core.ChangePropertyAction)instance;
             that.PropertyName = (global::System.String)Value;
         }
-        private object get_34_ChangePropertyAction_Value(object instance)
+        private object get_40_ChangePropertyAction_Value(object instance)
         {
             var that = (global::Microsoft.Xaml.Interactions.Core.ChangePropertyAction)instance;
             return that.Value;
         }
-        private void set_34_ChangePropertyAction_Value(object instance, object Value)
+        private void set_40_ChangePropertyAction_Value(object instance, object Value)
         {
             var that = (global::Microsoft.Xaml.Interactions.Core.ChangePropertyAction)instance;
             that.Value = (global::System.Object)Value;
         }
-        private object get_35_ChangePropertyAction_TargetObject(object instance)
+        private object get_41_ChangePropertyAction_TargetObject(object instance)
         {
             var that = (global::Microsoft.Xaml.Interactions.Core.ChangePropertyAction)instance;
             return that.TargetObject;
         }
-        private void set_35_ChangePropertyAction_TargetObject(object instance, object Value)
+        private void set_41_ChangePropertyAction_TargetObject(object instance, object Value)
         {
             var that = (global::Microsoft.Xaml.Interactions.Core.ChangePropertyAction)instance;
             that.TargetObject = (global::System.Object)Value;
         }
-        private object get_36_TeamPage_DefaultViewModel(object instance)
+        private object get_42_TeamPage_DefaultViewModel(object instance)
         {
             var that = (global::Shaolin_Kung_Fu.View.TeamPage)instance;
             return that.DefaultViewModel;
         }
-        private object get_37_TeamPage_NavigationHelper(object instance)
+        private object get_43_TeamPage_NavigationHelper(object instance)
         {
             var that = (global::Shaolin_Kung_Fu.View.TeamPage)instance;
             return that.NavigationHelper;
@@ -1096,97 +1212,133 @@ namespace Shaolin_Kung_Fu.Shaolin_Kung_Fu_Windows_XamlTypeInfo
                 xamlMember.Getter = get_22_StartViewModel_SelectClubCommand;
                 xamlMember.Setter = set_22_StartViewModel_SelectClubCommand;
                 break;
+            case "Shaolin_Kung_Fu.RegistrationViewModel.SearchText":
+                userType = (global::Shaolin_Kung_Fu.Shaolin_Kung_Fu_Windows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Shaolin_Kung_Fu.RegistrationViewModel");
+                xamlMember = new global::Shaolin_Kung_Fu.Shaolin_Kung_Fu_Windows_XamlTypeInfo.XamlMember(this, "SearchText", "String");
+                xamlMember.Getter = get_23_RegistrationViewModel_SearchText;
+                xamlMember.Setter = set_23_RegistrationViewModel_SearchText;
+                break;
+            case "Shaolin_Kung_Fu.RegistrationViewModel.LocalStudentRegistrations":
+                userType = (global::Shaolin_Kung_Fu.Shaolin_Kung_Fu_Windows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Shaolin_Kung_Fu.RegistrationViewModel");
+                xamlMember = new global::Shaolin_Kung_Fu.Shaolin_Kung_Fu_Windows_XamlTypeInfo.XamlMember(this, "LocalStudentRegistrations", "System.Collections.ObjectModel.ObservableCollection`1<Shaolin_Kung_Fu.Model.StudentRegistration>");
+                xamlMember.Getter = get_24_RegistrationViewModel_LocalStudentRegistrations;
+                xamlMember.Setter = set_24_RegistrationViewModel_LocalStudentRegistrations;
+                break;
+            case "Shaolin_Kung_Fu.Model.StudentRegistration.Id":
+                userType = (global::Shaolin_Kung_Fu.Shaolin_Kung_Fu_Windows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Shaolin_Kung_Fu.Model.StudentRegistration");
+                xamlMember = new global::Shaolin_Kung_Fu.Shaolin_Kung_Fu_Windows_XamlTypeInfo.XamlMember(this, "Id", "Int32");
+                xamlMember.Getter = get_25_StudentRegistration_Id;
+                xamlMember.Setter = set_25_StudentRegistration_Id;
+                break;
+            case "Shaolin_Kung_Fu.Model.StudentRegistration.Team":
+                userType = (global::Shaolin_Kung_Fu.Shaolin_Kung_Fu_Windows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Shaolin_Kung_Fu.Model.StudentRegistration");
+                xamlMember = new global::Shaolin_Kung_Fu.Shaolin_Kung_Fu_Windows_XamlTypeInfo.XamlMember(this, "Team", "Int32");
+                xamlMember.Getter = get_26_StudentRegistration_Team;
+                xamlMember.Setter = set_26_StudentRegistration_Team;
+                break;
+            case "Shaolin_Kung_Fu.Model.StudentRegistration.Name":
+                userType = (global::Shaolin_Kung_Fu.Shaolin_Kung_Fu_Windows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Shaolin_Kung_Fu.Model.StudentRegistration");
+                xamlMember = new global::Shaolin_Kung_Fu.Shaolin_Kung_Fu_Windows_XamlTypeInfo.XamlMember(this, "Name", "String");
+                xamlMember.Getter = get_27_StudentRegistration_Name;
+                xamlMember.Setter = set_27_StudentRegistration_Name;
+                break;
+            case "Shaolin_Kung_Fu.Model.StudentRegistration.TimeStamp":
+                userType = (global::Shaolin_Kung_Fu.Shaolin_Kung_Fu_Windows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Shaolin_Kung_Fu.Model.StudentRegistration");
+                xamlMember = new global::Shaolin_Kung_Fu.Shaolin_Kung_Fu_Windows_XamlTypeInfo.XamlMember(this, "TimeStamp", "System.DateTime");
+                xamlMember.Getter = get_28_StudentRegistration_TimeStamp;
+                xamlMember.Setter = set_28_StudentRegistration_TimeStamp;
+                break;
             case "Shaolin_Kung_Fu.View.RegistrationPage.DefaultViewModel":
                 userType = (global::Shaolin_Kung_Fu.Shaolin_Kung_Fu_Windows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Shaolin_Kung_Fu.View.RegistrationPage");
                 xamlMember = new global::Shaolin_Kung_Fu.Shaolin_Kung_Fu_Windows_XamlTypeInfo.XamlMember(this, "DefaultViewModel", "Shaolin_Kung_Fu.Common.ObservableDictionary");
-                xamlMember.Getter = get_23_RegistrationPage_DefaultViewModel;
+                xamlMember.Getter = get_29_RegistrationPage_DefaultViewModel;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Shaolin_Kung_Fu.View.RegistrationPage.NavigationHelper":
                 userType = (global::Shaolin_Kung_Fu.Shaolin_Kung_Fu_Windows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Shaolin_Kung_Fu.View.RegistrationPage");
                 xamlMember = new global::Shaolin_Kung_Fu.Shaolin_Kung_Fu_Windows_XamlTypeInfo.XamlMember(this, "NavigationHelper", "Shaolin_Kung_Fu.Common.NavigationHelper");
-                xamlMember.Getter = get_24_RegistrationPage_NavigationHelper;
+                xamlMember.Getter = get_30_RegistrationPage_NavigationHelper;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Shaolin_Kung_Fu.TeamViewModel.SelectedStudent":
                 userType = (global::Shaolin_Kung_Fu.Shaolin_Kung_Fu_Windows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Shaolin_Kung_Fu.TeamViewModel");
                 xamlMember = new global::Shaolin_Kung_Fu.Shaolin_Kung_Fu_Windows_XamlTypeInfo.XamlMember(this, "SelectedStudent", "Shaolin_Kung_Fu.Student");
-                xamlMember.Getter = get_25_TeamViewModel_SelectedStudent;
-                xamlMember.Setter = set_25_TeamViewModel_SelectedStudent;
+                xamlMember.Getter = get_31_TeamViewModel_SelectedStudent;
+                xamlMember.Setter = set_31_TeamViewModel_SelectedStudent;
                 break;
             case "Shaolin_Kung_Fu.TeamViewModel.StudentList":
                 userType = (global::Shaolin_Kung_Fu.Shaolin_Kung_Fu_Windows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Shaolin_Kung_Fu.TeamViewModel");
                 xamlMember = new global::Shaolin_Kung_Fu.Shaolin_Kung_Fu_Windows_XamlTypeInfo.XamlMember(this, "StudentList", "System.Collections.ObjectModel.ObservableCollection`1<Shaolin_Kung_Fu.Student>");
-                xamlMember.Getter = get_26_TeamViewModel_StudentList;
-                xamlMember.Setter = set_26_TeamViewModel_StudentList;
+                xamlMember.Getter = get_32_TeamViewModel_StudentList;
+                xamlMember.Setter = set_32_TeamViewModel_StudentList;
                 break;
             case "Shaolin_Kung_Fu.Student.Name":
                 userType = (global::Shaolin_Kung_Fu.Shaolin_Kung_Fu_Windows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Shaolin_Kung_Fu.Student");
                 xamlMember = new global::Shaolin_Kung_Fu.Shaolin_Kung_Fu_Windows_XamlTypeInfo.XamlMember(this, "Name", "String");
-                xamlMember.Getter = get_27_Student_Name;
-                xamlMember.Setter = set_27_Student_Name;
+                xamlMember.Getter = get_33_Student_Name;
+                xamlMember.Setter = set_33_Student_Name;
                 break;
             case "Shaolin_Kung_Fu.Student.Id":
                 userType = (global::Shaolin_Kung_Fu.Shaolin_Kung_Fu_Windows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Shaolin_Kung_Fu.Student");
                 xamlMember = new global::Shaolin_Kung_Fu.Shaolin_Kung_Fu_Windows_XamlTypeInfo.XamlMember(this, "Id", "Int32");
-                xamlMember.Getter = get_28_Student_Id;
-                xamlMember.Setter = set_28_Student_Id;
+                xamlMember.Getter = get_34_Student_Id;
+                xamlMember.Setter = set_34_Student_Id;
                 break;
             case "Shaolin_Kung_Fu.Student.Team":
                 userType = (global::Shaolin_Kung_Fu.Shaolin_Kung_Fu_Windows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Shaolin_Kung_Fu.Student");
                 xamlMember = new global::Shaolin_Kung_Fu.Shaolin_Kung_Fu_Windows_XamlTypeInfo.XamlMember(this, "Team", "Int32");
-                xamlMember.Getter = get_29_Student_Team;
-                xamlMember.Setter = set_29_Student_Team;
+                xamlMember.Getter = get_35_Student_Team;
+                xamlMember.Setter = set_35_Student_Team;
                 break;
             case "Shaolin_Kung_Fu.Student.Image":
                 userType = (global::Shaolin_Kung_Fu.Shaolin_Kung_Fu_Windows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Shaolin_Kung_Fu.Student");
                 xamlMember = new global::Shaolin_Kung_Fu.Shaolin_Kung_Fu_Windows_XamlTypeInfo.XamlMember(this, "Image", "Byte[]");
-                xamlMember.Getter = get_30_Student_Image;
-                xamlMember.Setter = set_30_Student_Image;
+                xamlMember.Getter = get_36_Student_Image;
+                xamlMember.Setter = set_36_Student_Image;
                 break;
             case "Shaolin_Kung_Fu.Student.ProfilePicture":
                 userType = (global::Shaolin_Kung_Fu.Shaolin_Kung_Fu_Windows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Shaolin_Kung_Fu.Student");
                 xamlMember = new global::Shaolin_Kung_Fu.Shaolin_Kung_Fu_Windows_XamlTypeInfo.XamlMember(this, "ProfilePicture", "Windows.UI.Xaml.Media.Imaging.BitmapImage");
-                xamlMember.Getter = get_31_Student_ProfilePicture;
+                xamlMember.Getter = get_37_Student_ProfilePicture;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Shaolin_Kung_Fu.TeamViewModel.SelectStudentCommand":
                 userType = (global::Shaolin_Kung_Fu.Shaolin_Kung_Fu_Windows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Shaolin_Kung_Fu.TeamViewModel");
                 xamlMember = new global::Shaolin_Kung_Fu.Shaolin_Kung_Fu_Windows_XamlTypeInfo.XamlMember(this, "SelectStudentCommand", "ShaolinCheck.Common.RelayArgCommand`1<Shaolin_Kung_Fu.Student>");
-                xamlMember.Getter = get_32_TeamViewModel_SelectStudentCommand;
+                xamlMember.Getter = get_38_TeamViewModel_SelectStudentCommand;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.Xaml.Interactions.Core.ChangePropertyAction.PropertyName":
                 userType = (global::Shaolin_Kung_Fu.Shaolin_Kung_Fu_Windows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.Xaml.Interactions.Core.ChangePropertyAction");
                 xamlMember = new global::Shaolin_Kung_Fu.Shaolin_Kung_Fu_Windows_XamlTypeInfo.XamlMember(this, "PropertyName", "String");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_33_ChangePropertyAction_PropertyName;
-                xamlMember.Setter = set_33_ChangePropertyAction_PropertyName;
+                xamlMember.Getter = get_39_ChangePropertyAction_PropertyName;
+                xamlMember.Setter = set_39_ChangePropertyAction_PropertyName;
                 break;
             case "Microsoft.Xaml.Interactions.Core.ChangePropertyAction.Value":
                 userType = (global::Shaolin_Kung_Fu.Shaolin_Kung_Fu_Windows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.Xaml.Interactions.Core.ChangePropertyAction");
                 xamlMember = new global::Shaolin_Kung_Fu.Shaolin_Kung_Fu_Windows_XamlTypeInfo.XamlMember(this, "Value", "Object");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_34_ChangePropertyAction_Value;
-                xamlMember.Setter = set_34_ChangePropertyAction_Value;
+                xamlMember.Getter = get_40_ChangePropertyAction_Value;
+                xamlMember.Setter = set_40_ChangePropertyAction_Value;
                 break;
             case "Microsoft.Xaml.Interactions.Core.ChangePropertyAction.TargetObject":
                 userType = (global::Shaolin_Kung_Fu.Shaolin_Kung_Fu_Windows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.Xaml.Interactions.Core.ChangePropertyAction");
                 xamlMember = new global::Shaolin_Kung_Fu.Shaolin_Kung_Fu_Windows_XamlTypeInfo.XamlMember(this, "TargetObject", "Object");
                 xamlMember.SetIsDependencyProperty();
-                xamlMember.Getter = get_35_ChangePropertyAction_TargetObject;
-                xamlMember.Setter = set_35_ChangePropertyAction_TargetObject;
+                xamlMember.Getter = get_41_ChangePropertyAction_TargetObject;
+                xamlMember.Setter = set_41_ChangePropertyAction_TargetObject;
                 break;
             case "Shaolin_Kung_Fu.View.TeamPage.DefaultViewModel":
                 userType = (global::Shaolin_Kung_Fu.Shaolin_Kung_Fu_Windows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Shaolin_Kung_Fu.View.TeamPage");
                 xamlMember = new global::Shaolin_Kung_Fu.Shaolin_Kung_Fu_Windows_XamlTypeInfo.XamlMember(this, "DefaultViewModel", "Shaolin_Kung_Fu.Common.ObservableDictionary");
-                xamlMember.Getter = get_36_TeamPage_DefaultViewModel;
+                xamlMember.Getter = get_42_TeamPage_DefaultViewModel;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Shaolin_Kung_Fu.View.TeamPage.NavigationHelper":
                 userType = (global::Shaolin_Kung_Fu.Shaolin_Kung_Fu_Windows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Shaolin_Kung_Fu.View.TeamPage");
                 xamlMember = new global::Shaolin_Kung_Fu.Shaolin_Kung_Fu_Windows_XamlTypeInfo.XamlMember(this, "NavigationHelper", "Shaolin_Kung_Fu.Common.NavigationHelper");
-                xamlMember.Getter = get_37_TeamPage_NavigationHelper;
+                xamlMember.Getter = get_43_TeamPage_NavigationHelper;
                 xamlMember.SetIsReadOnly();
                 break;
             }

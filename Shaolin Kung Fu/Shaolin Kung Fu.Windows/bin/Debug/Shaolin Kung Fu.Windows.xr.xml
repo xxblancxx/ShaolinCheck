@@ -11,7 +11,9 @@
     <RootPropertyPathName Name="GoBackCommand" />
     <RootPropertyPathName Name="ClubList" />
     <RootPropertyPathName Name="SelectClubCommand" />
-    <RootPropertyPathName Name="StudentRegistrationList" />
+    <RootPropertyPathName Name="TimeStamp" />
+    <RootPropertyPathName Name="LocalStudentRegistrations" />
+    <RootPropertyPathName Name="SearchText" />
     <RootPropertyPathName Name="ProfilePicture" />
     <RootPropertyPathName Name="StudentList" />
     <RootPropertyPathName Name="SelectStudentCommand" />
@@ -56,10 +58,12 @@
       <RootProperty Name="IsHitTestVisible" />
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="FontWeight" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Data.Binding">
       <RootProperty Name="ElementName" />
       <RootProperty Name="Mode" />
+      <RootProperty Name="UpdateSourceTrigger" />
     </RootType>
     <RootType FullName="Shaolin_Kung_Fu.ClubViewModel" />
     <RootType FullName="Microsoft.Xaml.Tools.DirectUI.ProxyTypes.ThemeResourceExtension" />
@@ -153,6 +157,14 @@
     <RootType FullName="Windows.UI.Xaml.Controls.ScrollViewer">
       <RootMethod Name="GetVerticalScrollBarVisibility" />
       <RootMethod Name="SetVerticalScrollBarVisibility" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.SearchBox">
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="PlaceholderText" />
+      <RootProperty Name="QueryText" />
     </RootType>
     <RootType FullName="Shaolin_Kung_Fu.View.RegistrationPage" />
     <RootType FullName="Shaolin_Kung_Fu.TeamViewModel" />
